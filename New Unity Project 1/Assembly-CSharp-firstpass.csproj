@@ -65,7 +65,7 @@
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="uScriptRuntime">
- <HintPath>C:/Users/User/Documents/New Unity Project 1/Assets/uScript/uScriptRuntime/uScriptRuntime.dll</HintPath>
+ <HintPath>C:/Users/User/Desktop/traffic controle/TrafficControl/New Unity Project 1/Assets/uScript/uScriptRuntime/uScriptRuntime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
