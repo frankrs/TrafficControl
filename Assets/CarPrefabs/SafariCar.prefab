@@ -427,7 +427,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8f1174e6c83eed4f90d8c267e4f4125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  useWheels: 1
+  speed: 10
+  wheelTorque: 10
+  wheels: []
 --- !u!146 &14630846
 WheelCollider:
   m_ObjectHideFlags: 1
@@ -450,7 +453,7 @@ WheelCollider:
     stiffnessFactor: 1
   m_SidewaysFriction:
     extremumSlip: 1
-    extremumValue: 20000
+    extremumValue: 2e+06
     asymptoteSlip: 2
     asymptoteValue: 10000
     stiffnessFactor: 1
@@ -477,7 +480,7 @@ WheelCollider:
     stiffnessFactor: 1
   m_SidewaysFriction:
     extremumSlip: 1
-    extremumValue: 20000
+    extremumValue: 2e+06
     asymptoteSlip: 2
     asymptoteValue: 10000
     stiffnessFactor: 1
@@ -504,7 +507,7 @@ WheelCollider:
     stiffnessFactor: 1
   m_SidewaysFriction:
     extremumSlip: 1
-    extremumValue: 20000
+    extremumValue: 2e+06
     asymptoteSlip: 2
     asymptoteValue: 10000
     stiffnessFactor: 1
@@ -531,7 +534,7 @@ WheelCollider:
     stiffnessFactor: 1
   m_SidewaysFriction:
     extremumSlip: 1
-    extremumValue: 20000
+    extremumValue: 2e+06
     asymptoteSlip: 2
     asymptoteValue: 10000
     stiffnessFactor: 1
