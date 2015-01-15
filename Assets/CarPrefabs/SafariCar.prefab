@@ -460,11 +460,25 @@ MonoBehaviour:
   wheelTorque: 15
   wheels: []
   rayShoot: {fileID: 439402}
-  reactionDist: 10
-  brakingPower: 35
+  reactionDist: 25
   stopLayer:
     serializedVersion: 2
     m_Bits: 1536
+  breakingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 18.8964558
+      outSlope: 18.8964558
+      tangentMode: 0
+    - time: 2.49813128
+      value: 29.356987
+      inSlope: 26.1525898
+      outSlope: 26.1525898
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!146 &14630846
 WheelCollider:
   m_ObjectHideFlags: 1

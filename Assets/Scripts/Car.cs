@@ -16,9 +16,11 @@ public class Car : MonoBehaviour {
 
 	public float reactionDist;
 
-	public float brakingPower;
+	//public float brakingPower;
 
 	public LayerMask stopLayer;
+
+	public AnimationCurve breakingCurve;
 
 
 	void OnDrawGizmos (){
@@ -30,10 +32,11 @@ public class Car : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
-		if(Physics.Raycast(rayShoot.position,rayShoot.forward,reactionDist,stopLayer)){
+		RaycastHit hitInfo;
+		if(Physics.Raycast(rayShoot.position,rayShoot.forward,out hitInfo,reactionDist,stopLayer)){
 			foreach(WheelCollider w in wheels){
 				w.motorTorque = 0f;
-				w.brakeTorque = brakingPower;
+				w.brakeTorque = breakingCurve.Evaluate(transform.InverseTransformDirection(rigidbody.velocity).z);
 			}
 			return;
 		}
