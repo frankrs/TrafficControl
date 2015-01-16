@@ -48,7 +48,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: .718776882, g: .977941155, b: .697502136, a: 1}
       data:
         first:
           name: _MainTex_ST
