@@ -22,6 +22,8 @@ public class Car : MonoBehaviour {
 
 	public AnimationCurve breakingCurve;
 
+	public float startSpeed;
+
 
 	void OnDrawGizmos (){
 		Debug.DrawRay(rayShoot.position,rayShoot.forward * reactionDist);
@@ -29,6 +31,10 @@ public class Car : MonoBehaviour {
 
 	void Awake(){
 		wheels = transform.GetComponentsInChildren<WheelCollider>();
+	}
+
+	void Start (){
+		rigidbody.velocity = (transform.forward * startSpeed);
 	}
 
 	void FixedUpdate () {
