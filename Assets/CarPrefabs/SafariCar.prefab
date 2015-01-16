@@ -484,6 +484,7 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+  startSpeed: 15
 --- !u!146 &14630846
 WheelCollider:
   m_ObjectHideFlags: 1
