@@ -3,6 +3,11 @@ using System.Collections;
 
 public class Car : MonoBehaviour {
 
+
+	public delegate void Crash();
+	public static event Crash OnCrash;
+
+
 	public bool useWheels = false;
 
 
@@ -56,4 +61,13 @@ public class Car : MonoBehaviour {
 		rigidbody.AddRelativeForce(Vector3.forward * speed);
 		}
 	}
+
+
+	void OnCollisionEnter(Collision col){
+		if(col.collider.tag == "Car"){
+			OnCrash();
+		}
+	}
+
+
 }

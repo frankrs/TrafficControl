@@ -45,15 +45,25 @@ Material:
         first:
           name: _BlueTex
         second:
+<<<<<<< HEAD
+          m_Texture: {fileID: 2800000, guid: 8d570baf02956194dbfbd5ef86149fd2, type: 3}
+          m_Scale: {x: 8, y: 8}
+=======
           m_Texture: {fileID: 2800000, guid: 81610d5a58249449683de3278e6b7a5a, type: 3}
           m_Scale: {x: 1, y: 1}
+>>>>>>> e4879d909705c1febf761e643f71d188ad86e7b6
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _node_4291
         second:
+<<<<<<< HEAD
+          m_Texture: {fileID: 2800000, guid: 46ae0649924b543a6bb192dd3c93b89e, type: 3}
+          m_Scale: {x: 3, y: 3}
+=======
           m_Texture: {fileID: 2800000, guid: 6df0a8f0a0c21b74887231156ea2cc90, type: 3}
           m_Scale: {x: 1, y: 1}
+>>>>>>> e4879d909705c1febf761e643f71d188ad86e7b6
           m_Offset: {x: 0, y: 0}
       data:
         first:
