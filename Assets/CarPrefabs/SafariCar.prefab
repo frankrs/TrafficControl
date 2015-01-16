@@ -42,8 +42,8 @@ GameObject:
   - 4: {fileID: 454238}
   - 54: {fileID: 5454238}
   - 65: {fileID: 6573352}
-  - 65: {fileID: 6573354}
   - 114: {fileID: 11484002}
+  - 65: {fileID: 6511728}
   m_Layer: 9
   m_Name: SafariCar
   m_TagString: Untagged
@@ -171,7 +171,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154238}
   m_LocalRotation: {x: 0, y: .707067072, z: 0, w: -.707146525}
-  m_LocalPosition: {x: 38.5499992, y: -.0500000007, z: 55.2000008}
+  m_LocalPosition: {x: 46.8144531, y: -.049624797, z: 44.7000732}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 454240}
@@ -420,6 +420,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6511728
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154238}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.01668882, y: .965078831, z: 1.79152286}
+  m_Center: {x: .023364272, y: 1.21329284, z: 1.67122149}
 --- !u!65 &6573352
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -430,20 +442,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.63, y: 1.95000005, z: 3.3499999}
-  m_Center: {x: 0, y: 1.63999999, z: -1.29999995}
---- !u!65 &6573354
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 154238}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.75, y: .790000021, z: 1.61000001}
-  m_Center: {x: 0, y: 1.19000006, z: 1.62}
+  m_Size: {x: 1.63, y: 1.65337777, z: 3.57976961}
+  m_Center: {x: .000353617012, y: 1.49168885, z: -1.04283905}
 --- !u!114 &11484002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -468,23 +468,28 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - time: 0
-      value: -.205788642
+      value: -.274518043
       inSlope: 92.7001038
       outSlope: 92.7001038
       tangentMode: 0
-    - time: .824063599
-      value: 17.2486343
-      inSlope: 10.4320679
-      outSlope: 0
+    - time: .499687284
+      value: 16.7365379
+      inSlope: 10.509491
+      outSlope: 1.39167607
       tangentMode: 1
-    - time: 1.49963439
-      value: 34.9840698
-      inSlope: 89.4536438
-      outSlope: 89.4536438
+    - time: .999569416
+      value: 16.9049835
+      inSlope: 1.75483143
+      outSlope: -.709031224
+      tangentMode: 1
+    - time: 1.5043354
+      value: 24.8807335
+      inSlope: 54.4935455
+      outSlope: 54.4935455
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  startSpeed: 15
+  startSpeed: 10
 --- !u!146 &14630846
 WheelCollider:
   m_ObjectHideFlags: 1
