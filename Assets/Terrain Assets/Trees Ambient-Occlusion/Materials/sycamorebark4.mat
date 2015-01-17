@@ -27,10 +27,6 @@ Material:
         second: .5
       data:
         first:
-          name: _Shininess
-        second: .699999988
-      data:
-        first:
           name: _BaseLight
         second: .273584902
       data:
@@ -41,15 +37,19 @@ Material:
         first:
           name: _Occlusion
         second: 7.5
+      data:
+        first:
+          name: _Shininess
+        second: .699999988
+      data:
+        first:
+          name: _SquashAmount
+        second: 1
     m_Colors:
       data:
         first:
           name: _Color
         second: {r: .800000012, g: .800000012, b: .800000012, a: 1}
-      data:
-        first:
-          name: _SpecColor
-        second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
           name: _MainTex_ST
@@ -58,6 +58,10 @@ Material:
         first:
           name: _Scale
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
           name: _Emission
