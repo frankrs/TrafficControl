@@ -171,7 +171,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154238}
   m_LocalRotation: {x: 0, y: .707067072, z: 0, w: -.707146525}
-  m_LocalPosition: {x: 46.8144531, y: -.049624797, z: 44.7000732}
+  m_LocalPosition: {x: 48.6500015, y: 0, z: 44.7000008}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 454240}
@@ -456,7 +456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useWheels: 1
-  speed: 10
+  speed: 0
   wheelTorque: 10
   wheels: []
   rayShoot: {fileID: 439402}
@@ -467,23 +467,23 @@ MonoBehaviour:
   breakingCurve:
     serializedVersion: 2
     m_Curve:
-    - time: 0
-      value: -.274518043
+    - time: .0031438563
+      value: .0202700794
       inSlope: 92.7001038
       outSlope: 92.7001038
       tangentMode: 0
-    - time: .499687284
-      value: 16.7365379
+    - time: .53112942
+      value: 24.875803
       inSlope: 10.509491
       outSlope: 1.39167607
       tangentMode: 1
-    - time: .999569416
-      value: 16.9049835
+    - time: 1.07326615
+      value: 25.0835323
       inSlope: 1.75483143
       outSlope: -.709031224
       tangentMode: 1
-    - time: 1.5043354
-      value: 24.8807335
+    - time: 1.49959671
+      value: 32.7595978
       inSlope: 54.4935455
       outSlope: 54.4935455
       tangentMode: 0
