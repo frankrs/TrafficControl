@@ -45,7 +45,7 @@ GameObject:
   - 114: {fileID: 11484002}
   - 65: {fileID: 6511728}
   m_Layer: 9
-  m_Name: SafariCar
+  m_Name: SafariCarSUV
   m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
