@@ -456,10 +456,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   speedLimit: 10
 =======
   speedLimit: 1
 >>>>>>> 83e6a9c0b571b0b0b76b82fe0fb0fc35da6401c2
+=======
+  speedLimit: .899999976
+>>>>>>> 4d4e8472776df5adc38ccf64c08e943e064c22a4
   wheelTorque: 10
   wheels: []
   rayShoot: {fileID: 439402}
