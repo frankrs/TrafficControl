@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8f1174e6c83eed4f90d8c267e4f4125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedLimit: 4
+  speedLimit: 10
   wheelTorque: 10
   wheels: []
   rayShoot: {fileID: 439402}
