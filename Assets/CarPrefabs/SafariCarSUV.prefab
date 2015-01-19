@@ -45,7 +45,7 @@ GameObject:
   - 114: {fileID: 11484002}
   - 65: {fileID: 6511728}
   m_Layer: 9
-  m_Name: SafariCar
+  m_Name: SafariCarSUV
   m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8f1174e6c83eed4f90d8c267e4f4125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedLimit: .899999976
+  speedLimit: 9
   wheelTorque: 10
   wheels: []
   rayShoot: {fileID: 439402}
