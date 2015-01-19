@@ -171,7 +171,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 154238}
   m_LocalRotation: {x: 0, y: .707067072, z: 0, w: -.707146525}
-  m_LocalPosition: {x: 48.6500015, y: 0, z: 44.7000008}
+  m_LocalPosition: {x: 411.700012, y: 0, z: 169.199997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 454240}
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8f1174e6c83eed4f90d8c267e4f4125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedLimit: 9
+  speedLimit: 8.89999962
   wheelTorque: 10
   wheels: []
   rayShoot: {fileID: 439402}
@@ -468,27 +468,27 @@ MonoBehaviour:
     m_Curve:
     - time: .0031438563
       value: .0202700794
-      inSlope: 92.7001038
-      outSlope: 92.7001038
+      inSlope: 13.3964472
+      outSlope: 13.3964472
       tangentMode: 0
-    - time: .53112942
-      value: 24.875803
-      inSlope: 10.509491
-      outSlope: 1.39167607
+    - time: .325042486
+      value: 19.0035381
+      inSlope: .271797448
+      outSlope: .500274599
       tangentMode: 1
-    - time: 1.07326615
-      value: 25.0835323
-      inSlope: 1.75483143
+    - time: 1.26911128
+      value: 19.0937042
+      inSlope: .246952176
       outSlope: -.709031224
       tangentMode: 1
-    - time: 1.49959671
-      value: 32.7595978
+    - time: 1.50654578
+      value: 29.8744202
       inSlope: 54.4935455
       outSlope: 54.4935455
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  startSpeed: 10
+  startSpeed: 3
 --- !u!146 &14630846
 WheelCollider:
   m_ObjectHideFlags: 1
