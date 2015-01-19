@@ -1713,6 +1713,10 @@ Prefab:
       propertyPath: stopCollider
       value: 
       objectReference: {fileID: 721833670}
+    - target: {fileID: 11489204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: lightState
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
   m_RootGameObject: {fileID: 596001996}
@@ -5784,7 +5788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   stopCollider: {fileID: 721833670}
-  lightState: 1
+  lightState: 0
 --- !u!95 &899890667
 Animator:
   serializedVersion: 3
