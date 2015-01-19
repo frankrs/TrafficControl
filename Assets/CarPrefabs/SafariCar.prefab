@@ -413,7 +413,7 @@ Rigidbody:
   m_GameObject: {fileID: 154238}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: .0500000007
   m_AngularDrag: .0500000007
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -455,7 +455,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8f1174e6c83eed4f90d8c267e4f4125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   speedLimit: 10
+=======
+  speedLimit: 1
+>>>>>>> 83e6a9c0b571b0b0b76b82fe0fb0fc35da6401c2
   wheelTorque: 10
   wheels: []
   rayShoot: {fileID: 439402}
