@@ -7,11 +7,8 @@ public class Car : MonoBehaviour {
 	public delegate void Crash();
 	public static event Crash OnCrash;
 
-
-	public bool useWheels = false;
-
-
-	public float speed;
+	
+	public float speedLimit;
 
 	public float wheelTorque = 30f;
 
@@ -51,15 +48,16 @@ public class Car : MonoBehaviour {
 			}
 			return;
 		}
-		if(useWheels){
+		if(transform.InverseTransformDirection(rigidbody.velocity).z < speedLimit){
 			foreach(WheelCollider w in wheels){
 				w.motorTorque = wheelTorque;
 				w.brakeTorque = 0;
 			}
 		}
-		else{
-		rigidbody.AddRelativeForce(Vector3.forward * speed);
-		}
+//		if(transform.InverseTransformDirection(rigidbody.velocity).z > speedLimit){
+//			rigidbody.velocity = rigidbody.velocity.normalized * speedLimit;
+//		}
+
 	}
 
 
