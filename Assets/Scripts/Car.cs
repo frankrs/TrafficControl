@@ -48,7 +48,7 @@ public class Car : MonoBehaviour {
 			}
 			return;
 		}
-		if(transform.InverseTransformDirection(rigidbody.velocity).z < speedLimit){
+		if(rigidbody.velocity.magnitude < speedLimit){
 			foreach(WheelCollider w in wheels){
 				w.motorTorque = wheelTorque;
 				w.brakeTorque = 0;
