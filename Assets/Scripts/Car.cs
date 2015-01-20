@@ -12,7 +12,7 @@ public class Car : MonoBehaviour {
 
 	public float wheelTorque = 30f;
 
-	public WheelCollider[] wheels;
+	private WheelCollider[] wheels;
 
 	public Transform rayShoot;
 
@@ -25,6 +25,10 @@ public class Car : MonoBehaviour {
 	public AnimationCurve breakingCurve;
 
 	public float startSpeed;
+
+	public AudioClip[] crashSounds;
+
+	public bool crashed = false;
 
 
 	void OnDrawGizmos (){
@@ -62,8 +66,13 @@ public class Car : MonoBehaviour {
 
 
 	void OnCollisionEnter(Collision col){
+		if(crashed){
+			return;
+		}
 		if(col.collider.tag == "Car"){
+			crashed = true;
 			OnCrash();
+			audio.PlayOneShot(crashSounds[Random.Range(0,crashSounds.Length)]);
 		}
 	}
 
