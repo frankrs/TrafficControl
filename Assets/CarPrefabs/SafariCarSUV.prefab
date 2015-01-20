@@ -521,6 +521,30 @@ MonoBehaviour:
   stopLayer:
     serializedVersion: 2
     m_Bits: 1536
+  startSpeed: 3
+  crashSounds:
+  - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
+  - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
+  - {fileID: 8300000, guid: 9e1fbd16a75f65543a918da5cc0ad128, type: 3}
+  - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
+  - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
+  crashed: 0
+  breakingMethod: 0
+  brakePerDistance:
+    serializedVersion: 2
+    m_Curve:
+    - time: -.00208986411
+      value: 39.8260345
+      inSlope: -2.48300076
+      outSlope: -8.31528091
+      tangentMode: 1
+    - time: 15.9982128
+      value: .0972717404
+      inSlope: -8.70201683
+      outSlope: -2.48300076
+      tangentMode: 1
+    m_PreInfinity: 2
+    m_PostInfinity: 2
   breakingCurve:
     serializedVersion: 2
     m_Curve:
@@ -546,14 +570,6 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  startSpeed: 3
-  crashSounds:
-  - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
-  - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
-  - {fileID: 8300000, guid: 9e1fbd16a75f65543a918da5cc0ad128, type: 3}
-  - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
-  - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
-  crashed: 0
 --- !u!146 &14630846
 WheelCollider:
   m_ObjectHideFlags: 1
