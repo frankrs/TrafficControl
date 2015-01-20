@@ -22,7 +22,7 @@ public class Car : MonoBehaviour {
 
 	public LayerMask stopLayer;
 
-	public AnimationCurve breakingCurve;
+
 
 	public float startSpeed;
 
@@ -30,6 +30,10 @@ public class Car : MonoBehaviour {
 
 	public bool crashed = false;
 
+
+	public BrakeMethod breakingMethod;
+	public AnimationCurve brakePerDistance;
+	public AnimationCurve breakingCurve;
 
 	void OnDrawGizmos (){
 		Debug.DrawRay(rayShoot.position,rayShoot.forward * reactionDist);
@@ -51,7 +55,14 @@ public class Car : MonoBehaviour {
 		if(Physics.Raycast(rayShoot.position,rayShoot.forward,out hitInfo,reactionDist,stopLayer)){
 			foreach(WheelCollider w in wheels){
 				w.motorTorque = 0f;
+
+				if(breakingMethod == BrakeMethod.Speed){
 				w.brakeTorque = breakingCurve.Evaluate(transform.InverseTransformDirection(rigidbody.velocity).z);
+				}
+
+				else if(breakingMethod == BrakeMethod.Distance){
+					w.brakeTorque = brakePerDistance.Evaluate(hitInfo.distance);
+				}
 			}
 			return;
 		}
@@ -82,3 +93,10 @@ public class Car : MonoBehaviour {
 
 
 }
+
+
+[System.Serializable]
+public enum BrakeMethod {
+	Distance,Speed
+}
+

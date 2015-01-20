@@ -41,8 +41,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cars:
   - {fileID: 154238, guid: 22c7eebfd6068ec42a28fd73481a3d8e, type: 2}
-  minGenTime: 1
-  maxGenTime: 2
+  minGenTime: 6
+  maxGenTime: 9
   carLayer:
     serializedVersion: 2
     m_Bits: 512
