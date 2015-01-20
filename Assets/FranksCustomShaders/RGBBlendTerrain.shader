@@ -1,7 +1,7 @@
 // Shader created with Shader Forge v1.03 
 // Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.03;sub:START;pass:START;ps:flbk:,lico:1,lgpr:1,nrmq:1,limd:1,uamb:True,mssp:True,lmpd:False,lprd:False,rprd:False,enco:False,frtr:True,vitr:True,dbil:False,rmgx:True,rpth:0,hqsc:True,hqlp:False,tesm:0,blpr:0,bsrc:0,bdst:1,culm:0,dpts:2,wrdp:True,dith:2,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,ofsf:0,ofsu:0,f2p0:False;n:type:ShaderForge.SFN_Final,id:3873,x:33018,y:32662,varname:node_3873,prsc:2|diff-5396-OUT;n:type:ShaderForge.SFN_Tex2d,id:4291,x:32171,y:32472,ptovrint:False,ptlb:Base,ptin:_Base,varname:node_4291,prsc:2,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:293,x:32171,y:32659,ptovrint:False,ptlb:RedTex,ptin:_RedTex,varname:node_293,prsc:2,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Multiply,id:5721,x:32472,y:32572,varname:node_5721,prsc:2|A-4291-R,B-293-RGB;n:type:ShaderForge.SFN_Multiply,id:9890,x:32472,y:32774,varname:node_9890,prsc:2|A-4291-G,B-2597-RGB;n:type:ShaderForge.SFN_Tex2d,id:2597,x:32171,y:32843,ptovrint:False,ptlb:GreenTex,ptin:_GreenTex,varname:node_2597,prsc:2,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Add,id:8231,x:32654,y:32481,varname:node_8231,prsc:2|A-5721-OUT,B-9890-OUT;n:type:ShaderForge.SFN_Tex2d,id:676,x:32171,y:33048,ptovrint:False,ptlb:BlueTex,ptin:_BlueTex,varname:node_676,prsc:2,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Multiply,id:3613,x:32472,y:32954,varname:node_3613,prsc:2|A-4291-B,B-676-RGB;n:type:ShaderForge.SFN_Add,id:5396,x:32816,y:32719,varname:node_5396,prsc:2|A-8231-OUT,B-3613-OUT;proporder:4291-293-2597-676;pass:END;sub:END;*/
+/*SF_DATA;ver:1.03;sub:START;pass:START;ps:flbk:,lico:1,lgpr:1,nrmq:1,limd:1,uamb:True,mssp:True,lmpd:True,lprd:False,rprd:False,enco:False,frtr:True,vitr:True,dbil:False,rmgx:True,rpth:0,hqsc:True,hqlp:False,tesm:0,blpr:0,bsrc:0,bdst:1,culm:0,dpts:2,wrdp:True,dith:2,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,ofsf:0,ofsu:0,f2p0:False;n:type:ShaderForge.SFN_Final,id:3873,x:33018,y:32662,varname:node_3873,prsc:2|diff-5396-OUT;n:type:ShaderForge.SFN_Tex2d,id:4291,x:32171,y:32472,ptovrint:False,ptlb:Base,ptin:_Base,varname:node_4291,prsc:2,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:293,x:32171,y:32659,ptovrint:False,ptlb:RedTex,ptin:_RedTex,varname:node_293,prsc:2,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Multiply,id:5721,x:32472,y:32572,varname:node_5721,prsc:2|A-4291-R,B-293-RGB;n:type:ShaderForge.SFN_Multiply,id:9890,x:32472,y:32774,varname:node_9890,prsc:2|A-4291-G,B-2597-RGB;n:type:ShaderForge.SFN_Tex2d,id:2597,x:32171,y:32843,ptovrint:False,ptlb:GreenTex,ptin:_GreenTex,varname:node_2597,prsc:2,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Add,id:8231,x:32654,y:32481,varname:node_8231,prsc:2|A-5721-OUT,B-9890-OUT;n:type:ShaderForge.SFN_Tex2d,id:676,x:32171,y:33048,ptovrint:False,ptlb:BlueTex,ptin:_BlueTex,varname:node_676,prsc:2,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Multiply,id:3613,x:32472,y:32954,varname:node_3613,prsc:2|A-4291-B,B-676-RGB;n:type:ShaderForge.SFN_Add,id:5396,x:32816,y:32719,varname:node_5396,prsc:2|A-8231-OUT,B-3613-OUT;proporder:4291-293-2597-676;pass:END;sub:END;*/
 
 Shader "FranksShaders/RGBBlendTerrain" {
     Properties {
@@ -27,6 +27,7 @@ Shader "FranksShaders/RGBBlendTerrain" {
             #define UNITY_PASS_FORWARDBASE
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"
+            #include "Lighting.cginc"
             #pragma multi_compile_fwdbase_fullshadows
             #pragma exclude_renderers xbox360 ps3 flash d3d11_9x 
             #pragma target 3.0
@@ -46,7 +47,13 @@ Shader "FranksShaders/RGBBlendTerrain" {
                 float3 pxMult = float3( dot(mtx[0],yVec), dot(mtx[1],yVec), dot(mtx[2],yVec) );
                 return round(value + dot(pxMult, xVec));
             }
-            uniform float4 _LightColor0;
+            #ifndef LIGHTMAP_OFF
+                float4 unity_LightmapST;
+                sampler2D unity_Lightmap;
+                #ifndef DIRLIGHTMAP_OFF
+                    sampler2D unity_LightmapInd;
+                #endif
+            #endif
             uniform sampler2D _Base; uniform float4 _Base_ST;
             uniform sampler2D _RedTex; uniform float4 _RedTex_ST;
             uniform sampler2D _GreenTex; uniform float4 _GreenTex_ST;
@@ -54,24 +61,36 @@ Shader "FranksShaders/RGBBlendTerrain" {
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
+                float4 tangent : TANGENT;
                 float2 texcoord0 : TEXCOORD0;
+                float2 texcoord1 : TEXCOORD1;
             };
             struct VertexOutput {
                 float4 pos : SV_POSITION;
                 float2 uv0 : TEXCOORD0;
                 float4 posWorld : TEXCOORD1;
                 float3 normalDir : TEXCOORD2;
-                float4 screenPos : TEXCOORD3;
-                LIGHTING_COORDS(4,5)
+                float3 tangentDir : TEXCOORD3;
+                float3 binormalDir : TEXCOORD4;
+                float4 screenPos : TEXCOORD5;
+                LIGHTING_COORDS(6,7)
+                #ifndef LIGHTMAP_OFF
+                    float2 uvLM : TEXCOORD8;
+                #endif
             };
             VertexOutput vert (VertexInput v) {
                 VertexOutput o = (VertexOutput)0;
                 o.uv0 = v.texcoord0;
                 o.normalDir = mul(_Object2World, float4(v.normal,0)).xyz;
+                o.tangentDir = normalize( mul( _Object2World, float4( v.tangent.xyz, 0.0 ) ).xyz );
+                o.binormalDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
                 o.posWorld = mul(_Object2World, v.vertex);
                 float3 lightColor = _LightColor0.rgb;
                 o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
                 o.screenPos = o.pos;
+                #ifndef LIGHTMAP_OFF
+                    o.uvLM = v.texcoord1 * unity_LightmapST.xy + unity_LightmapST.zw;
+                #endif
                 TRANSFER_VERTEX_TO_FRAGMENT(o)
                 return o;
             }
@@ -85,9 +104,31 @@ Shader "FranksShaders/RGBBlendTerrain" {
                 i.screenPos = float4( i.screenPos.xy / i.screenPos.w, 0, 0 );
                 i.screenPos.y *= _ProjectionParams.x;
                 float2 sceneUVs = float2(1,grabSign)*i.screenPos.xy*0.5+0.5;
+                float3x3 tangentTransform = float3x3( i.tangentDir, i.binormalDir, i.normalDir);
 /////// Vectors:
                 float3 normalDirection = i.normalDir;
-                float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
+                #ifndef LIGHTMAP_OFF
+                    float4 lmtex = tex2D(unity_Lightmap,i.uvLM);
+                    #ifndef DIRLIGHTMAP_OFF
+                        float3 lightmap = DecodeLightmap(lmtex);
+                        float3 scalePerBasisVector = DecodeLightmap(tex2D(unity_LightmapInd,i.uvLM));
+                        UNITY_DIRBASIS
+                        half3 normalInRnmBasis = saturate (mul (unity_DirBasis, float3(0,0,1)));
+                        lightmap *= dot (normalInRnmBasis, scalePerBasisVector);
+                    #else
+                        float3 lightmap = DecodeLightmap(lmtex);
+                    #endif
+                #endif
+                #ifndef LIGHTMAP_OFF
+                    #ifdef DIRLIGHTMAP_OFF
+                        float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
+                    #else
+                        float3 lightDirection = normalize (scalePerBasisVector.x * unity_DirBasis[0] + scalePerBasisVector.y * unity_DirBasis[1] + scalePerBasisVector.z * unity_DirBasis[2]);
+                        lightDirection = mul(lightDirection,tangentTransform); // Tangent to world
+                    #endif
+                #else
+                    float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
+                #endif
                 float3 lightColor = _LightColor0.rgb;
 ////// Lighting:
                 float attenuation = LIGHT_ATTENUATION(i);
@@ -95,7 +136,22 @@ Shader "FranksShaders/RGBBlendTerrain" {
 /////// Diffuse:
                 float NdotL = max(0.0,dot( normalDirection, lightDirection ));
                 float3 indirectDiffuse = float3(0,0,0);
-                float3 directDiffuse = max( 0.0, NdotL) * attenColor;
+                #ifndef LIGHTMAP_OFF
+                    float3 directDiffuse = float3(0,0,0);
+                #else
+                    float3 directDiffuse = max( 0.0, NdotL) * attenColor;
+                #endif
+                #ifndef LIGHTMAP_OFF
+                    #ifdef SHADOWS_SCREEN
+                        #if (defined(SHADER_API_GLES) || defined(SHADER_API_GLES3)) && defined(SHADER_API_MOBILE)
+                            directDiffuse += min(lightmap.rgb, attenuation);
+                        #else
+                            directDiffuse += max(min(lightmap.rgb,attenuation*lmtex.rgb), lightmap.rgb*attenuation*0.5);
+                        #endif
+                    #else
+                        directDiffuse += lightmap.rgb;
+                    #endif
+                #endif
                 indirectDiffuse += UNITY_LIGHTMODEL_AMBIENT.rgb; // Ambient Light
                 float4 _Base_var = tex2D(_Base,TRANSFORM_TEX(i.uv0, _Base));
                 float4 _RedTex_var = tex2D(_RedTex,TRANSFORM_TEX(i.uv0, _RedTex));
@@ -123,6 +179,7 @@ Shader "FranksShaders/RGBBlendTerrain" {
             #define UNITY_PASS_FORWARDADD
             #include "UnityCG.cginc"
             #include "AutoLight.cginc"
+            #include "Lighting.cginc"
             #pragma multi_compile_fwdadd_fullshadows
             #pragma exclude_renderers xbox360 ps3 flash d3d11_9x 
             #pragma target 3.0
@@ -142,7 +199,6 @@ Shader "FranksShaders/RGBBlendTerrain" {
                 float3 pxMult = float3( dot(mtx[0],yVec), dot(mtx[1],yVec), dot(mtx[2],yVec) );
                 return round(value + dot(pxMult, xVec));
             }
-            uniform float4 _LightColor0;
             uniform sampler2D _Base; uniform float4 _Base_ST;
             uniform sampler2D _RedTex; uniform float4 _RedTex_ST;
             uniform sampler2D _GreenTex; uniform float4 _GreenTex_ST;
@@ -150,20 +206,26 @@ Shader "FranksShaders/RGBBlendTerrain" {
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
+                float4 tangent : TANGENT;
                 float2 texcoord0 : TEXCOORD0;
+                float2 texcoord1 : TEXCOORD1;
             };
             struct VertexOutput {
                 float4 pos : SV_POSITION;
                 float2 uv0 : TEXCOORD0;
                 float4 posWorld : TEXCOORD1;
                 float3 normalDir : TEXCOORD2;
-                float4 screenPos : TEXCOORD3;
-                LIGHTING_COORDS(4,5)
+                float3 tangentDir : TEXCOORD3;
+                float3 binormalDir : TEXCOORD4;
+                float4 screenPos : TEXCOORD5;
+                LIGHTING_COORDS(6,7)
             };
             VertexOutput vert (VertexInput v) {
                 VertexOutput o = (VertexOutput)0;
                 o.uv0 = v.texcoord0;
                 o.normalDir = mul(_Object2World, float4(v.normal,0)).xyz;
+                o.tangentDir = normalize( mul( _Object2World, float4( v.tangent.xyz, 0.0 ) ).xyz );
+                o.binormalDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
                 o.posWorld = mul(_Object2World, v.vertex);
                 float3 lightColor = _LightColor0.rgb;
                 o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
@@ -181,6 +243,7 @@ Shader "FranksShaders/RGBBlendTerrain" {
                 i.screenPos = float4( i.screenPos.xy / i.screenPos.w, 0, 0 );
                 i.screenPos.y *= _ProjectionParams.x;
                 float2 sceneUVs = float2(1,grabSign)*i.screenPos.xy*0.5+0.5;
+                float3x3 tangentTransform = float3x3( i.tangentDir, i.binormalDir, i.normalDir);
 /////// Vectors:
                 float3 normalDirection = i.normalDir;
                 float3 lightDirection = normalize(lerp(_WorldSpaceLightPos0.xyz, _WorldSpaceLightPos0.xyz - i.posWorld.xyz,_WorldSpaceLightPos0.w));
