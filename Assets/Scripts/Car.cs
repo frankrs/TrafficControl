@@ -44,6 +44,9 @@ public class Car : MonoBehaviour {
 	}
 
 	void FixedUpdate () {
+		if(crashed){
+			return;
+		}
 		RaycastHit hitInfo;
 		if(Physics.Raycast(rayShoot.position,rayShoot.forward,out hitInfo,reactionDist,stopLayer)){
 			foreach(WheelCollider w in wheels){
@@ -75,6 +78,7 @@ public class Car : MonoBehaviour {
 			audio.PlayOneShot(crashSounds[Random.Range(0,crashSounds.Length)]);
 		}
 	}
+
 
 
 }
