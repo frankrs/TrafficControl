@@ -84,7 +84,6 @@ GameObject:
   - 4: {fileID: 16565372}
   - 33: {fileID: 16565371}
   - 23: {fileID: 16565370}
-  - 111: {fileID: 16565369}
   m_Layer: 0
   m_Name: Alder
   m_TagString: Untagged
@@ -92,21 +91,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!111 &16565369
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 25fa881dbd110e38a00062d88f962b59,
-    type: 3}
-  m_PrefabInternal: {fileID: 1865971766}
-  m_GameObject: {fileID: 16565368}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &16565370
 Renderer:
   m_ObjectHideFlags: 0
@@ -691,7 +675,6 @@ GameObject:
   - 4: {fileID: 84121973}
   - 33: {fileID: 84121972}
   - 23: {fileID: 84121971}
-  - 95: {fileID: 84121970}
   m_Layer: 0
   m_Name: Street1Lane90m
   m_TagString: Untagged
@@ -699,22 +682,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &84121970
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 3b37530772fbbb441b40078e356e44b3,
-    type: 3}
-  m_PrefabInternal: {fileID: 989409670}
-  m_GameObject: {fileID: 84121969}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 3b37530772fbbb441b40078e356e44b3, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!23 &84121971
 Renderer:
   m_ObjectHideFlags: 0
@@ -900,7 +867,6 @@ GameObject:
   - 4: {fileID: 99985154}
   - 33: {fileID: 99985157}
   - 23: {fileID: 99985156}
-  - 111: {fileID: 99985155}
   m_Layer: 0
   m_Name: Bush3
   m_TagString: Untagged
@@ -920,21 +886,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 7
---- !u!111 &99985155
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 63d1a9a4bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1872748824}
-  m_GameObject: {fileID: 99985153}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &99985156
 Renderer:
   m_ObjectHideFlags: 0
@@ -1086,7 +1037,6 @@ GameObject:
   - 4: {fileID: 109265115}
   - 33: {fileID: 109265118}
   - 23: {fileID: 109265117}
-  - 111: {fileID: 109265116}
   m_Layer: 0
   m_Name: Bush2
   m_TagString: Untagged
@@ -1106,21 +1056,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 6
---- !u!111 &109265116
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 1c81a9a4bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 366384700}
-  m_GameObject: {fileID: 109265114}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &109265117
 Renderer:
   m_ObjectHideFlags: 0
@@ -3113,6 +3048,20 @@ MonoBehaviour:
   stopLayer:
     serializedVersion: 2
     m_Bits: 1536
+  startSpeed: 3
+  crashSounds:
+  - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
+  - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
+  - {fileID: 8300000, guid: 9e1fbd16a75f65543a918da5cc0ad128, type: 3}
+  - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
+  - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
+  crashed: 0
+  breakingMethod: 0
+  brakePerDistance:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
   breakingCurve:
     serializedVersion: 2
     m_Curve:
@@ -3138,14 +3087,6 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  startSpeed: 3
-  crashSounds:
-  - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
-  - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
-  - {fileID: 8300000, guid: 9e1fbd16a75f65543a918da5cc0ad128, type: 3}
-  - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
-  - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
-  crashed: 0
 --- !u!65 &338417721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3372,7 +3313,6 @@ GameObject:
   - 4: {fileID: 379213969}
   - 33: {fileID: 379213972}
   - 23: {fileID: 379213971}
-  - 111: {fileID: 379213970}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -3392,21 +3332,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 12
---- !u!111 &379213970
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1576177924}
-  m_GameObject: {fileID: 379213968}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &379213971
 Renderer:
   m_ObjectHideFlags: 0
@@ -4069,7 +3994,6 @@ GameObject:
   - 4: {fileID: 469628048}
   - 33: {fileID: 469628051}
   - 23: {fileID: 469628050}
-  - 111: {fileID: 469628049}
   m_Layer: 0
   m_Name: Willow
   m_TagString: Untagged
@@ -4089,21 +4013,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 21
---- !u!111 &469628049
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 2a44e858bd119bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1040547367}
-  m_GameObject: {fileID: 469628047}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &469628050
 Renderer:
   m_ObjectHideFlags: 0
@@ -4246,7 +4155,6 @@ GameObject:
   - 4: {fileID: 474459135}
   - 33: {fileID: 474459134}
   - 23: {fileID: 474459133}
-  - 111: {fileID: 474459132}
   m_Layer: 0
   m_Name: Alder
   m_TagString: Untagged
@@ -4254,21 +4162,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!111 &474459132
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 25fa881dbd110e38a00062d88f962b59,
-    type: 3}
-  m_PrefabInternal: {fileID: 740941827}
-  m_GameObject: {fileID: 474459131}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &474459133
 Renderer:
   m_ObjectHideFlags: 0
@@ -5073,7 +4966,6 @@ GameObject:
   - 4: {fileID: 564544659}
   - 33: {fileID: 564544662}
   - 23: {fileID: 564544661}
-  - 111: {fileID: 564544660}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -5093,21 +4985,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 36
---- !u!111 &564544660
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1743694071}
-  m_GameObject: {fileID: 564544658}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &564544661
 Renderer:
   m_ObjectHideFlags: 0
@@ -5278,7 +5155,6 @@ GameObject:
   - 4: {fileID: 592161700}
   - 33: {fileID: 592161703}
   - 23: {fileID: 592161702}
-  - 111: {fileID: 592161701}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -5298,21 +5174,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 33
---- !u!111 &592161701
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 2004070899}
-  m_GameObject: {fileID: 592161699}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &592161702
 Renderer:
   m_ObjectHideFlags: 0
@@ -5352,7 +5213,6 @@ GameObject:
   - 4: {fileID: 600966848}
   - 33: {fileID: 600966851}
   - 23: {fileID: 600966850}
-  - 111: {fileID: 600966849}
   m_Layer: 0
   m_Name: Bush3
   m_TagString: Untagged
@@ -5372,21 +5232,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 29
---- !u!111 &600966849
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 63d1a9a4bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1574961387}
-  m_GameObject: {fileID: 600966847}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &600966850
 Renderer:
   m_ObjectHideFlags: 0
@@ -5484,7 +5329,6 @@ GameObject:
   - 4: {fileID: 622562511}
   - 33: {fileID: 622562514}
   - 23: {fileID: 622562513}
-  - 111: {fileID: 622562512}
   m_Layer: 0
   m_Name: Bush3
   m_TagString: Untagged
@@ -5504,21 +5348,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 1
---- !u!111 &622562512
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 63d1a9a4bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1261472050}
-  m_GameObject: {fileID: 622562510}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &622562513
 Renderer:
   m_ObjectHideFlags: 0
@@ -5573,7 +5402,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25fa881dbd110e38a00062d88f962b59, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -.983744264
+      value: -.983744323
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25fa881dbd110e38a00062d88f962b59, type: 3}
       propertyPath: m_LocalRotation.z
@@ -5581,7 +5410,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25fa881dbd110e38a00062d88f962b59, type: 3}
       propertyPath: m_LocalRotation.w
-      value: .179574966
+      value: .179574981
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25fa881dbd110e38a00062d88f962b59, type: 3}
       propertyPath: m_RootOrder
@@ -5697,7 +5526,6 @@ GameObject:
   - 4: {fileID: 665828613}
   - 33: {fileID: 665828616}
   - 23: {fileID: 665828615}
-  - 111: {fileID: 665828614}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -5717,21 +5545,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 37
---- !u!111 &665828614
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1882062842}
-  m_GameObject: {fileID: 665828612}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &665828615
 Renderer:
   m_ObjectHideFlags: 0
@@ -5932,7 +5745,6 @@ GameObject:
   - 4: {fileID: 689718130}
   - 33: {fileID: 689718133}
   - 23: {fileID: 689718132}
-  - 111: {fileID: 689718131}
   m_Layer: 0
   m_Name: Bush2
   m_TagString: Untagged
@@ -5952,21 +5764,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 28
---- !u!111 &689718131
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 1c81a9a4bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1146503284}
-  m_GameObject: {fileID: 689718129}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &689718132
 Renderer:
   m_ObjectHideFlags: 0
@@ -6006,7 +5803,6 @@ GameObject:
   - 4: {fileID: 693747682}
   - 33: {fileID: 693747685}
   - 23: {fileID: 693747684}
-  - 111: {fileID: 693747683}
   m_Layer: 0
   m_Name: Bush4
   m_TagString: Untagged
@@ -6026,21 +5822,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 10
---- !u!111 &693747683
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: ce49fdf7bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 134199710}
-  m_GameObject: {fileID: 693747681}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &693747684
 Renderer:
   m_ObjectHideFlags: 0
@@ -7206,6 +6987,20 @@ MonoBehaviour:
   stopLayer:
     serializedVersion: 2
     m_Bits: 1536
+  startSpeed: 3
+  crashSounds:
+  - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
+  - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
+  - {fileID: 8300000, guid: 9e1fbd16a75f65543a918da5cc0ad128, type: 3}
+  - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
+  - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
+  crashed: 0
+  breakingMethod: 0
+  brakePerDistance:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
   breakingCurve:
     serializedVersion: 2
     m_Curve:
@@ -7231,14 +7026,6 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  startSpeed: 3
-  crashSounds:
-  - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
-  - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
-  - {fileID: 8300000, guid: 9e1fbd16a75f65543a918da5cc0ad128, type: 3}
-  - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
-  - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
-  crashed: 0
 --- !u!65 &840931133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7611,7 +7398,6 @@ GameObject:
   - 4: {fileID: 890689192}
   - 33: {fileID: 890689195}
   - 23: {fileID: 890689194}
-  - 111: {fileID: 890689193}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -7631,21 +7417,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 24
---- !u!111 &890689193
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 815541766}
-  m_GameObject: {fileID: 890689191}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &890689194
 Renderer:
   m_ObjectHideFlags: 0
@@ -8203,7 +7974,6 @@ GameObject:
   - 4: {fileID: 960134361}
   - 33: {fileID: 960134364}
   - 23: {fileID: 960134363}
-  - 111: {fileID: 960134362}
   m_Layer: 0
   m_Name: RockMesh
   m_TagString: Untagged
@@ -8223,21 +7993,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 19
---- !u!111 &960134362
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 8e41f14c6552d48e6a7992aaecc808e4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1364664137}
-  m_GameObject: {fileID: 960134360}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &960134363
 Renderer:
   m_ObjectHideFlags: 0
@@ -8277,7 +8032,6 @@ GameObject:
   - 4: {fileID: 971681602}
   - 33: {fileID: 971681605}
   - 23: {fileID: 971681604}
-  - 111: {fileID: 971681603}
   m_Layer: 0
   m_Name: Bush5
   m_TagString: Untagged
@@ -8297,21 +8051,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 2
---- !u!111 &971681603
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 0289fdf7bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1183760105}
-  m_GameObject: {fileID: 971681601}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &971681604
 Renderer:
   m_ObjectHideFlags: 0
@@ -8351,7 +8090,6 @@ GameObject:
   - 4: {fileID: 983066824}
   - 33: {fileID: 983066827}
   - 23: {fileID: 983066826}
-  - 111: {fileID: 983066825}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -8371,21 +8109,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 40
---- !u!111 &983066825
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1929164053}
-  m_GameObject: {fileID: 983066823}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &983066826
 Renderer:
   m_ObjectHideFlags: 0
@@ -8465,7 +8188,6 @@ GameObject:
   - 4: {fileID: 988461653}
   - 33: {fileID: 988461652}
   - 23: {fileID: 988461651}
-  - 95: {fileID: 988461650}
   m_Layer: 0
   m_Name: StreetLane90m
   m_TagString: Untagged
@@ -8473,22 +8195,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &988461650
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 3b37530772fbbb441b40078e356e44b3,
-    type: 3}
-  m_PrefabInternal: {fileID: 819307857}
-  m_GameObject: {fileID: 988461649}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 3b37530772fbbb441b40078e356e44b3, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!23 &988461651
 Renderer:
   m_ObjectHideFlags: 0
@@ -8920,7 +8626,6 @@ GameObject:
   - 4: {fileID: 1021974473}
   - 33: {fileID: 1021974472}
   - 23: {fileID: 1021974471}
-  - 111: {fileID: 1021974470}
   m_Layer: 0
   m_Name: Bush2
   m_TagString: Untagged
@@ -8928,21 +8633,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!111 &1021974470
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 1c81a9a4bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1427563245}
-  m_GameObject: {fileID: 1021974469}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1021974471
 Renderer:
   m_ObjectHideFlags: 0
@@ -9117,7 +8807,6 @@ GameObject:
   - 4: {fileID: 1032820710}
   - 33: {fileID: 1032820713}
   - 23: {fileID: 1032820712}
-  - 111: {fileID: 1032820711}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -9137,21 +8826,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 38
---- !u!111 &1032820711
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1498731286}
-  m_GameObject: {fileID: 1032820709}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1032820712
 Renderer:
   m_ObjectHideFlags: 0
@@ -9291,7 +8965,6 @@ GameObject:
   - 4: {fileID: 1061496505}
   - 33: {fileID: 1061496508}
   - 23: {fileID: 1061496507}
-  - 111: {fileID: 1061496506}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -9311,21 +8984,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 27
---- !u!111 &1061496506
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 101714799}
-  m_GameObject: {fileID: 1061496504}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1061496507
 Renderer:
   m_ObjectHideFlags: 0
@@ -9466,6 +9124,20 @@ MonoBehaviour:
   stopLayer:
     serializedVersion: 2
     m_Bits: 1536
+  startSpeed: 3
+  crashSounds:
+  - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
+  - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
+  - {fileID: 8300000, guid: 9e1fbd16a75f65543a918da5cc0ad128, type: 3}
+  - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
+  - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
+  crashed: 0
+  breakingMethod: 0
+  brakePerDistance:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
   breakingCurve:
     serializedVersion: 2
     m_Curve:
@@ -9491,14 +9163,6 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  startSpeed: 3
-  crashSounds:
-  - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
-  - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
-  - {fileID: 8300000, guid: 9e1fbd16a75f65543a918da5cc0ad128, type: 3}
-  - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
-  - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
-  crashed: 0
 --- !u!65 &1073303425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10389,7 +10053,6 @@ GameObject:
   - 4: {fileID: 1168481581}
   - 33: {fileID: 1168481584}
   - 23: {fileID: 1168481583}
-  - 111: {fileID: 1168481582}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -10409,21 +10072,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 22
---- !u!111 &1168481582
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 77226074}
-  m_GameObject: {fileID: 1168481580}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1168481583
 Renderer:
   m_ObjectHideFlags: 0
@@ -10619,7 +10267,6 @@ GameObject:
   - 4: {fileID: 1190671551}
   - 33: {fileID: 1190671554}
   - 23: {fileID: 1190671553}
-  - 111: {fileID: 1190671552}
   m_Layer: 0
   m_Name: Bush5
   m_TagString: Untagged
@@ -10639,21 +10286,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 5
---- !u!111 &1190671552
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 0289fdf7bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 811056262}
-  m_GameObject: {fileID: 1190671550}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1190671553
 Renderer:
   m_ObjectHideFlags: 0
@@ -10753,7 +10385,6 @@ GameObject:
   - 4: {fileID: 1215279928}
   - 33: {fileID: 1215279931}
   - 23: {fileID: 1215279930}
-  - 111: {fileID: 1215279929}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -10773,21 +10404,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 35
---- !u!111 &1215279929
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 395177125}
-  m_GameObject: {fileID: 1215279927}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1215279930
 Renderer:
   m_ObjectHideFlags: 0
@@ -10827,7 +10443,6 @@ GameObject:
   - 4: {fileID: 1220098646}
   - 33: {fileID: 1220098649}
   - 23: {fileID: 1220098648}
-  - 111: {fileID: 1220098647}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -10847,21 +10462,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 41
---- !u!111 &1220098647
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1110273953}
-  m_GameObject: {fileID: 1220098645}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1220098648
 Renderer:
   m_ObjectHideFlags: 0
@@ -11653,6 +11253,20 @@ MonoBehaviour:
   stopLayer:
     serializedVersion: 2
     m_Bits: 1536
+  startSpeed: 3
+  crashSounds:
+  - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
+  - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
+  - {fileID: 8300000, guid: 9e1fbd16a75f65543a918da5cc0ad128, type: 3}
+  - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
+  - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
+  crashed: 0
+  breakingMethod: 0
+  brakePerDistance:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
   breakingCurve:
     serializedVersion: 2
     m_Curve:
@@ -11678,14 +11292,6 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  startSpeed: 3
-  crashSounds:
-  - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
-  - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
-  - {fileID: 8300000, guid: 9e1fbd16a75f65543a918da5cc0ad128, type: 3}
-  - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
-  - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
-  crashed: 0
 --- !u!65 &1350015553
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12616,7 +12222,6 @@ GameObject:
   - 4: {fileID: 1466160124}
   - 33: {fileID: 1466160127}
   - 23: {fileID: 1466160126}
-  - 111: {fileID: 1466160125}
   m_Layer: 0
   m_Name: Willow
   m_TagString: Untagged
@@ -12636,21 +12241,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 9
---- !u!111 &1466160125
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 2a44e858bd119bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 105147404}
-  m_GameObject: {fileID: 1466160123}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1466160126
 Renderer:
   m_ObjectHideFlags: 0
@@ -12986,7 +12576,6 @@ GameObject:
   - 4: {fileID: 1497828578}
   - 33: {fileID: 1497828581}
   - 23: {fileID: 1497828580}
-  - 111: {fileID: 1497828579}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -13006,21 +12595,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 34
---- !u!111 &1497828579
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1748914465}
-  m_GameObject: {fileID: 1497828577}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1497828580
 Renderer:
   m_ObjectHideFlags: 0
@@ -13319,7 +12893,6 @@ GameObject:
   - 4: {fileID: 1516316972}
   - 33: {fileID: 1516316975}
   - 23: {fileID: 1516316974}
-  - 111: {fileID: 1516316973}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -13339,21 +12912,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 23
---- !u!111 &1516316973
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 919666697}
-  m_GameObject: {fileID: 1516316971}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1516316974
 Renderer:
   m_ObjectHideFlags: 0
@@ -13495,7 +13053,6 @@ GameObject:
   - 4: {fileID: 1530384549}
   - 33: {fileID: 1530384552}
   - 23: {fileID: 1530384551}
-  - 111: {fileID: 1530384550}
   m_Layer: 0
   m_Name: RockMesh
   m_TagString: Untagged
@@ -13515,21 +13072,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 20
---- !u!111 &1530384550
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 8e41f14c6552d48e6a7992aaecc808e4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1874369535}
-  m_GameObject: {fileID: 1530384548}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1530384551
 Renderer:
   m_ObjectHideFlags: 0
@@ -13569,7 +13111,6 @@ GameObject:
   - 4: {fileID: 1532620953}
   - 33: {fileID: 1532620956}
   - 23: {fileID: 1532620955}
-  - 111: {fileID: 1532620954}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -13636,21 +13177,6 @@ Transform:
   - {fileID: 474459135}
   m_Father: {fileID: 0}
   m_RootOrder: 14
---- !u!111 &1532620954
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1717334329}
-  m_GameObject: {fileID: 1532620952}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1532620955
 Renderer:
   m_ObjectHideFlags: 0
@@ -14495,7 +14021,6 @@ GameObject:
   - 4: {fileID: 1613714674}
   - 33: {fileID: 1613714677}
   - 23: {fileID: 1613714676}
-  - 111: {fileID: 1613714675}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -14515,21 +14040,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 39
---- !u!111 &1613714675
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 860388212}
-  m_GameObject: {fileID: 1613714673}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1613714676
 Renderer:
   m_ObjectHideFlags: 0
@@ -15030,7 +14540,6 @@ GameObject:
   - 4: {fileID: 1663511201}
   - 33: {fileID: 1663511200}
   - 23: {fileID: 1663511199}
-  - 95: {fileID: 1663511198}
   m_Layer: 0
   m_Name: StreetLane3-90m
   m_TagString: Untagged
@@ -15038,22 +14547,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &1663511198
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 3b37530772fbbb441b40078e356e44b3,
-    type: 3}
-  m_PrefabInternal: {fileID: 93615859}
-  m_GameObject: {fileID: 1663511197}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 3b37530772fbbb441b40078e356e44b3, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!23 &1663511199
 Renderer:
   m_ObjectHideFlags: 0
@@ -15106,7 +14599,6 @@ GameObject:
   - 4: {fileID: 1666453221}
   - 33: {fileID: 1666453224}
   - 23: {fileID: 1666453223}
-  - 111: {fileID: 1666453222}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -15126,21 +14618,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 26
---- !u!111 &1666453222
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 461717382}
-  m_GameObject: {fileID: 1666453220}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1666453223
 Renderer:
   m_ObjectHideFlags: 0
@@ -15440,7 +14917,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25fa881dbd110e38a00062d88f962b59, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -.886224508
+      value: -.886224568
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25fa881dbd110e38a00062d88f962b59, type: 3}
       propertyPath: m_LocalRotation.z
@@ -15448,7 +14925,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25fa881dbd110e38a00062d88f962b59, type: 3}
       propertyPath: m_LocalRotation.w
-      value: .463255942
+      value: .463255972
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25fa881dbd110e38a00062d88f962b59, type: 3}
       propertyPath: m_RootOrder
@@ -15822,6 +15299,20 @@ MonoBehaviour:
   stopLayer:
     serializedVersion: 2
     m_Bits: 1536
+  startSpeed: 3
+  crashSounds:
+  - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
+  - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
+  - {fileID: 8300000, guid: 9e1fbd16a75f65543a918da5cc0ad128, type: 3}
+  - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
+  - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
+  crashed: 0
+  breakingMethod: 0
+  brakePerDistance:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
   breakingCurve:
     serializedVersion: 2
     m_Curve:
@@ -15847,14 +15338,6 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-  startSpeed: 3
-  crashSounds:
-  - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
-  - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
-  - {fileID: 8300000, guid: 9e1fbd16a75f65543a918da5cc0ad128, type: 3}
-  - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
-  - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
-  crashed: 0
 --- !u!65 &1738165621
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16429,7 +15912,6 @@ GameObject:
   - 4: {fileID: 1785199620}
   - 33: {fileID: 1785199623}
   - 23: {fileID: 1785199622}
-  - 111: {fileID: 1785199621}
   m_Layer: 0
   m_Name: Bush4
   m_TagString: Untagged
@@ -16449,21 +15931,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 3
---- !u!111 &1785199621
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: ce49fdf7bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1732817738}
-  m_GameObject: {fileID: 1785199619}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1785199622
 Renderer:
   m_ObjectHideFlags: 0
@@ -16744,7 +16211,6 @@ GameObject:
   - 4: {fileID: 1808229443}
   - 33: {fileID: 1808229442}
   - 23: {fileID: 1808229441}
-  - 95: {fileID: 1808229440}
   m_Layer: 0
   m_Name: StreetLane2-90m
   m_TagString: Untagged
@@ -16752,22 +16218,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &1808229440
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 3b37530772fbbb441b40078e356e44b3,
-    type: 3}
-  m_PrefabInternal: {fileID: 1129568700}
-  m_GameObject: {fileID: 1808229439}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 3b37530772fbbb441b40078e356e44b3, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!23 &1808229441
 Renderer:
   m_ObjectHideFlags: 0
@@ -17528,7 +16978,6 @@ GameObject:
   - 4: {fileID: 1893203249}
   - 33: {fileID: 1893203248}
   - 23: {fileID: 1893203247}
-  - 111: {fileID: 1893203246}
   m_Layer: 0
   m_Name: Alder
   m_TagString: Untagged
@@ -17536,21 +16985,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!111 &1893203246
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 25fa881dbd110e38a00062d88f962b59,
-    type: 3}
-  m_PrefabInternal: {fileID: 634040888}
-  m_GameObject: {fileID: 1893203245}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1893203247
 Renderer:
   m_ObjectHideFlags: 0
@@ -17603,7 +17037,6 @@ GameObject:
   - 4: {fileID: 1896576597}
   - 33: {fileID: 1896576600}
   - 23: {fileID: 1896576599}
-  - 111: {fileID: 1896576598}
   m_Layer: 0
   m_Name: Bush2
   m_TagString: Untagged
@@ -17623,21 +17056,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 18
---- !u!111 &1896576598
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 1c81a9a4bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 110636425}
-  m_GameObject: {fileID: 1896576596}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1896576599
 Renderer:
   m_ObjectHideFlags: 0
@@ -17677,7 +17095,6 @@ GameObject:
   - 4: {fileID: 1898591439}
   - 33: {fileID: 1898591442}
   - 23: {fileID: 1898591441}
-  - 111: {fileID: 1898591440}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -17697,21 +17114,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 32
---- !u!111 &1898591440
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 2036950591}
-  m_GameObject: {fileID: 1898591438}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1898591441
 Renderer:
   m_ObjectHideFlags: 0
@@ -17811,7 +17213,6 @@ GameObject:
   - 4: {fileID: 1918393110}
   - 33: {fileID: 1918393113}
   - 23: {fileID: 1918393112}
-  - 111: {fileID: 1918393111}
   m_Layer: 0
   m_Name: Bush2
   m_TagString: Untagged
@@ -17831,21 +17232,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 4
---- !u!111 &1918393111
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 1c81a9a4bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 2001669018}
-  m_GameObject: {fileID: 1918393109}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1918393112
 Renderer:
   m_ObjectHideFlags: 0
@@ -18200,7 +17586,6 @@ GameObject:
   - 4: {fileID: 1997583992}
   - 33: {fileID: 1997583995}
   - 23: {fileID: 1997583994}
-  - 111: {fileID: 1997583993}
   m_Layer: 0
   m_Name: Bush3
   m_TagString: Untagged
@@ -18220,21 +17605,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 17
---- !u!111 &1997583993
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 63d1a9a4bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 335122235}
-  m_GameObject: {fileID: 1997583991}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1997583994
 Renderer:
   m_ObjectHideFlags: 0
@@ -18724,7 +18094,6 @@ GameObject:
   - 4: {fileID: 2073738014}
   - 33: {fileID: 2073738017}
   - 23: {fileID: 2073738016}
-  - 111: {fileID: 2073738015}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -18744,21 +18113,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 25
---- !u!111 &2073738015
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1186956101}
-  m_GameObject: {fileID: 2073738013}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &2073738016
 Renderer:
   m_ObjectHideFlags: 0
@@ -19195,7 +18549,6 @@ GameObject:
   - 4: {fileID: 2114952210}
   - 33: {fileID: 2114952213}
   - 23: {fileID: 2114952212}
-  - 111: {fileID: 2114952211}
   m_Layer: 0
   m_Name: Bush1
   m_TagString: Untagged
@@ -19215,21 +18568,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1532620953}
   m_RootOrder: 42
---- !u!111 &2114952211
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 5ca99170bd118bca11002b7b44295342,
-    type: 3}
-  m_PrefabInternal: {fileID: 1827721411}
-  m_GameObject: {fileID: 2114952209}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &2114952212
 Renderer:
   m_ObjectHideFlags: 0
@@ -19269,7 +18607,6 @@ GameObject:
   - 4: {fileID: 2126899005}
   - 33: {fileID: 2126899004}
   - 23: {fileID: 2126899003}
-  - 95: {fileID: 2126899002}
   m_Layer: 0
   m_Name: Crossing
   m_TagString: Untagged
@@ -19277,22 +18614,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &2126899002
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 38905eedc2fe93347831d9ed264a7912,
-    type: 3}
-  m_PrefabInternal: {fileID: 1466716659}
-  m_GameObject: {fileID: 2126899001}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 38905eedc2fe93347831d9ed264a7912, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!23 &2126899003
 Renderer:
   m_ObjectHideFlags: 0
@@ -19350,7 +18671,6 @@ GameObject:
   - 4: {fileID: 2139973109}
   - 33: {fileID: 2139973108}
   - 23: {fileID: 2139973107}
-  - 111: {fileID: 2139973106}
   m_Layer: 0
   m_Name: Alder
   m_TagString: Untagged
@@ -19358,21 +18678,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!111 &2139973106
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 25fa881dbd110e38a00062d88f962b59,
-    type: 3}
-  m_PrefabInternal: {fileID: 1686993685}
-  m_GameObject: {fileID: 2139973105}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &2139973107
 Renderer:
   m_ObjectHideFlags: 0
