@@ -514,8 +514,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8f1174e6c83eed4f90d8c267e4f4125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedLimit: 8.10000038
-  wheelTorque: 10
+  speedLimit: 5
+  transmission:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 17.2356339
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .992355585
+      value: 9.8705101
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
   rayShoot: {fileID: 439402}
   reactionDist: 16
   stopLayer:
@@ -529,45 +543,19 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 07870fc5a8462864b9955c8d4751b0f3, type: 3}
   - {fileID: 8300000, guid: f290878da7add754080c1e14960864c8, type: 3}
   crashed: 0
-  breakingMethod: 0
   brakePerDistance:
     serializedVersion: 2
     m_Curve:
     - time: -.00208986411
-      value: 39.8260345
+      value: 49.3830872
       inSlope: -2.48300076
       outSlope: -8.31528091
       tangentMode: 1
-    - time: 15.9982128
-      value: .0972717404
-      inSlope: -8.70201683
+    - time: 15.9573956
+      value: 5.50780344
+      inSlope: -5.7923336
       outSlope: -2.48300076
       tangentMode: 1
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  breakingCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: .0031438563
-      value: .0202700794
-      inSlope: 13.3964472
-      outSlope: 13.3964472
-      tangentMode: 0
-    - time: .325042486
-      value: 19.0035381
-      inSlope: .271797448
-      outSlope: .500274599
-      tangentMode: 1
-    - time: 1.26911128
-      value: 19.0937042
-      inSlope: .246952176
-      outSlope: -.127188399
-      tangentMode: 1
-    - time: 1.50310326
-      value: 34.6021347
-      inSlope: 54.4935455
-      outSlope: 54.4935455
-      tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
 --- !u!146 &14630846

@@ -11,11 +11,15 @@ public class GameManager : MonoBehaviour {
 	void OnEnable () {
 		Car.OnCrash += Crash;
 		CarFactory.OnJam += OnJam;
+		GoalObj.OnGoal += OnGoal;
 	}
+
+
 
 	void OnDisable () {
 		Car.OnCrash -= Crash;
 		CarFactory.OnJam -= OnJam;
+		GoalObj.OnGoal -= OnGoal;
 	}
 
 
@@ -31,6 +35,11 @@ public class GameManager : MonoBehaviour {
 		Stats.Jams ++;
 		hudItems.jamMeter.text = Stats.Jams.ToString();
 	}
+
+	void OnGoal (){
+		Stats.Goals ++;
+		hudItems.goalMeter.text = Stats.Goals.ToString();
+	}
 }
 
 
@@ -38,10 +47,12 @@ public class GameManager : MonoBehaviour {
 public class HudItems{
 	public Text crashesMeter;
 	public Text jamMeter;
+	public Text goalMeter;
 }
 
 [System.Serializable]
 public static class Stats{
 	public static int Crashes;
 	public static int Jams;
+	public static int Goals;
 }
