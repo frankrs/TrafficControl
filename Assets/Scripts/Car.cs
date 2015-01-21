@@ -96,6 +96,12 @@ public class Car : MonoBehaviour {
 	}
 
 
+	void OnWrecker (){
+		if(crashed){
+		Destroy(gameObject);
+		}
+	}
+
 
 }
 
