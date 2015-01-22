@@ -514,24 +514,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8f1174e6c83eed4f90d8c267e4f4125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedLimit: 5
+  speedLimit: 3.29999995
   transmission:
     serializedVersion: 2
     m_Curve:
-    - time: 0
-      value: 17.2356339
+    - time: .00707077235
+      value: 5.01050758
       inSlope: 0
       outSlope: 0
       tangentMode: 0
-    - time: .992355585
-      value: 9.8705101
-      inSlope: 0
-      outSlope: 0
+    - time: .991656661
+      value: 9.99778461
+      inSlope: -13.1333437
+      outSlope: -13.1333437
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
   rayShoot: {fileID: 439402}
-  reactionDist: 16
+  reactionDist: 15
   stopLayer:
     serializedVersion: 2
     m_Bits: 1536
@@ -546,14 +546,14 @@ MonoBehaviour:
   brakePerDistance:
     serializedVersion: 2
     m_Curve:
-    - time: -.00208986411
-      value: 49.3830872
+    - time: .0145867169
+      value: 49.8972511
       inSlope: -2.48300076
       outSlope: -8.31528091
       tangentMode: 1
-    - time: 15.9573956
-      value: 5.50780344
-      inSlope: -5.7923336
+    - time: 25.0951881
+      value: -.127276599
+      inSlope: -2.06287313
       outSlope: -2.48300076
       tangentMode: 1
     m_PreInfinity: 2
