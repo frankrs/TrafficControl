@@ -81,6 +81,7 @@ GameObject:
   - 224: {fileID: 22426664}
   - 222: {fileID: 22226664}
   - 114: {fileID: 11426666}
+  - 114: {fileID: 11446164}
   m_Layer: 5
   m_Name: StopSign
   m_TagString: Untagged
@@ -152,6 +153,7 @@ GameObject:
   - 124: {fileID: 12434872}
   - 92: {fileID: 9234872}
   - 114: {fileID: 11418318}
+  - 114: {fileID: 11446166}
   m_Layer: 0
   m_Name: HUDCamera
   m_TagString: Untagged
@@ -717,6 +719,33 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: .5}
   m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 1
+--- !u!114 &11446164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1741964061, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 0
+--- !u!114 &11446166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67dac4ebbe23a41498ca574a4e68ce0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!124 &12434872
 Behaviour:
   m_ObjectHideFlags: 1
@@ -897,8 +926,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 370.75, y: 221.020004}
-  m_SizeDelta: {x: 58.5, y: 58.5}
+  m_AnchoredPosition: {x: 370.899994, y: 221.000015}
+  m_SizeDelta: {x: 58.7000008, y: 58.2999992}
   m_Pivot: {x: .50000006, y: .500000298}
 --- !u!224 &22426666
 RectTransform:
@@ -1026,7 +1055,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -370.75, y: 220.750046}
+  m_AnchoredPosition: {x: -370.749969, y: 220.750046}
   m_SizeDelta: {x: 58.5, y: 58.5}
   m_Pivot: {x: .50000006, y: .500000298}
 --- !u!224 &22438326
@@ -1043,8 +1072,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: .0199279785, y: -.129943848}
-  m_SizeDelta: {x: 58.4500008, y: 58.2299995}
+  m_AnchoredPosition: {x: -.250009537, y: -4.29153442e-05}
+  m_SizeDelta: {x: 58.4999809, y: 58.0000267}
   m_Pivot: {x: .5, y: .5}
 --- !u!1001 &100100000
 Prefab:
