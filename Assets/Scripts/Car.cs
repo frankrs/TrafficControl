@@ -85,7 +85,7 @@ public class Car : MonoBehaviour {
 		if(col.collider.tag == "Car"){
 			crashed = true;
 			OnCrash();
-			audio.PlayOneShot(crashSounds[Random.Range(0,crashSounds.Length)]);
+			audio.PlayOneShot(crashSounds[Random.Range(0,crashSounds.Length)],1f);
 		}
 	}
 
