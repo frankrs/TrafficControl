@@ -514,7 +514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8f1174e6c83eed4f90d8c267e4f4125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedLimit: 3.29999995
+  speedLimit: 3
   transmission:
     serializedVersion: 2
     m_Curve:
