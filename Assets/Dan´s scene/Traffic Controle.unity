@@ -1401,7 +1401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cars:
-  - {fileID: 154238, guid: 22c7eebfd6068ec42a28fd73481a3d8e, type: 2}
+  - {fileID: 0}
   minGenTime: 6
   maxGenTime: 9
   carLayer:
@@ -4681,7 +4681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cars:
-  - {fileID: 154238, guid: 22c7eebfd6068ec42a28fd73481a3d8e, type: 2}
+  - {fileID: 0}
   minGenTime: 6
   maxGenTime: 9
   carLayer:
@@ -4905,7 +4905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cars:
-  - {fileID: 154238, guid: 22c7eebfd6068ec42a28fd73481a3d8e, type: 2}
+  - {fileID: 0}
   minGenTime: 6
   maxGenTime: 9
   carLayer:
@@ -13728,7 +13728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cars:
-  - {fileID: 154238, guid: 22c7eebfd6068ec42a28fd73481a3d8e, type: 2}
+  - {fileID: 0}
   minGenTime: 6
   maxGenTime: 9
   carLayer:
