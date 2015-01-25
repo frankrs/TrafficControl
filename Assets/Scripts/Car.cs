@@ -91,7 +91,7 @@ public class Car : MonoBehaviour {
 			audio.PlayOneShot(crashSounds[Random.Range(0,crashSounds.Length)],1f);
 			foreach(WheelCollider w in wheels){
 				w.motorTorque = 0f;
-				w.brakeTorque = 0f;
+				w.brakeTorque = 50f;
 			}
 		}
 	}

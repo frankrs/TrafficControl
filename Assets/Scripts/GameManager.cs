@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour {
 	void Crash () {
 		Stats.Crashes ++;
 		Stats.errors = Stats.errors + 5;
-		hudItems.goalMeter.text = Stats.errors.ToString();
+		hudItems.stopSignMeter.text = Stats.errors.ToString();
 	}
 
 	// called when car cant be made due to jam
