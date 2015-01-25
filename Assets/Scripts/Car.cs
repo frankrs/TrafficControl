@@ -35,6 +35,8 @@ public class Car : MonoBehaviour {
 
 	public AnimationCurve brakePerDistance;
 
+	private Quaternion startRot;
+
 
 	void OnDrawGizmos (){
 		Debug.DrawRay(rayShoot.position,rayShoot.forward * reactionDist);
@@ -46,6 +48,7 @@ public class Car : MonoBehaviour {
 
 	void Start (){
 		rigidbody.velocity = (transform.forward * startSpeed);
+		startRot = transform.rotation;
 	}
 
 	void FixedUpdate () {
