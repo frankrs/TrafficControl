@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cars:
-  - {fileID: 154238, guid: 3f79c7b9825534645b2d0702341594ba, type: 2}
+  - {fileID: 154238, guid: 6e953082304126346be9a9327bdc94c1, type: 2}
   minGenTime: 6
   maxGenTime: 9
   carLayer:
