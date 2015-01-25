@@ -55,6 +55,9 @@ public class Car : MonoBehaviour {
 		if(crashed){
 			return;
 		}
+
+		rigidbody.rotation = startRot;
+
 		RaycastHit hitInfo;
 		if(Physics.Raycast(rayShoot.position,rayShoot.forward,out hitInfo,reactionDist,stopLayer)){
 			foreach(WheelCollider w in wheels){
