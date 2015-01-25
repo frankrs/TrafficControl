@@ -60,19 +60,16 @@ public class Car : MonoBehaviour {
 
 		RaycastHit hitInfo;
 		if(Physics.Raycast(rayShoot.position,rayShoot.forward,out hitInfo,reactionDist,stopLayer)){
+			gasTime = 0f;
 			foreach(WheelCollider w in wheels){
 				w.motorTorque = 0f;
-				gasTime = 0f;
-
 				w.brakeTorque = brakePerDistance.Evaluate(hitInfo.distance);
-
 			}
 			return;
 		}
 		if(rigidbody.velocity.magnitude < speedLimit){
 			gasTime = gasTime + Time.fixedDeltaTime;
 			foreach(WheelCollider w in wheels){
-//				w.motorTorque = wheelTorque;
 				w.brakeTorque = 0;
 				w.motorTorque = transmission.Evaluate(gasTime);
 			}
@@ -92,6 +89,10 @@ public class Car : MonoBehaviour {
 			crashed = true;
 			OnCrash();
 			audio.PlayOneShot(crashSounds[Random.Range(0,crashSounds.Length)],1f);
+			foreach(WheelCollider w in wheels){
+				w.motorTorque = 0f;
+				w.brakeTorque = 0f;
+			}
 		}
 	}
 
