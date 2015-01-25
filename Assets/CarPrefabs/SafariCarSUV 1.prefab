@@ -518,24 +518,24 @@ MonoBehaviour:
   transmission:
     serializedVersion: 2
     m_Curve:
-    - time: .00630472321
-      value: 8.95388412
-      inSlope: .856995583
-      outSlope: .856995583
+    - time: .00189616554
+      value: 30.0572205
+      inSlope: 1.35121489
+      outSlope: 1.35121489
       tangentMode: 0
-    - time: .997300088
-      value: 6.54725838
+    - time: .349621981
+      value: 9.97710991
       inSlope: -1.62379742
       outSlope: -1.62379742
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
   rayShoot: {fileID: 439402}
-  reactionDist: 15
+  reactionDist: 16
   stopLayer:
     serializedVersion: 2
     m_Bits: 1536
-  startSpeed: 1
+  startSpeed: 0
   crashSounds:
   - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
   - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
@@ -551,8 +551,8 @@ MonoBehaviour:
       inSlope: -2.48300076
       outSlope: -1.42658687
       tangentMode: 1
-    - time: 15.3036242
-      value: 9.16375256
+    - time: 15.9851189
+      value: 9.00616264
       inSlope: -1.47292924
       outSlope: -2.48300076
       tangentMode: 1
