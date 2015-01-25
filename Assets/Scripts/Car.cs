@@ -64,7 +64,7 @@ public class Car : MonoBehaviour {
 			return;
 		}
 		if(rigidbody.velocity.magnitude < speedLimit){
-			gasTime = gasTime + Time.deltaTime;
+			gasTime = gasTime + Time.fixedDeltaTime;
 			foreach(WheelCollider w in wheels){
 //				w.motorTorque = wheelTorque;
 				w.brakeTorque = 0;

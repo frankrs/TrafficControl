@@ -514,19 +514,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8f1174e6c83eed4f90d8c267e4f4125, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   speedLimit: 4
+=======
+  speedLimit: 1.20000005
+>>>>>>> 17f81623d39545f34a4962a541a25b5ac0ccf30f
   transmission:
     serializedVersion: 2
     m_Curve:
-    - time: .00707077235
-      value: 5.01050758
-      inSlope: 0
-      outSlope: 0
+    - time: .00630472321
+      value: 8.95388412
+      inSlope: .856995583
+      outSlope: .856995583
       tangentMode: 0
-    - time: .991656661
-      value: 9.99778461
-      inSlope: -13.1333437
-      outSlope: -13.1333437
+    - time: .997300088
+      value: 6.54725838
+      inSlope: -1.62379742
+      outSlope: -1.62379742
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -535,7 +539,7 @@ MonoBehaviour:
   stopLayer:
     serializedVersion: 2
     m_Bits: 1536
-  startSpeed: 3
+  startSpeed: 1
   crashSounds:
   - {fileID: 8300000, guid: 89f497470dd40da4ab90cdb99a909140, type: 3}
   - {fileID: 8300000, guid: 7d36aa66c0dbf7148bcfa2a0e63545cd, type: 3}
@@ -546,14 +550,14 @@ MonoBehaviour:
   brakePerDistance:
     serializedVersion: 2
     m_Curve:
-    - time: .0145867169
-      value: 49.8972511
+    - time: .0381487161
+      value: 49.6643867
       inSlope: -2.48300076
-      outSlope: -8.31528091
+      outSlope: -1.42658687
       tangentMode: 1
-    - time: 25.0951881
-      value: -.127276599
-      inSlope: -2.06287313
+    - time: 15.3036242
+      value: 9.16375256
+      inSlope: -1.47292924
       outSlope: -2.48300076
       tangentMode: 1
     m_PreInfinity: 2
