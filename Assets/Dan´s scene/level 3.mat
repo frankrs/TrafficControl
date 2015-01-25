@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: level 3
+  m_Shader: {fileID: 4800000, guid: 64cf92a0b97d047469cd642e138bf5a1, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b9843880fa133fc4994b6e7ba9293e1d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Base
+        second:
+          m_Texture: {fileID: 2800000, guid: b9843880fa133fc4994b6e7ba9293e1d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RedTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 17ce60bc10e844e5a99f5ec8937e6bac, type: 3}
+          m_Scale: {x: 60, y: 60}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _GreenTex
+        second:
+          m_Texture: {fileID: 2800000, guid: c25a06c9c28fd4e4292b3e9a129715d5, type: 3}
+          m_Scale: {x: 60, y: 60}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlueTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 1cf0ffff99a8a45ff822b67a5f55bab2, type: 3}
+          m_Scale: {x: 60, y: 60}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
