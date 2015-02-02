@@ -34,12 +34,35 @@ public class Light_Switch : MonoBehaviour {
 			anim.SetTrigger("Green");
 			break;
 		}
-
+	
+		// monkey with the switch
+		// start switching at random
+		StartCoroutine("RandomSwitch");
 	}
+
+
 
 	void OnMouseDown () {
+		SwitchLights();
+		StopCoroutine("RandomSwitch");
+		StartCoroutine("RandomSwitch");
+	}
+
+	void SwitchLights() {
 		anim.SetTrigger("Switch_lights");
 	}
+
+	IEnumerator RandomSwich() {
+		yield return new WaitForSeconds(SetRandomTime());
+		SwitchLights();
+		// call again from self
+		StartCoroutine("RandomSwitch");
+	}
+
+	float SetRandomTime(){
+		return  Random.Range(timerSwitch.minTime,timerSwitch.maxTime);
+	}
+
 
 	public void RedLight(){
 		stopCollider.enabled = true;
