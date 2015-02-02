@@ -6,7 +6,6 @@ public class Light_Switch : MonoBehaviour {
 	public BoxCollider stopCollider;
 	public LightState lightState;
 
-
 	void OnDrawGizmos(){
 	switch(lightState){
 		case LightState.Red:
