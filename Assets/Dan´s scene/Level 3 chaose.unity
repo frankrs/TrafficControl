@@ -6980,6 +6980,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 969712282}
   lightState: 1
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &230958845
 Animator:
   serializedVersion: 3
@@ -7909,6 +7912,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 1610202270}
   lightState: 0
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &264231766
 Animator:
   serializedVersion: 3
@@ -14172,6 +14178,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 1877533720}
   lightState: 0
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &492873847
 Animator:
   serializedVersion: 3
@@ -15326,6 +15335,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 65396843}
   lightState: 1
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &523835981
 Animator:
   serializedVersion: 3
@@ -20238,6 +20250,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 531880585}
   lightState: 1
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &668866500
 Animator:
   serializedVersion: 3
@@ -21399,6 +21414,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 758156019}
   lightState: 0
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &704805138
 Animator:
   serializedVersion: 3
@@ -23709,6 +23727,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 2106251604}
   lightState: 0
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &778929996
 Animator:
   serializedVersion: 3
@@ -25684,6 +25705,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 213191202}
   lightState: 1
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &868491943
 Animator:
   serializedVersion: 3
@@ -26795,6 +26819,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 233840801}
   lightState: 0
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &902697539
 Animator:
   serializedVersion: 3
@@ -27819,6 +27846,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 1129369585}
   lightState: 0
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &922184801
 Animator:
   serializedVersion: 3
@@ -34422,6 +34452,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 1363189181}
   lightState: 1
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &1119240932
 Animator:
   serializedVersion: 3
@@ -41716,6 +41749,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 251963782}
   lightState: 0
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &1336480670
 Animator:
   serializedVersion: 3
@@ -42384,6 +42420,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 1289329681}
   lightState: 0
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &1355503922
 Animator:
   serializedVersion: 3
@@ -46916,6 +46955,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 1222468018}
   lightState: 0
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &1485350808
 Animator:
   serializedVersion: 3
@@ -51061,6 +51103,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 729756817}
   lightState: 1
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &1593436086
 Animator:
   serializedVersion: 3
@@ -59983,6 +60028,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   stopCollider: {fileID: 1562790400}
   lightState: 1
+  timerSwitch:
+    minTime: 5
+    maxTime: 21
 --- !u!95 &1915150718
 Animator:
   serializedVersion: 3
