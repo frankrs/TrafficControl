@@ -52,7 +52,7 @@ public class Light_Switch : MonoBehaviour {
 		anim.SetTrigger("Switch_lights");
 	}
 
-	IEnumerator RandomSwich() {
+	IEnumerator RandomSwitch() {
 		yield return new WaitForSeconds(SetRandomTime());
 		SwitchLights();
 		// call again from self
