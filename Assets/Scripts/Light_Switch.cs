@@ -5,6 +5,7 @@ public class Light_Switch : MonoBehaviour {
 	public Animator anim;
 	public BoxCollider stopCollider;
 	public LightState lightState;
+	public TimerSwitch timerSwitch;
 
 	void OnDrawGizmos(){
 	switch(lightState){
@@ -56,3 +57,15 @@ public class Light_Switch : MonoBehaviour {
 public enum LightState{
 	Red,Green
 }
+
+
+
+[System.Serializable]
+public class TimerSwitch{
+	public float minTime = 5f;
+	public float maxTime = 21f;
+}
+
+
+
+
