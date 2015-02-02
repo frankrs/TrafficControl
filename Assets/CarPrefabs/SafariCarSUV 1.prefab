@@ -531,7 +531,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
   rayShoot: {fileID: 439402}
-  reactionDist: 10
+  reactionDist: 16
   stopLayer:
     serializedVersion: 2
     m_Bits: 1536
