@@ -3,12 +3,18 @@ using System.Collections;
 
 public class StartMenu : MonoBehaviour {
 
-	// Use this for initialization
+	public void LoadLevel (string name){
+		Application.LoadLevel(name);
+	}
+	public void QuitRequest(){
+		print ("quit requested");
+		Application.Quit ();
+		}
 	void Start () {
 	
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
 	
 	}
