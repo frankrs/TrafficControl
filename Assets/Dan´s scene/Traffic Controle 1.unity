@@ -2387,7 +2387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   stopCollider: {fileID: 744624777}
-  lightState: 0
+  lightState: 1
   timerSwitch:
     minTime: 5
     maxTime: 21
@@ -3019,15 +3019,19 @@ Prefab:
       objectReference: {fileID: 1143428195}
     - target: {fileID: 11478208, guid: 07b734354eb4a8a419dfbd9ef8cf326a, type: 2}
       propertyPath: lightState
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11478204, guid: 07b734354eb4a8a419dfbd9ef8cf326a, type: 2}
       propertyPath: lightState
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11478210, guid: 07b734354eb4a8a419dfbd9ef8cf326a, type: 2}
       propertyPath: lightState
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478206, guid: 07b734354eb4a8a419dfbd9ef8cf326a, type: 2}
+      propertyPath: lightState
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 07b734354eb4a8a419dfbd9ef8cf326a, type: 2}
@@ -3462,7 +3466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   stopCollider: {fileID: 1580489400}
-  lightState: 0
+  lightState: 1
   timerSwitch:
     minTime: 5
     maxTime: 21
@@ -4365,7 +4369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   stopCollider: {fileID: 1341611280}
-  lightState: 0
+  lightState: 1
   timerSwitch:
     minTime: 5
     maxTime: 21
@@ -14267,7 +14271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   stopCollider: {fileID: 1143428195}
-  lightState: 0
+  lightState: 1
   timerSwitch:
     minTime: 5
     maxTime: 21
