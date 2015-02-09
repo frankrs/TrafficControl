@@ -2387,7 +2387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   stopCollider: {fileID: 744624777}
-  lightState: 1
+  lightState: 0
   timerSwitch:
     minTime: 5
     maxTime: 21
@@ -3023,7 +3023,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11478204, guid: 07b734354eb4a8a419dfbd9ef8cf326a, type: 2}
       propertyPath: lightState
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11478210, guid: 07b734354eb4a8a419dfbd9ef8cf326a, type: 2}
       propertyPath: lightState
@@ -13443,7 +13443,7 @@ AudioSource:
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 696efbaaf1eabcd44a01f6e182117559, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .257999986
+  m_Volume: .326999992
   m_Pitch: 1
   Loop: 1
   Mute: 0
