@@ -566,8 +566,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 198135275}
   m_RootOrder: 0
-  m_AnchorMin: {x: .5, y: .5}
-  m_AnchorMax: {x: .5, y: .5}
+  m_AnchorMin: {x: 0, y: .263999999}
+  m_AnchorMax: {x: 1, y: .463999987}
   m_AnchoredPosition: {x: -.999836922, y: 1}
   m_SizeDelta: {x: 615, y: 426}
   m_Pivot: {x: .5, y: .5}
@@ -583,7 +583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: b33876e8dbb3710438e3303c5db6cf31, type: 3}
     m_FontSize: 39
@@ -595,24 +595,13 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: .639999986
-  m_Text: 'welcome to traffic light mechanic>
-
-
-    your job is to sort out the mess with the traffic lights after they have gone
-    haywire>
-
-
-    you simply click on a traffic light to make it change color<
-
-    but keep an eye out for they will change at random>
-
-
-    if you can keep up till the timer reaches zero<
-
-    you can proceed to the next level>
-
-    but if you cause to many crashes or traffic jams it game over>'
+    m_LineSpacing: .610000014
+  m_Text: "welcome to traffic light mechanic>\n\nyour job is to sort out the mess
+    with \nthe traffic lights after they have gone haywire>\n\nyou simply click on
+    a traffic light to\n make it change color<\nbut keep an eye out for they will
+    change at random>\n\nif you can keep up till the timer reaches zero<\nyou can
+    proceed to the next level>\nbut if you cause to many crashes or traffic jams it\n
+    game over>"
 --- !u!222 &486418222
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -630,7 +619,7 @@ MonoBehaviour:
   m_Script: {fileID: -900027084, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 1}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
 --- !u!1 &554621040
