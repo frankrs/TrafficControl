@@ -42,8 +42,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 464872}
-  - 205: {fileID: 20564868}
-  - 64: {fileID: 6464868}
   m_Layer: 0
   m_Name: Roadblock_Concret_3
   m_TagString: Untagged
@@ -82,8 +80,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.67620087, y: -4.47937896e-19, z: -.66741991}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 330.649994, y: -0, z: 138.009995}
+  m_LocalScale: {x: 2.5045321, y: 1, z: 1}
   m_Children:
   - {fileID: 464870}
   - {fileID: 464868}
@@ -143,36 +141,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164870}
   m_Mesh: {fileID: 4300002, guid: e4e6fa0b52bd3084da10adb0f2c0496d, type: 3}
---- !u!64 &6464868
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 164872}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_SmoothSphereCollisions: 0
-  m_Convex: 0
-  m_Mesh: {fileID: 4300006, guid: e4e6fa0b52bd3084da10adb0f2c0496d, type: 3}
---- !u!205 &20564868
-LODGroup:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 164872}
-  m_LocalReferencePoint: {x: 0, y: .443288803, z: 0}
-  m_Size: 4.02006149
-  m_ScreenRelativeTransitionHeight: 0
-  m_LODs:
-  - screenRelativeHeight: .79876554
-    renderers:
-    - renderer: {fileID: 2364870}
-  - screenRelativeHeight: .048002921
-    renderers:
-    - renderer: {fileID: 2364868}
-  m_Enabled: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

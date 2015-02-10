@@ -25,7 +25,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 437960}
-  - 64: {fileID: 6437956}
   m_Layer: 0
   m_Name: Barrel_4
   m_TagString: Untagged
@@ -51,9 +50,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137960}
-  m_LocalRotation: {x: .526446104, y: -.408797175, z: .588803649, w: .457219601}
-  m_LocalPosition: {x: -197.890152, y: 954.50592, z: -592.382996}
-  m_LocalScale: {x: 115.509041, y: 115.50901, z: 115.509018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.76000023, y: .0399999991, z: 5.57000017}
+  m_LocalScale: {x: .743235052, y: 1.86145592, z: 1.86145592}
   m_Children:
   - {fileID: 437958}
   m_Father: {fileID: 0}
@@ -85,19 +84,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137958}
   m_Mesh: {fileID: 4300002, guid: caec67ffc732f8a42a93710facea141b, type: 3}
---- !u!64 &6437956
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 137960}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_SmoothSphereCollisions: 0
-  m_Convex: 0
-  m_Mesh: {fileID: 4300006, guid: b8b48eb8e92390a4d88240bb766ed40d, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
