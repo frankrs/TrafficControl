@@ -43,6 +43,16 @@ public class GameManager : MonoBehaviour {
 		Stats.Goals ++;
 		hudItems.goalMeter.text = Stats.Goals.ToString();
 	}
+
+
+	public void Pause(){
+		Time.timeScale = 0f;
+	}
+
+	public void UnPause(){
+		Time.timeScale = 1f;
+	}
+
 }
 
 
