@@ -10,13 +10,16 @@ public class GameManager : MonoBehaviour {
 
 
 
-	void Start (){
-
-	}
-
-//	IEnumerator KeepTime (){
-//
+//	void Start (){
+//		//StartCoroutine("KeepTime");
 //	}
+
+	IEnumerator KeepTime (){
+		while(this){
+			Stats.gameTime = Stats.gameTime + Time.deltaTime;
+				yield return new WaitForEndOfFrame();
+		}
+	}
 
 
 	// subscribe to events
@@ -65,10 +68,12 @@ public class GameManager : MonoBehaviour {
 
 	public void Pause(){
 		Time.timeScale = 0f;
+		StopCoroutine("KeepTime");
 	}
 
 	public void UnPause(){
 		Time.timeScale = 1f;
+		StartCoroutine("KeepTime");
 	}
 
 
@@ -80,10 +85,30 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void GameOver(){
-		Time.timeScale = 0f;
+		//Time.timeScale = 0f;
+		Pause ();
 		hudItems.gameOver.gameOverScreen.SetActive(true);
 		hudItems.gameOver.crashes.text = Stats.Crashes.ToString();
 		//hudItems.gameOver.time = 
+		hudItems.gameOver.scoreText.text = "SCORE " + Stats.Goals.ToString();
+		hudItems.gameOver.time.text = "TIME TAKEN " + Mathf.RoundToInt(Stats.gameTime).ToString();
+		hudItems.gameOver.crashes.text = "CRASHES " + Stats.Crashes.ToString();
+		hudItems.gameOver.jams.text = "JAMS " + Stats.Jams.ToString();
+		if(PlayerPrefs.HasKey("HiScore")){
+			if(PlayerPrefs.GetInt("HiScore") < Stats.Goals){
+				NewHi();
+			}
+		}
+		else {
+			NewHi ();
+		}
+	}
+
+
+	void NewHi(){
+		PlayerPrefs.SetInt("HiScore",Stats.Goals);
+		hudItems.gameOver.HiScoreSign.SetActive(true);
+		hudItems.gameOver.HiScoreText.text = Stats.Goals.ToString();
 	}
 
 
@@ -126,5 +151,9 @@ public class GameOver{
 	public GameObject gameOverScreen;
 	public Text crashes;
 	public Text time;
+	public Text jams;
+	public Text scoreText;
+	public GameObject HiScoreSign;
+	public Text HiScoreText;
 }
 
