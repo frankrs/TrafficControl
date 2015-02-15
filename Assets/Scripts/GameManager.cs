@@ -83,7 +83,7 @@ public class GameManager : MonoBehaviour {
 		Time.timeScale = 0f;
 		hudItems.gameOver.gameOverScreen.SetActive(true);
 		hudItems.gameOver.crashes.text = Stats.Crashes.ToString();
-		hudItems.gameOver.time = 
+		//hudItems.gameOver.time = 
 	}
 
 
