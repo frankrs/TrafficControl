@@ -122,7 +122,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400012}
-  - 111: {fileID: 11100000}
   m_Layer: 0
   m_Name: cityblockprefab
   m_TagString: Untagged
@@ -5252,20 +5251,6 @@ Light:
 --- !u!1002 &10800011
 EditorExtensionImpl:
   serializedVersion: 6
---- !u!111 &11100000
-Animation:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100012}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1002 &11100001
 EditorExtensionImpl:
   serializedVersion: 6

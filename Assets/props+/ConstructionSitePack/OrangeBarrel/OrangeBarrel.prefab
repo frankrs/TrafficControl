@@ -333,7 +333,6 @@ GameObject:
   - 4: {fileID: 453114}
   - 33: {fileID: 3353106}
   - 23: {fileID: 2353106}
-  - 111: {fileID: 11153104}
   m_Layer: 0
   m_Name: OrangeBarrel
   m_TagString: Untagged
@@ -1436,20 +1435,6 @@ Animation:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 153108}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
---- !u!111 &11153104
-Animation:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 153114}
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 0}
