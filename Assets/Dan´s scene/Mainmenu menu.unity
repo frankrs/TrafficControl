@@ -234,8 +234,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 8.19999981}
-  m_SizeDelta: {x: 0, y: -10.5}
+  m_AnchoredPosition: {x: 0, y: 1.47497463}
+  m_SizeDelta: {x: 0, y: 2.94989991}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &37249704
 MonoBehaviour:
@@ -252,17 +252,17 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: b33876e8dbb3710438e3303c5db6cf31, type: 3}
-    m_FontSize: 85
+    m_FontSize: 56
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 1
-    m_RichText: 1
+    m_Alignment: 4
+    m_RichText: 0
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: .400000006
-  m_Text: '         PLAY       dr'
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: '            PLAY         dr'
 --- !u!222 &37249705
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -568,10 +568,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1596137004}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 1.69999361}
-  m_SizeDelta: {x: 0, y: -3.4000001}
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
+  m_AnchoredPosition: {x: -.499879122, y: .367996186}
+  m_SizeDelta: {x: 544, y: 77.999939}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &245998699
 MonoBehaviour:
@@ -602,17 +602,17 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: b33876e8dbb3710438e3303c5db6cf31, type: 3}
-    m_FontSize: 80
+    m_FontSize: 56
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 4
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: -.140000001
-  m_Text: '     HIGH SCORE   ln'
+    m_LineSpacing: 1
+  m_Text: '        HIGH SCORE    ln'
 --- !u!222 &245998701
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1839,8 +1839,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 4.14991379}
-  m_SizeDelta: {x: 0, y: -8.30000019}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -.000183109994}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1151347003
 MonoBehaviour:
@@ -1857,17 +1857,17 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: b33876e8dbb3710438e3303c5db6cf31, type: 3}
-    m_FontSize: 88
+    m_FontSize: 56
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 4
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: .119999997
-  m_Text: '  INSTRUCTIONS st'
+    m_LineSpacing: 1
+  m_Text: '       INSTRUCTIONS   st'
 --- !u!222 &1151347004
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2114,7 +2114,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -.250048399}
+  m_AnchoredPosition: {x: 0, y: -.250049591}
   m_SizeDelta: {x: 0, y: .500069976}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1290605459
@@ -2132,7 +2132,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: b33876e8dbb3710438e3303c5db6cf31, type: 3}
-    m_FontSize: 81
+    m_FontSize: 56
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -2142,7 +2142,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '          EXIT      blvd'
+  m_Text: '              EXIT         blvd'
 --- !u!222 &1290605460
 CanvasRenderer:
   m_ObjectHideFlags: 0
