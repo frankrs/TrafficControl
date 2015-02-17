@@ -7288,7 +7288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 969712282}
+  stopColliders: []
   lightState: 1
   timerSwitch:
     minTime: 18
@@ -8309,7 +8309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1610202270}
+  stopColliders: []
   lightState: 0
   timerSwitch:
     minTime: 20
@@ -14805,7 +14805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1877533720}
+  stopColliders: []
   lightState: 0
   timerSwitch:
     minTime: 15
@@ -15857,7 +15857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 65396843}
+  stopColliders: []
   lightState: 1
   timerSwitch:
     minTime: 28
@@ -22249,7 +22249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 531880585}
+  stopColliders: []
   lightState: 1
   timerSwitch:
     minTime: 22
@@ -23521,6 +23521,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 758156018}
+  - {fileID: 750969075}
   m_Father: {fileID: 515845564}
   m_RootOrder: 0
 --- !u!65 &704805136
@@ -23549,7 +23550,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 758156019}
+  stopColliders:
+  - {fileID: 758156019}
+  - {fileID: 750969074}
   lightState: 0
   timerSwitch:
     minTime: 39
@@ -24490,6 +24493,46 @@ Prefab:
   m_RootGameObject: {fileID: 244428891}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &750969073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 750969075}
+  - 65: {fileID: 750969074}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &750969074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 750969073}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .0964492932, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: .221508458, y: .828032136, z: -.381348461}
+--- !u!4 &750969075
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 750969073}
+  m_LocalRotation: {x: .502557039, y: .497429818, z: -.497429818, w: -.502557039}
+  m_LocalPosition: {x: -146.539993, y: 107.599998, z: 224}
+  m_LocalScale: {x: 3.54505086, y: 3.54504299, z: 3.5450449}
+  m_Children: []
+  m_Father: {fileID: 704805135}
+  m_RootOrder: 1
 --- !u!1001 &754573491
 Prefab:
   m_ObjectHideFlags: 0
@@ -24602,7 +24645,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 758156017}
   m_LocalRotation: {x: .502557278, y: .497429609, z: -.497429609, w: -.502557278}
-  m_LocalPosition: {x: -146.520004, y: 110, z: 224}
+  m_LocalPosition: {x: -146.520081, y: 110.000092, z: 224.000107}
   m_LocalScale: {x: 3.54505014, y: 3.54504156, z: 3.54504299}
   m_Children: []
   m_Father: {fileID: 704805135}
@@ -25828,7 +25871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 2106251604}
+  stopColliders: []
   lightState: 0
   timerSwitch:
     minTime: 7
@@ -27735,7 +27778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 213191202}
+  stopColliders: []
   lightState: 1
   timerSwitch:
     minTime: 21
@@ -28639,7 +28682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 233840801}
+  stopColliders: []
   lightState: 0
   timerSwitch:
     minTime: 12
@@ -29524,6 +29567,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 1129369584}
+  - {fileID: 1407147145}
   m_Father: {fileID: 515845564}
   m_RootOrder: 1
 --- !u!65 &922184799
@@ -29552,7 +29596,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1129369585}
+  stopColliders:
+  - {fileID: 1129369585}
+  - {fileID: 1407147146}
   lightState: 0
   timerSwitch:
     minTime: 20
@@ -35305,7 +35351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1363189181}
+  stopColliders: []
   lightState: 1
   timerSwitch:
     minTime: 24
@@ -43257,7 +43303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 251963782}
+  stopColliders: []
   lightState: 0
   timerSwitch:
     minTime: 23
@@ -44093,7 +44139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1289329681}
+  stopColliders: []
   lightState: 0
   timerSwitch:
     minTime: 17
@@ -45707,6 +45753,46 @@ Prefab:
   m_RootGameObject: {fileID: 731912158}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1407147144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1407147145}
+  - 65: {fileID: 1407147146}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1407147145
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407147144}
+  m_LocalRotation: {x: -5.46907914e-15, y: .707106829, z: -.707106829, w: 5.46907914e-15}
+  m_LocalPosition: {x: -121.600067, y: 93.7001038, z: 224.000107}
+  m_LocalScale: {x: 3.54505086, y: 3.54504275, z: 3.54504275}
+  m_Children: []
+  m_Father: {fileID: 922184798}
+  m_RootOrder: 1
+--- !u!65 &1407147146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407147144}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .0715891197, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: .233979136, y: .828032255, z: -.384628683}
 --- !u!1 &1408784194
 GameObject:
   m_ObjectHideFlags: 0
@@ -48331,7 +48417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1222468018}
+  stopColliders: []
   lightState: 0
   timerSwitch:
     minTime: 27
@@ -52286,7 +52372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 729756817}
+  stopColliders: []
   lightState: 1
   timerSwitch:
     minTime: 22
@@ -63219,7 +63305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1562790400}
+  stopColliders: []
   lightState: 1
   timerSwitch:
     minTime: 14
