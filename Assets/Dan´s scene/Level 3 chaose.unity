@@ -14170,7 +14170,7 @@ MonoBehaviour:
     stopSignMeter: {fileID: 1719045802}
     goalMeter: {fileID: 1739472866}
     gameOver:
-      errorLimit: 5099
+      errorLimit: 20
       gameOverScreen: {fileID: 0}
       crashes: {fileID: 0}
       time: {fileID: 0}
