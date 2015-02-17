@@ -25,7 +25,7 @@ public class CarFactory : MonoBehaviour {
 			StartCoroutine("BuildCar");
 		}
 		else{
-			GameObject car = GameObject.Instantiate(cars[0],transform.position,transform.rotation) as GameObject;
+			GameObject car = GameObject.Instantiate(cars[Random.Range(0,cars.Length)],transform.position,transform.rotation) as GameObject;
 			StartCoroutine("BuildCar");
 		}
 	}
