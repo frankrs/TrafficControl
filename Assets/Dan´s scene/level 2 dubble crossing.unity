@@ -718,7 +718,7 @@ Transform:
   - {fileID: 1352191746}
   - {fileID: 806500661}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 37
 --- !u!23 &18176484
 Renderer:
   m_ObjectHideFlags: 0
@@ -817,7 +817,6 @@ GameObject:
   - 4: {fileID: 18567185}
   - 33: {fileID: 18567189}
   - 23: {fileID: 18567188}
-  - 111: {fileID: 18567187}
   - 65: {fileID: 18567186}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -851,21 +850,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &18567187
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1766198665}
-  m_GameObject: {fileID: 18567184}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &18567188
 Renderer:
   m_ObjectHideFlags: 0
@@ -1190,7 +1174,6 @@ GameObject:
   - 4: {fileID: 24380302}
   - 33: {fileID: 24380306}
   - 23: {fileID: 24380305}
-  - 111: {fileID: 24380304}
   - 65: {fileID: 24380303}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -1224,21 +1207,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &24380304
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1793522304}
-  m_GameObject: {fileID: 24380301}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &24380305
 Renderer:
   m_ObjectHideFlags: 0
@@ -1282,7 +1250,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &26006680
 Transform:
@@ -1743,7 +1711,6 @@ GameObject:
   - 4: {fileID: 50696276}
   - 33: {fileID: 50696280}
   - 23: {fileID: 50696279}
-  - 111: {fileID: 50696278}
   - 65: {fileID: 50696277}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -1777,21 +1744,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &50696278
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 379337285}
-  m_GameObject: {fileID: 50696275}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &50696279
 Renderer:
   m_ObjectHideFlags: 0
@@ -1919,7 +1871,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 10
 --- !u!1 &57852658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1992,7 +1944,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &58876425
 Transform:
@@ -2305,7 +2257,6 @@ GameObject:
   - 4: {fileID: 72227925}
   - 33: {fileID: 72227929}
   - 23: {fileID: 72227928}
-  - 111: {fileID: 72227927}
   - 65: {fileID: 72227926}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -2339,21 +2290,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &72227927
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1895961054}
-  m_GameObject: {fileID: 72227924}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &72227928
 Renderer:
   m_ObjectHideFlags: 0
@@ -2803,7 +2739,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &81945504
 Transform:
@@ -3165,7 +3101,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &93010764
 Transform:
@@ -3378,7 +3314,6 @@ GameObject:
   - 4: {fileID: 103342104}
   - 33: {fileID: 103342108}
   - 23: {fileID: 103342107}
-  - 111: {fileID: 103342106}
   - 65: {fileID: 103342105}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -3412,21 +3347,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &103342106
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 1093031976}
-  m_GameObject: {fileID: 103342103}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &103342107
 Renderer:
   m_ObjectHideFlags: 0
@@ -3583,7 +3503,6 @@ GameObject:
   - 4: {fileID: 115287700}
   - 33: {fileID: 115287704}
   - 23: {fileID: 115287703}
-  - 111: {fileID: 115287702}
   - 65: {fileID: 115287701}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -3617,21 +3536,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &115287702
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 993665048}
-  m_GameObject: {fileID: 115287699}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &115287703
 Renderer:
   m_ObjectHideFlags: 0
@@ -3733,7 +3637,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &118271158
 Transform:
@@ -3759,7 +3663,6 @@ GameObject:
   - 4: {fileID: 118968545}
   - 33: {fileID: 118968549}
   - 23: {fileID: 118968548}
-  - 111: {fileID: 118968547}
   - 65: {fileID: 118968546}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -3793,21 +3696,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &118968547
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 576509086}
-  m_GameObject: {fileID: 118968544}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &118968548
 Renderer:
   m_ObjectHideFlags: 0
@@ -3848,7 +3736,6 @@ GameObject:
   - 4: {fileID: 120497339}
   - 33: {fileID: 120497343}
   - 23: {fileID: 120497342}
-  - 111: {fileID: 120497341}
   - 65: {fileID: 120497340}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -3882,21 +3769,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &120497341
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 170627693}
-  m_GameObject: {fileID: 120497338}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &120497342
 Renderer:
   m_ObjectHideFlags: 0
@@ -3940,7 +3812,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &121930968
 Transform:
@@ -4140,7 +4012,6 @@ GameObject:
   - 4: {fileID: 133320739}
   - 33: {fileID: 133320743}
   - 23: {fileID: 133320742}
-  - 111: {fileID: 133320741}
   - 65: {fileID: 133320740}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -4174,21 +4045,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &133320741
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1141408915}
-  m_GameObject: {fileID: 133320738}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &133320742
 Renderer:
   m_ObjectHideFlags: 0
@@ -4321,7 +4177,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &150339246
 Transform:
@@ -4432,7 +4288,6 @@ GameObject:
   - 4: {fileID: 163419664}
   - 33: {fileID: 163419668}
   - 23: {fileID: 163419667}
-  - 111: {fileID: 163419666}
   - 65: {fileID: 163419665}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -4466,21 +4321,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &163419666
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1369908470}
-  m_GameObject: {fileID: 163419663}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &163419667
 Renderer:
   m_ObjectHideFlags: 0
@@ -4624,7 +4464,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &168678230
 Transform:
@@ -5211,7 +5051,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &187420285
 Transform:
@@ -5477,7 +5317,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &191524555
 Transform:
@@ -5676,7 +5516,6 @@ GameObject:
   - 4: {fileID: 198318873}
   - 33: {fileID: 198318877}
   - 23: {fileID: 198318876}
-  - 111: {fileID: 198318875}
   - 65: {fileID: 198318874}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -5710,21 +5549,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &198318875
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 103061219}
-  m_GameObject: {fileID: 198318872}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &198318876
 Renderer:
   m_ObjectHideFlags: 0
@@ -5826,7 +5650,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &200763587
 Transform:
@@ -5879,7 +5703,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 448054, guid: 53c4000747f05c64c8ca2f9d31a265b8, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 17
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11148002, guid: 53c4000747f05c64c8ca2f9d31a265b8, type: 2}
@@ -6390,7 +6214,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_LocalScale.x
@@ -6591,7 +6415,6 @@ GameObject:
   - 4: {fileID: 219380171}
   - 33: {fileID: 219380175}
   - 23: {fileID: 219380174}
-  - 111: {fileID: 219380173}
   - 65: {fileID: 219380172}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -6625,21 +6448,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &219380173
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1685718522}
-  m_GameObject: {fileID: 219380170}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &219380174
 Renderer:
   m_ObjectHideFlags: 0
@@ -6914,7 +6722,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 4
 --- !u!1 &231575333
 GameObject:
   m_ObjectHideFlags: 0
@@ -6925,7 +6733,6 @@ GameObject:
   - 4: {fileID: 231575334}
   - 33: {fileID: 231575338}
   - 23: {fileID: 231575337}
-  - 111: {fileID: 231575336}
   - 65: {fileID: 231575335}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -6959,21 +6766,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &231575336
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 426918184}
-  m_GameObject: {fileID: 231575333}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &231575337
 Renderer:
   m_ObjectHideFlags: 0
@@ -7296,7 +7088,7 @@ Transform:
   - {fileID: 249386348}
   - {fileID: 480116557}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 18
 --- !u!1 &271706674
 GameObject:
   m_ObjectHideFlags: 0
@@ -7452,7 +7244,6 @@ GameObject:
   - 4: {fileID: 274714795}
   - 33: {fileID: 274714799}
   - 23: {fileID: 274714798}
-  - 111: {fileID: 274714797}
   - 65: {fileID: 274714796}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -7486,21 +7277,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &274714797
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 1836535763}
-  m_GameObject: {fileID: 274714794}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &274714798
 Renderer:
   m_ObjectHideFlags: 0
@@ -7604,7 +7380,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &282179647
 Transform:
@@ -7720,7 +7496,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &287049201
 Transform:
@@ -7817,7 +7593,6 @@ GameObject:
   - 4: {fileID: 288283383}
   - 33: {fileID: 288283387}
   - 23: {fileID: 288283386}
-  - 111: {fileID: 288283385}
   - 65: {fileID: 288283384}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -7851,21 +7626,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &288283385
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1392153078}
-  m_GameObject: {fileID: 288283382}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &288283386
 Renderer:
   m_ObjectHideFlags: 0
@@ -8645,7 +8405,6 @@ GameObject:
   - 4: {fileID: 317141776}
   - 33: {fileID: 317141780}
   - 23: {fileID: 317141779}
-  - 111: {fileID: 317141778}
   - 65: {fileID: 317141777}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -8679,21 +8438,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &317141778
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 357899246}
-  m_GameObject: {fileID: 317141775}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &317141779
 Renderer:
   m_ObjectHideFlags: 0
@@ -8737,7 +8481,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &319155081
 Transform:
@@ -9002,7 +8746,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &325333834
 Transform:
@@ -9072,7 +8816,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 6
 --- !u!65 &326848060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9315,7 +9059,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 5
 --- !u!65 &335757415
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9424,7 +9168,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 11
 --- !u!1 &339711137
 GameObject:
   m_ObjectHideFlags: 0
@@ -9493,7 +9237,6 @@ GameObject:
   - 4: {fileID: 340114606}
   - 33: {fileID: 340114610}
   - 23: {fileID: 340114609}
-  - 111: {fileID: 340114608}
   - 65: {fileID: 340114607}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -9527,21 +9270,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &340114608
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1222315619}
-  m_GameObject: {fileID: 340114605}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &340114609
 Renderer:
   m_ObjectHideFlags: 0
@@ -9892,7 +9620,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &369277356
 Transform:
@@ -10267,7 +9995,7 @@ Transform:
   - {fileID: 677673391}
   - {fileID: 2106016076}
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 26
 --- !u!64 &378197918
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10362,7 +10090,7 @@ Transform:
   - {fileID: 950496001}
   - {fileID: 2006089525}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 13
 --- !u!111 &378640625
 Animation:
   m_ObjectHideFlags: 0
@@ -10432,7 +10160,6 @@ GameObject:
   - 4: {fileID: 380260601}
   - 33: {fileID: 380260605}
   - 23: {fileID: 380260604}
-  - 111: {fileID: 380260603}
   - 65: {fileID: 380260602}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -10466,21 +10193,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &380260603
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1954148888}
-  m_GameObject: {fileID: 380260600}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &380260604
 Renderer:
   m_ObjectHideFlags: 0
@@ -10521,7 +10233,6 @@ GameObject:
   - 4: {fileID: 384524857}
   - 33: {fileID: 384524861}
   - 23: {fileID: 384524860}
-  - 111: {fileID: 384524859}
   - 65: {fileID: 384524858}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -10555,21 +10266,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &384524859
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 481627208}
-  m_GameObject: {fileID: 384524856}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &384524860
 Renderer:
   m_ObjectHideFlags: 0
@@ -11222,7 +10918,7 @@ Transform:
   - {fileID: 1316215587}
   - {fileID: 1216501561}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 20
 --- !u!1 &400931723
 GameObject:
   m_ObjectHideFlags: 0
@@ -11537,7 +11233,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 410116805}
   m_LocalRotation: {x: 3.45598949e-07, y: -2.34433401e-07, z: -1.19789703e-07, w: 1}
-  m_LocalPosition: {x: 1.82000005, y: -.949999988, z: 8.94999981}
+  m_LocalPosition: {x: 1.97000003, y: -.600000024, z: 8.94999981}
   m_LocalScale: {x: .212519929, y: .212521002, z: .212521061}
   m_Children: []
   m_Father: {fileID: 271706675}
@@ -11829,7 +11525,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &420733422
 Transform:
@@ -12353,7 +12049,6 @@ GameObject:
   - 4: {fileID: 431962122}
   - 33: {fileID: 431962126}
   - 23: {fileID: 431962125}
-  - 111: {fileID: 431962124}
   - 65: {fileID: 431962123}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -12387,21 +12082,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &431962124
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1348476403}
-  m_GameObject: {fileID: 431962121}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &431962125
 Renderer:
   m_ObjectHideFlags: 0
@@ -12851,7 +12531,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &445393568
 Transform:
@@ -12933,7 +12613,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
 --- !u!1 &446990271
 GameObject:
   m_ObjectHideFlags: 0
@@ -13304,7 +12984,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 470000, guid: e2f8442c3c8a9ce4c8a3097d135de59e, type: 2}
       propertyPath: m_RootOrder
-      value: 26
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 470000, guid: e2f8442c3c8a9ce4c8a3097d135de59e, type: 2}
       propertyPath: m_LocalScale.x
@@ -13983,7 +13663,7 @@ Transform:
   - {fileID: 428222915}
   - {fileID: 490826681}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 27
 --- !u!64 &489745060
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14084,7 +13764,6 @@ GameObject:
   - 4: {fileID: 491533197}
   - 33: {fileID: 491533201}
   - 23: {fileID: 491533200}
-  - 111: {fileID: 491533199}
   - 65: {fileID: 491533198}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -14118,21 +13797,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &491533199
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 2001406211}
-  m_GameObject: {fileID: 491533196}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &491533200
 Renderer:
   m_ObjectHideFlags: 0
@@ -14289,7 +13953,6 @@ GameObject:
   - 4: {fileID: 499068434}
   - 33: {fileID: 499068438}
   - 23: {fileID: 499068437}
-  - 111: {fileID: 499068436}
   - 65: {fileID: 499068435}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -14323,21 +13986,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &499068436
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 2069946361}
-  m_GameObject: {fileID: 499068433}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &499068437
 Renderer:
   m_ObjectHideFlags: 0
@@ -14641,7 +14289,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &508745710
 Transform:
@@ -14750,7 +14398,6 @@ GameObject:
   - 4: {fileID: 518695305}
   - 33: {fileID: 518695309}
   - 23: {fileID: 518695308}
-  - 111: {fileID: 518695307}
   - 65: {fileID: 518695306}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -14784,21 +14431,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &518695307
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 1083289278}
-  m_GameObject: {fileID: 518695304}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &518695308
 Renderer:
   m_ObjectHideFlags: 0
@@ -14956,7 +14588,7 @@ Transform:
   m_LocalScale: {x: 6.24194908, y: 6.24195337, z: 6.24195337}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 36
 --- !u!1 &523314264
 GameObject:
   m_ObjectHideFlags: 0
@@ -15141,7 +14773,6 @@ GameObject:
   - 4: {fileID: 528810920}
   - 33: {fileID: 528810924}
   - 23: {fileID: 528810923}
-  - 111: {fileID: 528810922}
   - 65: {fileID: 528810921}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -15175,21 +14806,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &528810922
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1193203599}
-  m_GameObject: {fileID: 528810919}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &528810923
 Renderer:
   m_ObjectHideFlags: 0
@@ -15536,7 +15152,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &539424040
 Transform:
@@ -15594,7 +15210,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &540625225
 Transform:
@@ -15813,7 +15429,7 @@ Transform:
   - {fileID: 654398294}
   - {fileID: 1548104331}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 25
 --- !u!1001 &545395462
 Prefab:
   m_ObjectHideFlags: 0
@@ -16177,7 +15793,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &555467390
 Transform:
@@ -16633,7 +16249,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 437960, guid: 6b03762de03abe14bbf33e535311c0fb, type: 2}
       propertyPath: m_RootOrder
-      value: 22
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 437960, guid: 6b03762de03abe14bbf33e535311c0fb, type: 2}
       propertyPath: m_LocalScale.x
@@ -16827,7 +16443,7 @@ Transform:
   - {fileID: 1323453841}
   - {fileID: 446990274}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 31
 --- !u!205 &580535126
 LODGroup:
   m_ObjectHideFlags: 0
@@ -17627,7 +17243,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &601295883
 Transform:
@@ -17782,7 +17398,6 @@ GameObject:
   - 4: {fileID: 612263876}
   - 33: {fileID: 612263880}
   - 23: {fileID: 612263879}
-  - 111: {fileID: 612263878}
   - 65: {fileID: 612263877}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -17816,21 +17431,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &612263878
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1503053006}
-  m_GameObject: {fileID: 612263875}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &612263879
 Renderer:
   m_ObjectHideFlags: 0
@@ -18321,7 +17921,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: ab5b74501745b5c408b473c0085e728a, type: 2}
       propertyPath: m_RootOrder
-      value: 29
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: ab5b74501745b5c408b473c0085e728a, type: 2}
       propertyPath: m_LocalScale.x
@@ -18937,7 +18537,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &677793590
 Transform:
@@ -19377,7 +18977,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &703413408
 Transform:
@@ -20015,7 +19615,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_RootOrder
-      value: 20
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_LocalScale.x
@@ -20219,7 +19819,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!23 &732086830
 Renderer:
@@ -20414,7 +20014,6 @@ GameObject:
   - 4: {fileID: 734073554}
   - 33: {fileID: 734073558}
   - 23: {fileID: 734073557}
-  - 111: {fileID: 734073556}
   - 65: {fileID: 734073555}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -20448,21 +20047,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &734073556
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 90468568}
-  m_GameObject: {fileID: 734073553}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &734073557
 Renderer:
   m_ObjectHideFlags: 0
@@ -20593,7 +20177,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 7
 --- !u!65 &734838484
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20635,7 +20219,7 @@ Transform:
   - {fileID: 97047661}
   - {fileID: 554937998}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 34
 --- !u!205 &740310788
 LODGroup:
   m_ObjectHideFlags: 0
@@ -20867,7 +20451,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &746025964
 Transform:
@@ -20933,7 +20517,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4, type: 2}
       propertyPath: m_RootOrder
-      value: 32
+      value: 38
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4, type: 2}
@@ -21380,7 +20964,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 440386, guid: 65593c74a6dbad74ab57e46babd3d91b, type: 2}
       propertyPath: m_RootOrder
-      value: 28
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 440386, guid: 65593c74a6dbad74ab57e46babd3d91b, type: 2}
       propertyPath: m_LocalScale.x
@@ -21474,7 +21058,7 @@ Transform:
   - {fileID: 1284199942}
   - {fileID: 861863604}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 24
 --- !u!64 &761693193
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21638,7 +21222,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &776558803
 Transform:
@@ -21696,7 +21280,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &779508965
 Transform:
@@ -22812,7 +22396,7 @@ Transform:
   - {fileID: 481529603}
   - {fileID: 1015760990}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 35
 --- !u!1 &823242381
 GameObject:
   m_ObjectHideFlags: 0
@@ -22870,7 +22454,7 @@ Transform:
   - {fileID: 1424990663}
   - {fileID: 416930029}
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 1
 --- !u!1001 &823814290
 Prefab:
   m_ObjectHideFlags: 0
@@ -23226,7 +22810,6 @@ GameObject:
   - 4: {fileID: 837656852}
   - 33: {fileID: 837656856}
   - 23: {fileID: 837656855}
-  - 111: {fileID: 837656854}
   - 65: {fileID: 837656853}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -23260,21 +22843,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &837656854
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1957537618}
-  m_GameObject: {fileID: 837656851}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &837656855
 Renderer:
   m_ObjectHideFlags: 0
@@ -23403,7 +22971,6 @@ GameObject:
   - 4: {fileID: 845732505}
   - 33: {fileID: 845732509}
   - 23: {fileID: 845732508}
-  - 111: {fileID: 845732507}
   - 65: {fileID: 845732506}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -23437,21 +23004,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &845732507
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1751243366}
-  m_GameObject: {fileID: 845732504}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &845732508
 Renderer:
   m_ObjectHideFlags: 0
@@ -23567,7 +23119,7 @@ Transform:
   m_Children:
   - {fileID: 848147578}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 28
 --- !u!1 &848276887
 GameObject:
   m_ObjectHideFlags: 0
@@ -23769,7 +23321,7 @@ Transform:
   - {fileID: 1792478785}
   - {fileID: 398965224}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 16
 --- !u!23 &848711892
 Renderer:
   m_ObjectHideFlags: 0
@@ -23987,7 +23539,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &861656846
 Transform:
@@ -24898,7 +24450,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &884566503
 Transform:
@@ -25009,7 +24561,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_RootOrder
-      value: 19
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_LocalScale.x
@@ -25065,7 +24617,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_LocalScale.x
@@ -25267,7 +24819,6 @@ GameObject:
   - 4: {fileID: 896089356}
   - 33: {fileID: 896089360}
   - 23: {fileID: 896089359}
-  - 111: {fileID: 896089358}
   - 65: {fileID: 896089357}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -25301,21 +24852,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &896089358
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 881475118}
-  m_GameObject: {fileID: 896089355}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &896089359
 Renderer:
   m_ObjectHideFlags: 0
@@ -25359,7 +24895,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &898590339
 Transform:
@@ -25817,7 +25353,6 @@ GameObject:
   - 4: {fileID: 926323347}
   - 33: {fileID: 926323351}
   - 23: {fileID: 926323350}
-  - 111: {fileID: 926323349}
   - 65: {fileID: 926323348}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -25851,21 +25386,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &926323349
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 1980485936}
-  m_GameObject: {fileID: 926323346}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &926323350
 Renderer:
   m_ObjectHideFlags: 0
@@ -25956,7 +25476,7 @@ Transform:
   - {fileID: 179566469}
   - {fileID: 1430793714}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 14
 --- !u!1001 &933947755
 Prefab:
   m_ObjectHideFlags: 0
@@ -26368,7 +25888,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &950496001
 Transform:
@@ -27085,7 +26605,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &990793340
 Transform:
@@ -27240,7 +26760,6 @@ GameObject:
   - 4: {fileID: 999168985}
   - 33: {fileID: 999168989}
   - 23: {fileID: 999168988}
-  - 111: {fileID: 999168987}
   - 65: {fileID: 999168986}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -27274,21 +26793,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &999168987
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1002085102}
-  m_GameObject: {fileID: 999168984}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &999168988
 Renderer:
   m_ObjectHideFlags: 0
@@ -27373,7 +26877,6 @@ GameObject:
   - 4: {fileID: 1002638865}
   - 33: {fileID: 1002638869}
   - 23: {fileID: 1002638868}
-  - 111: {fileID: 1002638867}
   - 65: {fileID: 1002638866}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -27407,21 +26910,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &1002638867
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 760491640}
-  m_GameObject: {fileID: 1002638864}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1002638868
 Renderer:
   m_ObjectHideFlags: 0
@@ -27518,7 +27006,6 @@ GameObject:
   - 4: {fileID: 1012538455}
   - 33: {fileID: 1012538459}
   - 23: {fileID: 1012538458}
-  - 111: {fileID: 1012538457}
   - 65: {fileID: 1012538456}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -27552,21 +27039,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1012538457
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1691884728}
-  m_GameObject: {fileID: 1012538454}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1012538458
 Renderer:
   m_ObjectHideFlags: 0
@@ -28095,7 +27567,6 @@ GameObject:
   - 4: {fileID: 1024582415}
   - 33: {fileID: 1024582419}
   - 23: {fileID: 1024582418}
-  - 111: {fileID: 1024582417}
   - 65: {fileID: 1024582416}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -28129,21 +27600,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &1024582417
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 2139649742}
-  m_GameObject: {fileID: 1024582414}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1024582418
 Renderer:
   m_ObjectHideFlags: 0
@@ -28267,7 +27723,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 451316, guid: 61a4c1a013703334385ebb839ef9a68d, type: 2}
       propertyPath: m_RootOrder
-      value: 27
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 451316, guid: 61a4c1a013703334385ebb839ef9a68d, type: 2}
       propertyPath: m_LocalScale.x
@@ -28296,7 +27752,6 @@ GameObject:
   - 4: {fileID: 1028852571}
   - 33: {fileID: 1028852575}
   - 23: {fileID: 1028852574}
-  - 111: {fileID: 1028852573}
   - 65: {fileID: 1028852572}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -28330,21 +27785,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &1028852573
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 2025284386}
-  m_GameObject: {fileID: 1028852570}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1028852574
 Renderer:
   m_ObjectHideFlags: 0
@@ -28385,7 +27825,6 @@ GameObject:
   - 4: {fileID: 1037156879}
   - 33: {fileID: 1037156883}
   - 23: {fileID: 1037156882}
-  - 111: {fileID: 1037156881}
   - 65: {fileID: 1037156880}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -28419,21 +27858,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &1037156881
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 1320910429}
-  m_GameObject: {fileID: 1037156878}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1037156882
 Renderer:
   m_ObjectHideFlags: 0
@@ -28474,7 +27898,6 @@ GameObject:
   - 4: {fileID: 1038920959}
   - 33: {fileID: 1038920963}
   - 23: {fileID: 1038920962}
-  - 111: {fileID: 1038920961}
   - 65: {fileID: 1038920960}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -28508,21 +27931,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &1038920961
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 1061098373}
-  m_GameObject: {fileID: 1038920958}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1038920962
 Renderer:
   m_ObjectHideFlags: 0
@@ -29166,7 +28574,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1063439001
 Transform:
@@ -29268,7 +28676,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1069590898
 Transform:
@@ -29326,7 +28734,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1070352918
 Transform:
@@ -29551,7 +28959,6 @@ GameObject:
   - 4: {fileID: 1080166345}
   - 33: {fileID: 1080166349}
   - 23: {fileID: 1080166348}
-  - 111: {fileID: 1080166347}
   - 65: {fileID: 1080166346}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -29585,21 +28992,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1080166347
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 876152593}
-  m_GameObject: {fileID: 1080166344}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1080166348
 Renderer:
   m_ObjectHideFlags: 0
@@ -29645,7 +29037,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1080699620
 Transform:
@@ -29769,7 +29161,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 438888, guid: 218e32a206932e044a741d08790bb245, type: 2}
       propertyPath: m_RootOrder
-      value: 35
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 218e32a206932e044a741d08790bb245, type: 2}
@@ -29847,7 +29239,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1085074509
 Transform:
@@ -30065,6 +29457,54 @@ MeshFilter:
   m_PrefabInternal: {fileID: 201600831}
   m_GameObject: {fileID: 1087484503}
   m_Mesh: {fileID: 4300000, guid: 134c4969deb1b3846ad75a0f0de3ec8a, type: 3}
+--- !u!1 &1090462362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 101660, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
+  m_PrefabInternal: {fileID: 1225408474}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1090462363}
+  - 114: {fileID: 1090462364}
+  m_Layer: 0
+  m_Name: CarFactory 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1090462363
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401660, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
+  m_PrefabInternal: {fileID: 1225408474}
+  m_GameObject: {fileID: 1090462362}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.37113883e-08}
+  m_LocalPosition: {x: -4.9000001, y: 0, z: 181.300003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1896988672}
+  m_RootOrder: 4
+--- !u!114 &1090462364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11401660, guid: b9a84829a8c6d8142918681d73cd22a8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1225408474}
+  m_GameObject: {fileID: 1090462362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101cbd89829f7a147a26688d4fd1a58c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cars:
+  - {fileID: 154238, guid: 6e953082304126346be9a9327bdc94c1, type: 2}
+  minGenTime: 6
+  maxGenTime: 9
+  carLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  proxiomity: 3.5
 --- !u!1 &1092385603
 GameObject:
   m_ObjectHideFlags: 0
@@ -30204,7 +29644,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_LocalScale.x
@@ -30250,7 +29690,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 2
 --- !u!82 &1095846592
 AudioSource:
   m_ObjectHideFlags: 0
@@ -30324,7 +29764,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1095928068
 Transform:
@@ -30498,7 +29938,6 @@ GameObject:
   - 4: {fileID: 1097893667}
   - 33: {fileID: 1097893671}
   - 23: {fileID: 1097893670}
-  - 111: {fileID: 1097893669}
   - 65: {fileID: 1097893668}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -30532,21 +29971,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1097893669
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1614029794}
-  m_GameObject: {fileID: 1097893666}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1097893670
 Renderer:
   m_ObjectHideFlags: 0
@@ -30796,7 +30220,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1109622900
 Transform:
@@ -30979,7 +30403,6 @@ GameObject:
   - 4: {fileID: 1111508698}
   - 33: {fileID: 1111508697}
   - 23: {fileID: 1111508696}
-  - 111: {fileID: 1111508695}
   - 65: {fileID: 1111508694}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -31001,21 +30424,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1111508695
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1429887274}
-  m_GameObject: {fileID: 1111508693}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1111508696
 Renderer:
   m_ObjectHideFlags: 0
@@ -31214,7 +30622,6 @@ GameObject:
   - 4: {fileID: 1122708189}
   - 33: {fileID: 1122708193}
   - 23: {fileID: 1122708192}
-  - 111: {fileID: 1122708191}
   - 65: {fileID: 1122708190}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -31248,21 +30655,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1122708191
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1506670976}
-  m_GameObject: {fileID: 1122708188}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1122708192
 Renderer:
   m_ObjectHideFlags: 0
@@ -31437,7 +30829,7 @@ Transform:
   - {fileID: 1517934608}
   - {fileID: 1467948046}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 21
 --- !u!64 &1129455457
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31599,7 +30991,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1133345917
 Transform:
@@ -31847,7 +31239,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1142347245
 Transform:
@@ -31885,7 +31277,6 @@ GameObject:
   - 4: {fileID: 1145215637}
   - 33: {fileID: 1145215641}
   - 23: {fileID: 1145215640}
-  - 111: {fileID: 1145215639}
   - 65: {fileID: 1145215638}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -31919,21 +31310,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1145215639
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1389225946}
-  m_GameObject: {fileID: 1145215636}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1145215640
 Renderer:
   m_ObjectHideFlags: 0
@@ -32401,7 +31777,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ca99170bd118bca11002b7b44295342, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ca99170bd118bca11002b7b44295342, type: 3}
       propertyPath: m_LocalScale.x
@@ -33167,7 +32543,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1201351030
 Transform:
@@ -33347,7 +32723,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1205335949
 Transform:
@@ -33841,7 +33217,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1217916825
 Transform:
@@ -33986,6 +33362,50 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2143389379}
   m_GameObject: {fileID: 1223073077}
   m_Mesh: {fileID: 4300000, guid: 134c4969deb1b3846ad75a0f0de3ec8a, type: 3}
+--- !u!1001 &1225408474
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1896988672}
+    m_Modifications:
+    - target: {fileID: 401660, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4.9000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 401660, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401660, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 181.300003
+      objectReference: {fileID: 0}
+    - target: {fileID: 401660, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401660, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 401660, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401660, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -4.37113883e-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 401660, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
+  m_RootGameObject: {fileID: 1090462362}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1226301513
 GameObject:
   m_ObjectHideFlags: 0
@@ -34554,7 +33974,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1248253633
 Transform:
@@ -34779,7 +34199,6 @@ GameObject:
   - 4: {fileID: 1272676752}
   - 33: {fileID: 1272676756}
   - 23: {fileID: 1272676755}
-  - 111: {fileID: 1272676754}
   - 65: {fileID: 1272676753}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -34813,21 +34232,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1272676754
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 168272807}
-  m_GameObject: {fileID: 1272676751}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1272676755
 Renderer:
   m_ObjectHideFlags: 0
@@ -34871,7 +34275,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1273695945
 Transform:
@@ -35012,7 +34416,6 @@ GameObject:
   - 4: {fileID: 1282234806}
   - 33: {fileID: 1282234810}
   - 23: {fileID: 1282234809}
-  - 111: {fileID: 1282234808}
   - 65: {fileID: 1282234807}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -35046,21 +34449,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &1282234808
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 1515673197}
-  m_GameObject: {fileID: 1282234805}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1282234809
 Renderer:
   m_ObjectHideFlags: 0
@@ -35278,7 +34666,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1286333486
 Transform:
@@ -36548,7 +35936,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1333314887
 Transform:
@@ -36606,7 +35994,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1335196795
 Transform:
@@ -36845,7 +36233,7 @@ Transform:
   m_PrefabInternal: {fileID: 1721341420}
   m_GameObject: {fileID: 1341472237}
   m_LocalRotation: {x: 3.45598949e-07, y: -2.34433401e-07, z: -1.19789703e-07, w: 1}
-  m_LocalPosition: {x: -3.61999989, y: -.959999979, z: 8.94999981}
+  m_LocalPosition: {x: -2.16000009, y: -.600000024, z: 8.94999981}
   m_LocalScale: {x: .212519929, y: .212520987, z: .212521002}
   m_Children: []
   m_Father: {fileID: 271706675}
@@ -36993,7 +36381,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1343805239
 Transform:
@@ -37108,7 +36496,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1345034039
 Transform:
@@ -37497,7 +36885,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da7d7fcf5c81d3547ba34317877f4702, type: 2}
       propertyPath: m_RootOrder
-      value: 23
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: da7d7fcf5c81d3547ba34317877f4702, type: 2}
       propertyPath: m_LocalScale.x
@@ -38018,7 +37406,7 @@ Transform:
   m_PrefabInternal: {fileID: 1721341420}
   m_GameObject: {fileID: 1373645696}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.07000017, y: 1.88999999, z: 8.94999981}
+  m_LocalPosition: {x: -3.81999993, y: 2.13000011, z: 8.94999981}
   m_LocalScale: {x: .212520286, y: .212520629, z: .212520719}
   m_Children: []
   m_Father: {fileID: 271706675}
@@ -38827,7 +38215,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25fa881dbd110e38a00062d88f962b59, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25fa881dbd110e38a00062d88f962b59, type: 3}
       propertyPath: m_LocalScale.x
@@ -38953,6 +38341,15 @@ MonoBehaviour:
   hudItems:
     stopSignMeter: {fileID: 2001944022}
     goalMeter: {fileID: 741463795}
+    gameOver:
+      errorLimit: 50
+      gameOverScreen: {fileID: 477466291}
+      crashes: {fileID: 2001944022}
+      time: {fileID: 0}
+      jams: {fileID: 0}
+      scoreText: {fileID: 741463795}
+      HiScoreSign: {fileID: 0}
+      HiScoreText: {fileID: 0}
   gameSounds:
     honk: {fileID: 8300000, guid: 88065f50df5eca44e8d26fc9f73a4745, type: 3}
 --- !u!92 &1400091699
@@ -39142,7 +38539,6 @@ GameObject:
   - 4: {fileID: 1406407131}
   - 33: {fileID: 1406407135}
   - 23: {fileID: 1406407134}
-  - 111: {fileID: 1406407133}
   - 65: {fileID: 1406407132}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -39176,21 +38572,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1406407133
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 791613341}
-  m_GameObject: {fileID: 1406407130}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1406407134
 Renderer:
   m_ObjectHideFlags: 0
@@ -39465,7 +38846,7 @@ Transform:
   - {fileID: 1493034585}
   - {fileID: 1504816076}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 30
 --- !u!1 &1411915232
 GameObject:
   m_ObjectHideFlags: 0
@@ -40114,7 +39495,6 @@ GameObject:
   - 4: {fileID: 1433629854}
   - 33: {fileID: 1433629858}
   - 23: {fileID: 1433629857}
-  - 111: {fileID: 1433629856}
   - 65: {fileID: 1433629855}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -40148,21 +39528,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1433629856
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1784904461}
-  m_GameObject: {fileID: 1433629853}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1433629857
 Renderer:
   m_ObjectHideFlags: 0
@@ -40203,7 +39568,6 @@ GameObject:
   - 4: {fileID: 1433942300}
   - 33: {fileID: 1433942304}
   - 23: {fileID: 1433942303}
-  - 111: {fileID: 1433942302}
   - 65: {fileID: 1433942301}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -40237,21 +39601,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1433942302
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 2052097352}
-  m_GameObject: {fileID: 1433942299}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1433942303
 Renderer:
   m_ObjectHideFlags: 0
@@ -40436,7 +39785,6 @@ GameObject:
   - 4: {fileID: 1447316581}
   - 33: {fileID: 1447316585}
   - 23: {fileID: 1447316584}
-  - 111: {fileID: 1447316583}
   - 65: {fileID: 1447316582}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -40470,21 +39818,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &1447316583
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 86911053}
-  m_GameObject: {fileID: 1447316580}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1447316584
 Renderer:
   m_ObjectHideFlags: 0
@@ -40525,7 +39858,6 @@ GameObject:
   - 4: {fileID: 1449543756}
   - 33: {fileID: 1449543760}
   - 23: {fileID: 1449543759}
-  - 111: {fileID: 1449543758}
   - 65: {fileID: 1449543757}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -40559,21 +39891,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &1449543758
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 1397916902}
-  m_GameObject: {fileID: 1449543755}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1449543759
 Renderer:
   m_ObjectHideFlags: 0
@@ -41147,7 +40464,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1463177638
 Transform:
@@ -41248,7 +40565,6 @@ GameObject:
   - 4: {fileID: 1465172510}
   - 33: {fileID: 1465172514}
   - 23: {fileID: 1465172513}
-  - 111: {fileID: 1465172512}
   - 65: {fileID: 1465172511}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -41282,21 +40598,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1465172512
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 608547715}
-  m_GameObject: {fileID: 1465172509}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1465172513
 Renderer:
   m_ObjectHideFlags: 0
@@ -41395,7 +40696,6 @@ GameObject:
   - 4: {fileID: 1468753982}
   - 33: {fileID: 1468753986}
   - 23: {fileID: 1468753985}
-  - 111: {fileID: 1468753984}
   - 65: {fileID: 1468753983}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -41429,21 +40729,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1468753984
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 65805392}
-  m_GameObject: {fileID: 1468753981}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1468753985
 Renderer:
   m_ObjectHideFlags: 0
@@ -41734,7 +41019,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1477761836
 Transform:
@@ -41787,7 +41072,6 @@ GameObject:
   - 4: {fileID: 1478524252}
   - 33: {fileID: 1478524256}
   - 23: {fileID: 1478524255}
-  - 111: {fileID: 1478524254}
   - 65: {fileID: 1478524253}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -41821,21 +41105,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1478524254
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1552521678}
-  m_GameObject: {fileID: 1478524251}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1478524255
 Renderer:
   m_ObjectHideFlags: 0
@@ -42168,7 +41437,7 @@ Transform:
   m_PrefabInternal: {fileID: 1721341420}
   m_GameObject: {fileID: 1493455804}
   m_LocalRotation: {x: 3.45598949e-07, y: -2.34433401e-07, z: -1.19789703e-07, w: 1}
-  m_LocalPosition: {x: 4.3499999, y: -.949999988, z: 8.94999981}
+  m_LocalPosition: {x: 4.01000023, y: -.639999986, z: 8.94999981}
   m_LocalScale: {x: .212519929, y: .212520987, z: .212521002}
   m_Children: []
   m_Father: {fileID: 271706675}
@@ -43167,7 +42436,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1523470070
 Transform:
@@ -43249,7 +42518,6 @@ GameObject:
   - 4: {fileID: 1530273024}
   - 33: {fileID: 1530273028}
   - 23: {fileID: 1530273027}
-  - 111: {fileID: 1530273026}
   - 65: {fileID: 1530273025}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -43283,21 +42551,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1530273026
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1121074784}
-  m_GameObject: {fileID: 1530273023}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1530273027
 Renderer:
   m_ObjectHideFlags: 0
@@ -43586,7 +42839,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1546129885}
   m_LocalRotation: {x: 3.45598949e-07, y: -2.34433401e-07, z: -1.19789703e-07, w: 1}
-  m_LocalPosition: {x: -6.26000023, y: -.959999979, z: 8.94999981}
+  m_LocalPosition: {x: -4.0999999, y: -.649999976, z: 8.94999981}
   m_LocalScale: {x: .212519929, y: .212521002, z: .212521061}
   m_Children: []
   m_Father: {fileID: 271706675}
@@ -43746,7 +42999,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 8
 --- !u!65 &1549389765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44014,7 +43267,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 464872, guid: c36406ee9d777d741be15b175dd3f163, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 464872, guid: c36406ee9d777d741be15b175dd3f163, type: 2}
       propertyPath: m_LocalScale.x
@@ -44164,7 +43417,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1565665749
 Transform:
@@ -44217,7 +43470,6 @@ GameObject:
   - 4: {fileID: 1572743251}
   - 33: {fileID: 1572743255}
   - 23: {fileID: 1572743254}
-  - 111: {fileID: 1572743253}
   - 65: {fileID: 1572743252}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -44251,21 +43503,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1572743253
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 287940437}
-  m_GameObject: {fileID: 1572743250}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1572743254
 Renderer:
   m_ObjectHideFlags: 0
@@ -44322,7 +43559,7 @@ Transform:
   m_PrefabInternal: {fileID: 1721341420}
   m_GameObject: {fileID: 1572918849}
   m_LocalRotation: {x: 3.45598949e-07, y: -2.34433401e-07, z: -1.19789703e-07, w: 1}
-  m_LocalPosition: {x: 3.51999998, y: 1.88999999, z: 8.94999981}
+  m_LocalPosition: {x: 3.6400001, y: 2.08999991, z: 8.94999981}
   m_LocalScale: {x: .212519929, y: .212520987, z: .212521002}
   m_Children: []
   m_Father: {fileID: 271706675}
@@ -44764,7 +44001,6 @@ GameObject:
   - 4: {fileID: 1600242171}
   - 33: {fileID: 1600242175}
   - 23: {fileID: 1600242174}
-  - 111: {fileID: 1600242173}
   - 65: {fileID: 1600242172}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -44798,21 +44034,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1600242173
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1115239099}
-  m_GameObject: {fileID: 1600242170}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1600242174
 Renderer:
   m_ObjectHideFlags: 0
@@ -45024,7 +44245,7 @@ Transform:
   - {fileID: 1104393215}
   - {fileID: 1350574855}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 17
 --- !u!23 &1609351191
 Renderer:
   m_ObjectHideFlags: 0
@@ -45091,7 +44312,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3b37530772fbbb441b40078e356e44b3, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 37
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3b37530772fbbb441b40078e356e44b3, type: 3}
@@ -45581,7 +44802,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1633483790
 Transform:
@@ -45768,7 +44989,7 @@ Transform:
   - {fileID: 1378449789}
   - {fileID: 2066709442}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 33
 --- !u!64 &1638492001
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45838,7 +45059,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_RootOrder
-      value: 15
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_LocalScale.x
@@ -46297,7 +45518,6 @@ GameObject:
   - 4: {fileID: 1657377503}
   - 33: {fileID: 1657377507}
   - 23: {fileID: 1657377506}
-  - 111: {fileID: 1657377505}
   - 65: {fileID: 1657377504}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -46331,21 +45551,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1657377505
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 295712959}
-  m_GameObject: {fileID: 1657377502}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1657377506
 Renderer:
   m_ObjectHideFlags: 0
@@ -46674,7 +45879,6 @@ GameObject:
   - 4: {fileID: 1681976309}
   - 33: {fileID: 1681976313}
   - 23: {fileID: 1681976312}
-  - 111: {fileID: 1681976311}
   - 65: {fileID: 1681976310}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -46708,21 +45912,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1681976311
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1588469228}
-  m_GameObject: {fileID: 1681976308}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1681976312
 Renderer:
   m_ObjectHideFlags: 0
@@ -46821,7 +46010,6 @@ GameObject:
   - 4: {fileID: 1684046528}
   - 33: {fileID: 1684046532}
   - 23: {fileID: 1684046531}
-  - 111: {fileID: 1684046530}
   - 65: {fileID: 1684046529}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -46855,21 +46043,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &1684046530
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 1940034980}
-  m_GameObject: {fileID: 1684046527}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1684046531
 Renderer:
   m_ObjectHideFlags: 0
@@ -47240,7 +46413,6 @@ GameObject:
   - 4: {fileID: 1690626486}
   - 33: {fileID: 1690626490}
   - 23: {fileID: 1690626489}
-  - 111: {fileID: 1690626488}
   - 65: {fileID: 1690626487}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -47333,7 +46505,7 @@ Transform:
   - {fileID: 1028852571}
   - {fileID: 518695305}
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 38
 --- !u!65 &1690626487
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47347,21 +46519,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1690626488
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 746223201}
-  m_GameObject: {fileID: 1690626485}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1690626489
 Renderer:
   m_ObjectHideFlags: 0
@@ -47560,7 +46717,6 @@ GameObject:
   - 4: {fileID: 1700334479}
   - 33: {fileID: 1700334483}
   - 23: {fileID: 1700334482}
-  - 111: {fileID: 1700334481}
   - 65: {fileID: 1700334480}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -47594,21 +46750,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1700334481
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 904619146}
-  m_GameObject: {fileID: 1700334478}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1700334482
 Renderer:
   m_ObjectHideFlags: 0
@@ -47654,7 +46795,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1703976347
 Transform:
@@ -47878,35 +47019,35 @@ Prefab:
     m_Modifications:
     - target: {fileID: 489204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 368.700012
+      value: 364.299988
       objectReference: {fileID: 0}
     - target: {fileID: 489204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 36
+      value: 41.7999992
       objectReference: {fileID: 0}
     - target: {fileID: 489204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 203.199997
+      value: 197.199997
       objectReference: {fileID: 0}
     - target: {fileID: 489204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -.396938652
+      value: -.459744781
       objectReference: {fileID: 0}
     - target: {fileID: 489204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
       propertyPath: m_LocalRotation.y
-      value: .582909048
+      value: .535050273
       objectReference: {fileID: 0}
     - target: {fileID: 489204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -.397805959
+      value: -.46016705
       objectReference: {fileID: 0}
     - target: {fileID: 489204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -.586862266
+      value: -.539075434
       objectReference: {fileID: 0}
     - target: {fileID: 489204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11489204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
       propertyPath: stopCollider
@@ -47943,6 +47084,74 @@ Prefab:
     - target: {fileID: 22437062, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 489206, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.16000009
+      objectReference: {fileID: 0}
+    - target: {fileID: 489206, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.600000024
+      objectReference: {fileID: 0}
+    - target: {fileID: 437080, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.13000011
+      objectReference: {fileID: 0}
+    - target: {fileID: 437080, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.81999993
+      objectReference: {fileID: 0}
+    - target: {fileID: 437072, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.97000003
+      objectReference: {fileID: 0}
+    - target: {fileID: 437072, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.0999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 437070, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.11999989
+      objectReference: {fileID: 0}
+    - target: {fileID: 437070, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 437074, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.08999991
+      objectReference: {fileID: 0}
+    - target: {fileID: 437074, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.6400001
+      objectReference: {fileID: 0}
+    - target: {fileID: 437076, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.639999986
+      objectReference: {fileID: 0}
+    - target: {fileID: 437076, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4.01000023
+      objectReference: {fileID: 0}
+    - target: {fileID: 2089204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: field of view
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 11437048, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: hudItems.gameOver.gameOverScreen
+      value: 
+      objectReference: {fileID: 477466291}
+    - target: {fileID: 11437048, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: hudItems.gameOver.crashes
+      value: 
+      objectReference: {fileID: 2001944022}
+    - target: {fileID: 11437048, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: hudItems.gameOver.scoreText
+      value: 
+      objectReference: {fileID: 741463795}
+    - target: {fileID: 489204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
+      propertyPath: m_LocalScale.z
+      value: .999999702
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
@@ -48075,7 +47284,6 @@ GameObject:
   - 4: {fileID: 1730385536}
   - 33: {fileID: 1730385540}
   - 23: {fileID: 1730385539}
-  - 111: {fileID: 1730385538}
   - 65: {fileID: 1730385537}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -48109,21 +47317,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1730385538
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 578794766}
-  m_GameObject: {fileID: 1730385535}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1730385539
 Renderer:
   m_ObjectHideFlags: 0
@@ -48455,7 +47648,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1738559378
 Transform:
@@ -49149,7 +48342,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1778831859
 Transform:
@@ -49287,7 +48480,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_RootOrder
-      value: 21
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_LocalScale.x
@@ -49692,7 +48885,6 @@ GameObject:
   - 4: {fileID: 1795064622}
   - 33: {fileID: 1795064626}
   - 23: {fileID: 1795064625}
-  - 111: {fileID: 1795064624}
   - 65: {fileID: 1795064623}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -49726,21 +48918,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1795064624
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 707059600}
-  m_GameObject: {fileID: 1795064621}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1795064625
 Renderer:
   m_ObjectHideFlags: 0
@@ -49893,7 +49070,6 @@ GameObject:
   - 4: {fileID: 1807447802}
   - 33: {fileID: 1807447806}
   - 23: {fileID: 1807447805}
-  - 111: {fileID: 1807447804}
   - 65: {fileID: 1807447803}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -49927,21 +49103,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1807447804
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1625500503}
-  m_GameObject: {fileID: 1807447801}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1807447805
 Renderer:
   m_ObjectHideFlags: 0
@@ -50040,7 +49201,6 @@ GameObject:
   - 4: {fileID: 1816050495}
   - 33: {fileID: 1816050499}
   - 23: {fileID: 1816050498}
-  - 111: {fileID: 1816050497}
   - 65: {fileID: 1816050496}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -50074,21 +49234,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1816050497
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1648792313}
-  m_GameObject: {fileID: 1816050494}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1816050498
 Renderer:
   m_ObjectHideFlags: 0
@@ -50553,7 +49698,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1830502608
 Transform:
@@ -50582,7 +49727,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1830863761
 Transform:
@@ -50737,7 +49882,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 464872, guid: c36406ee9d777d741be15b175dd3f163, type: 2}
       propertyPath: m_RootOrder
-      value: 24
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c36406ee9d777d741be15b175dd3f163, type: 2}
@@ -51144,7 +50289,6 @@ GameObject:
   - 4: {fileID: 1847080465}
   - 33: {fileID: 1847080469}
   - 23: {fileID: 1847080468}
-  - 111: {fileID: 1847080467}
   - 65: {fileID: 1847080466}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -51178,21 +50322,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1847080467
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1675034682}
-  m_GameObject: {fileID: 1847080464}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1847080468
 Renderer:
   m_ObjectHideFlags: 0
@@ -51318,7 +50447,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 493512, guid: 1e283192dc84c364684f9283f7c8c302, type: 2}
       propertyPath: m_RootOrder
-      value: 25
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 493512, guid: 1e283192dc84c364684f9283f7c8c302, type: 2}
       propertyPath: m_LocalScale.x
@@ -51406,7 +50535,6 @@ GameObject:
   - 4: {fileID: 1857742127}
   - 33: {fileID: 1857742131}
   - 23: {fileID: 1857742130}
-  - 111: {fileID: 1857742129}
   - 65: {fileID: 1857742128}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -51440,21 +50568,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1857742129
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1765205144}
-  m_GameObject: {fileID: 1857742126}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1857742130
 Renderer:
   m_ObjectHideFlags: 0
@@ -51495,7 +50608,6 @@ GameObject:
   - 4: {fileID: 1858590005}
   - 33: {fileID: 1858590009}
   - 23: {fileID: 1858590008}
-  - 111: {fileID: 1858590007}
   - 65: {fileID: 1858590006}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -51529,21 +50641,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1858590007
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1395858496}
-  m_GameObject: {fileID: 1858590004}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1858590008
 Renderer:
   m_ObjectHideFlags: 0
@@ -51803,7 +50900,7 @@ Transform:
   m_PrefabInternal: {fileID: 1721341420}
   m_GameObject: {fileID: 1868658566}
   m_LocalRotation: {x: 3.45598949e-07, y: -2.34433401e-07, z: -1.19789703e-07, w: 1}
-  m_LocalPosition: {x: -2.70000005, y: 1.90999997, z: 8.94999981}
+  m_LocalPosition: {x: -1.97000003, y: 2.0999999, z: 8.94999981}
   m_LocalScale: {x: .212519929, y: .212520987, z: .212521002}
   m_Children: []
   m_Father: {fileID: 271706675}
@@ -52394,7 +51491,6 @@ GameObject:
   - 4: {fileID: 1894236358}
   - 33: {fileID: 1894236362}
   - 23: {fileID: 1894236361}
-  - 111: {fileID: 1894236360}
   - 65: {fileID: 1894236359}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -52428,21 +51524,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &1894236360
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 321277331}
-  m_GameObject: {fileID: 1894236357}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1894236361
 Renderer:
   m_ObjectHideFlags: 0
@@ -52533,7 +51614,7 @@ Transform:
   - {fileID: 317004708}
   - {fileID: 80924589}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 23
 --- !u!64 &1895746902
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -52660,8 +51741,9 @@ Transform:
   - {fileID: 189593873}
   - {fileID: 1626634479}
   - {fileID: 179308607}
+  - {fileID: 1090462363}
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 3
 --- !u!1001 &1905721965
 Prefab:
   m_ObjectHideFlags: 0
@@ -52755,7 +51837,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 401660, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
       propertyPath: m_RootOrder
-      value: 34
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9a84829a8c6d8142918681d73cd22a8, type: 2}
@@ -54000,7 +53082,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1966599850
 Transform:
@@ -54115,7 +53197,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1968924583
 Transform:
@@ -54384,7 +53466,6 @@ GameObject:
   - 4: {fileID: 1979229001}
   - 33: {fileID: 1979229005}
   - 23: {fileID: 1979229004}
-  - 111: {fileID: 1979229003}
   - 65: {fileID: 1979229002}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -54418,21 +53499,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &1979229003
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1874074637}
-  m_GameObject: {fileID: 1979229000}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &1979229004
 Renderer:
   m_ObjectHideFlags: 0
@@ -54520,7 +53586,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1984289100
 Transform:
@@ -55079,7 +54145,7 @@ Transform:
   m_LocalScale: {x: 2.62382317, y: 2.62382293, z: 2.62382269}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 29
 --- !u!1 &2000062731
 GameObject:
   m_ObjectHideFlags: 0
@@ -55282,7 +54348,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2003457610
 Transform:
@@ -55454,7 +54520,7 @@ Transform:
   m_PrefabInternal: {fileID: 1721341420}
   m_GameObject: {fileID: 2009634918}
   m_LocalRotation: {x: 3.45598949e-07, y: -2.34433401e-07, z: -1.19789703e-07, w: 1}
-  m_LocalPosition: {x: 1.40999997, y: 1.88999999, z: 8.94999981}
+  m_LocalPosition: {x: 1.79999995, y: 2.11999989, z: 8.94999981}
   m_LocalScale: {x: .212519929, y: .212520987, z: .212521002}
   m_Children: []
   m_Father: {fileID: 271706675}
@@ -55527,7 +54593,6 @@ GameObject:
   - 4: {fileID: 2014963644}
   - 33: {fileID: 2014963648}
   - 23: {fileID: 2014963647}
-  - 111: {fileID: 2014963646}
   - 65: {fileID: 2014963645}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -55561,21 +54626,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &2014963646
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 207657148}
-  m_GameObject: {fileID: 2014963643}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &2014963647
 Renderer:
   m_ObjectHideFlags: 0
@@ -55621,7 +54671,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2019710621
 Transform:
@@ -55796,7 +54846,7 @@ Transform:
   - {fileID: 1422544411}
   - {fileID: 2120457721}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 22
 --- !u!64 &2026890495
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -55898,7 +54948,7 @@ Transform:
   m_LocalScale: {x: 47.7070923, y: 47.7070618, z: 47.7070618}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 19
 --- !u!1 &2035155162
 GameObject:
   m_ObjectHideFlags: 0
@@ -56054,7 +55104,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 12
 --- !u!1001 &2038695911
 Prefab:
   m_ObjectHideFlags: 0
@@ -56126,7 +55176,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2039005115
 Transform:
@@ -56235,7 +55285,6 @@ GameObject:
   - 4: {fileID: 2047593485}
   - 33: {fileID: 2047593489}
   - 23: {fileID: 2047593488}
-  - 111: {fileID: 2047593487}
   - 65: {fileID: 2047593486}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -56269,21 +55318,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &2047593487
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 352238471}
-  m_GameObject: {fileID: 2047593484}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &2047593488
 Renderer:
   m_ObjectHideFlags: 0
@@ -56673,7 +55707,6 @@ GameObject:
   - 4: {fileID: 2058806932}
   - 33: {fileID: 2058806936}
   - 23: {fileID: 2058806935}
-  - 111: {fileID: 2058806934}
   - 65: {fileID: 2058806933}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -56707,21 +55740,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &2058806934
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1625725846}
-  m_GameObject: {fileID: 2058806931}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &2058806935
 Renderer:
   m_ObjectHideFlags: 0
@@ -56777,14 +55795,14 @@ Transform:
   m_PrefabParentObject: {fileID: 489204, guid: 2bd69e3a91a45f24085f072e559d862d, type: 2}
   m_PrefabInternal: {fileID: 1721341420}
   m_GameObject: {fileID: 2062368350}
-  m_LocalRotation: {x: -.396938652, y: .582909048, z: -.397805959, w: -.586862266}
-  m_LocalPosition: {x: 368.700012, y: 36, z: 203.199997}
-  m_LocalScale: {x: 1.00000024, y: 1, z: .999999762}
+  m_LocalRotation: {x: -.459744781, y: .535050273, z: -.46016705, w: -.539075434}
+  m_LocalPosition: {x: 364.299988, y: 41.7999992, z: 197.199997}
+  m_LocalScale: {x: 1.00000024, y: 1, z: .999999702}
   m_Children:
   - {fileID: 271706675}
   - {fileID: 1400091697}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!81 &2062368352
 AudioListener:
   m_ObjectHideFlags: 0
@@ -56828,7 +55846,7 @@ Camera:
     height: 1
   near clip plane: .300000012
   far clip plane: 1000
-  field of view: 93
+  field of view: 100
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -57015,7 +56033,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2080956541
 Transform:
@@ -57236,7 +56254,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 15
 --- !u!1 &2088058239
 GameObject:
   m_ObjectHideFlags: 0
@@ -57923,7 +56941,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2122523125
 Transform:
@@ -58034,7 +57052,6 @@ GameObject:
   - 4: {fileID: 2123348698}
   - 33: {fileID: 2123348702}
   - 23: {fileID: 2123348701}
-  - 111: {fileID: 2123348700}
   - 65: {fileID: 2123348699}
   m_Layer: 0
   m_Name: StoneFence_Post_LOD0
@@ -58068,21 +57085,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .793977976, y: 2.36420441, z: .8096838}
   m_Center: {x: 0, y: 1.1821022, z: 1.49011612e-08}
---- !u!111 &2123348700
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: f63e675fe3b6b9646beb49d9dd3e30ba,
-    type: 2}
-  m_PrefabInternal: {fileID: 398989382}
-  m_GameObject: {fileID: 2123348697}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &2123348701
 Renderer:
   m_ObjectHideFlags: 0
@@ -58150,7 +57152,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 491256, guid: 7981817cc8262ba4e9bae2d4dfafec12, type: 2}
       propertyPath: m_LocalScale.x
@@ -58525,7 +57527,7 @@ Transform:
   - {fileID: 1743549798}
   - {fileID: 1459826605}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 32
 --- !u!64 &2129907625
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -58687,7 +57689,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2135838908
 Transform:
@@ -59075,7 +58077,6 @@ GameObject:
   - 4: {fileID: 2143521127}
   - 33: {fileID: 2143521131}
   - 23: {fileID: 2143521130}
-  - 111: {fileID: 2143521129}
   - 65: {fileID: 2143521128}
   m_Layer: 0
   m_Name: StoneFence_Wall_LOD0
@@ -59109,21 +58110,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: .52028954, y: 2.3631134, z: 3}
   m_Center: {x: 0, y: 1.1815567, z: 0}
---- !u!111 &2143521129
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 49bfd2e7a273e7a4ca574b30808dd0b4,
-    type: 2}
-  m_PrefabInternal: {fileID: 689485436}
-  m_GameObject: {fileID: 2143521126}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!23 &2143521130
 Renderer:
   m_ObjectHideFlags: 0
