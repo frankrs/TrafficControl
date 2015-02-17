@@ -2289,7 +2289,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 65396841}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -6763,7 +6763,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 213191200}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -7260,6 +7260,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 969712281}
+  - {fileID: 484905704}
   m_Father: {fileID: 515845564}
   m_RootOrder: 11
 --- !u!65 &230958843
@@ -7288,7 +7289,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 969712282}
+  stopColliders:
+  - {fileID: 969712282}
+  - {fileID: 484905705}
   lightState: 1
   timerSwitch:
     minTime: 18
@@ -7355,7 +7358,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 233840800}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -7366,12 +7369,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 233840800}
-  m_LocalRotation: {x: -.500210404, y: .499789536, z: -.499789536, w: .500210404}
-  m_LocalPosition: {x: -133.699997, y: 76, z: 224}
-  m_LocalScale: {x: 3.54505014, y: 3.54504156, z: 3.54504299}
+  m_LocalRotation: {x: -.500210404, y: .499789506, z: -.499789506, w: .500210404}
+  m_LocalPosition: {x: -133.700058, y: 76.0000916, z: 224.000061}
+  m_LocalScale: {x: 3.54504991, y: 3.54504156, z: 3.54504275}
   m_Children: []
   m_Father: {fileID: 902697541}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!1001 &235534984
 Prefab:
   m_ObjectHideFlags: 0
@@ -7894,7 +7897,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 251963780}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -8281,6 +8284,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 1610202269}
+  - {fileID: 968935635}
   m_Father: {fileID: 515845564}
   m_RootOrder: 10
 --- !u!65 &264231764
@@ -8309,7 +8313,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1610202270}
+  stopColliders:
+  - {fileID: 1610202270}
+  - {fileID: 968935636}
   lightState: 0
   timerSwitch:
     minTime: 20
@@ -14164,7 +14170,7 @@ MonoBehaviour:
     stopSignMeter: {fileID: 1719045802}
     goalMeter: {fileID: 1739472866}
     gameOver:
-      errorLimit: 50
+      errorLimit: 5099
       gameOverScreen: {fileID: 0}
       crashes: {fileID: 0}
       time: {fileID: 0}
@@ -14631,6 +14637,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 394975198}
   m_GameObject: {fileID: 483545629}
   m_Mesh: {fileID: 4300000, guid: 1c81a9a4bd118bca11002b7b44295342, type: 3}
+--- !u!1 &484905703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 484905704}
+  - 65: {fileID: 484905705}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &484905704
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 484905703}
+  m_LocalRotation: {x: -2.95693103e-15, y: .707106829, z: -.707106829, w: 2.95693103e-15}
+  m_LocalPosition: {x: 157.300049, y: -92.2999496, z: 224.000061}
+  m_LocalScale: {x: 3.54505086, y: 3.54504275, z: 3.54504275}
+  m_Children: []
+  m_Father: {fileID: 230958842}
+  m_RootOrder: 1
+--- !u!65 &484905705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 484905703}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .19185558, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: .171416834, y: .82893616, z: -.383300841}
 --- !u!1 &486415969
 GameObject:
   m_ObjectHideFlags: 0
@@ -14777,6 +14823,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 1877533719}
+  - {fileID: 1489710165}
   m_Father: {fileID: 515845564}
   m_RootOrder: 7
 --- !u!65 &492873845
@@ -14805,7 +14852,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1877533720}
+  stopColliders:
+  - {fileID: 1877533720}
+  - {fileID: 1489710166}
   lightState: 0
   timerSwitch:
     minTime: 15
@@ -15219,6 +15268,46 @@ Prefab:
   m_RootGameObject: {fileID: 311502888}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &504600308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 504600309}
+  - 65: {fileID: 504600310}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &504600309
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 504600308}
+  m_LocalRotation: {x: -2.95693103e-15, y: .707106829, z: -.707106829, w: 2.95693103e-15}
+  m_LocalPosition: {x: -159.400131, y: 87.9000931, z: 224.000107}
+  m_LocalScale: {x: 3.54505086, y: 3.54504275, z: 3.54504275}
+  m_Children: []
+  m_Father: {fileID: 523835978}
+  m_RootOrder: 1
+--- !u!65 &504600310
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 504600308}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .1315732, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: -.433442473, y: .828626275, z: -.384032547}
 --- !u!1 &506503529
 GameObject:
   m_ObjectHideFlags: 0
@@ -15829,6 +15918,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 65396842}
+  - {fileID: 504600309}
   m_Father: {fileID: 515845564}
   m_RootOrder: 4
 --- !u!65 &523835979
@@ -15857,7 +15947,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 65396843}
+  stopColliders:
+  - {fileID: 65396843}
+  - {fileID: 504600310}
   lightState: 1
   timerSwitch:
     minTime: 28
@@ -16154,7 +16246,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 531880583}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -21306,6 +21398,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 586429743}
   m_GameObject: {fileID: 640215665}
   m_Mesh: {fileID: 4300000, guid: 134c4969deb1b3846ad75a0f0de3ec8a, type: 3}
+--- !u!1 &640453503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 640453504}
+  - 65: {fileID: 640453505}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &640453504
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 640453503}
+  m_LocalRotation: {x: 3.09086232e-08, y: .707106829, z: -.707106829, w: -3.09086232e-08}
+  m_LocalPosition: {x: 119.397781, y: 87.9174423, z: 224.047043}
+  m_LocalScale: {x: 3.54505014, y: 3.54504156, z: 3.54504299}
+  m_Children: []
+  m_Father: {fileID: 1355503919}
+  m_RootOrder: 1
+--- !u!65 &640453505
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 640453503}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .133482456, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: -.4342044, y: .828574896, z: -.384155244}
 --- !u!1001 &651813828
 Prefab:
   m_ObjectHideFlags: 0
@@ -22221,6 +22353,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 531880584}
+  - {fileID: 1050536291}
   m_Father: {fileID: 515845564}
   m_RootOrder: 3
 --- !u!65 &668866498
@@ -22249,7 +22382,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 531880585}
+  stopColliders:
+  - {fileID: 531880585}
+  - {fileID: 1050536292}
   lightState: 1
   timerSwitch:
     minTime: 22
@@ -23521,6 +23656,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 758156018}
+  - {fileID: 750969075}
   m_Father: {fileID: 515845564}
   m_RootOrder: 0
 --- !u!65 &704805136
@@ -23549,7 +23685,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 758156019}
+  stopColliders:
+  - {fileID: 758156019}
+  - {fileID: 750969074}
   lightState: 0
   timerSwitch:
     minTime: 39
@@ -24196,7 +24334,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 729756815}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -24490,6 +24628,46 @@ Prefab:
   m_RootGameObject: {fileID: 244428891}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &750969073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 750969075}
+  - 65: {fileID: 750969074}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &750969074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 750969073}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .0964492932, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: .221508458, y: .828032136, z: -.381348461}
+--- !u!4 &750969075
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 750969073}
+  m_LocalRotation: {x: .502557039, y: .497429818, z: -.497429818, w: -.502557039}
+  m_LocalPosition: {x: -146.539993, y: 107.599998, z: 224}
+  m_LocalScale: {x: 3.54505086, y: 3.54504299, z: 3.5450449}
+  m_Children: []
+  m_Father: {fileID: 704805135}
+  m_RootOrder: 1
 --- !u!1001 &754573491
 Prefab:
   m_ObjectHideFlags: 0
@@ -24602,7 +24780,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 758156017}
   m_LocalRotation: {x: .502557278, y: .497429609, z: -.497429609, w: -.502557278}
-  m_LocalPosition: {x: -146.520004, y: 110, z: 224}
+  m_LocalPosition: {x: -146.520081, y: 110.000092, z: 224.000107}
   m_LocalScale: {x: 3.54505014, y: 3.54504156, z: 3.54504299}
   m_Children: []
   m_Father: {fileID: 704805135}
@@ -24614,7 +24792,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 758156017}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -25800,6 +25978,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 2106251603}
+  - {fileID: 1298150609}
   m_Father: {fileID: 515845564}
   m_RootOrder: 12
 --- !u!65 &778929994
@@ -25828,7 +26007,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 2106251604}
+  stopColliders:
+  - {fileID: 2106251604}
+  - {fileID: 1298150610}
   lightState: 0
   timerSwitch:
     minTime: 7
@@ -27707,6 +27888,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 213191201}
+  - {fileID: 1324258288}
   m_Father: {fileID: 515845564}
   m_RootOrder: 13
 --- !u!65 &868491941
@@ -27735,7 +27917,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 213191202}
+  stopColliders:
+  - {fileID: 213191202}
+  - {fileID: 1324258289}
   lightState: 1
   timerSwitch:
     minTime: 21
@@ -28639,7 +28823,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 233840801}
+  stopColliders:
+  - {fileID: 1338421228}
+  - {fileID: 233840801}
   lightState: 0
   timerSwitch:
     minTime: 12
@@ -28693,6 +28879,7 @@ Transform:
   m_LocalPosition: {x: -4.39999485, y: 1.89999557, z: 9.00000095}
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
+  - {fileID: 1338421227}
   - {fileID: 233840802}
   m_Father: {fileID: 515845564}
   m_RootOrder: 5
@@ -29524,6 +29711,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 1129369584}
+  - {fileID: 1407147145}
   m_Father: {fileID: 515845564}
   m_RootOrder: 1
 --- !u!65 &922184799
@@ -29552,7 +29740,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1129369585}
+  stopColliders:
+  - {fileID: 1129369585}
+  - {fileID: 1407147146}
   lightState: 0
   timerSwitch:
     minTime: 20
@@ -30911,6 +31101,46 @@ Prefab:
   m_RootGameObject: {fileID: 1125185751}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &968935634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 968935635}
+  - 65: {fileID: 968935636}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &968935635
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 968935634}
+  m_LocalRotation: {x: .502557039, y: .497429818, z: -.497429818, w: -.502557039}
+  m_LocalPosition: {x: 132.700104, y: -75.6999893, z: 224.000061}
+  m_LocalScale: {x: 3.54505086, y: 3.54504299, z: 3.5450449}
+  m_Children: []
+  m_Father: {fileID: 264231763}
+  m_RootOrder: 1
+--- !u!65 &968935636
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 968935634}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .142899364, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: -.427865416, y: .829034925, z: -.383617103}
 --- !u!1 &969712280
 GameObject:
   m_ObjectHideFlags: 0
@@ -30946,7 +31176,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 969712280}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -33488,6 +33718,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 383686796}
   m_GameObject: {fileID: 1045669827}
   m_Mesh: {fileID: 4300000, guid: e385bcd4ac58e104f9565da8d9be00f5, type: 3}
+--- !u!1 &1050536290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1050536291}
+  - 65: {fileID: 1050536292}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1050536291
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1050536290}
+  m_LocalRotation: {x: -2.95693103e-15, y: .707106829, z: -.707106829, w: 2.95693103e-15}
+  m_LocalPosition: {x: 157.30011, y: 92.9000778, z: 224.000107}
+  m_LocalScale: {x: 3.54505086, y: 3.54504275, z: 3.54504275}
+  m_Children: []
+  m_Father: {fileID: 668866497}
+  m_RootOrder: 1
+--- !u!65 &1050536292
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1050536290}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .144468203, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: .195103139, y: .828337848, z: -.38432309}
 --- !u!1 &1051633493
 GameObject:
   m_ObjectHideFlags: 0
@@ -34459,6 +34729,46 @@ Transform:
   - {fileID: 1617800218}
   m_Father: {fileID: 1599519257}
   m_RootOrder: 7
+--- !u!1 &1099087272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1099087274}
+  - 65: {fileID: 1099087273}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1099087273
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1099087272}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .139701352, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: -.430452049, y: .828918815, z: -.382023931}
+--- !u!4 &1099087274
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1099087272}
+  m_LocalRotation: {x: -.500210345, y: .499789566, z: -.499789566, w: .500210345}
+  m_LocalPosition: {x: 145.100052, y: -110.999977, z: 224.000061}
+  m_LocalScale: {x: 3.54504991, y: 3.54504299, z: 3.54504442}
+  m_Children: []
+  m_Father: {fileID: 1593436083}
+  m_RootOrder: 1
 --- !u!1 &1099438709
 GameObject:
   m_ObjectHideFlags: 0
@@ -35277,6 +35587,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 1363189180}
+  - {fileID: 1933210263}
   m_Father: {fileID: 515845564}
   m_RootOrder: 8
 --- !u!65 &1119240930
@@ -35305,7 +35616,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1363189181}
+  stopColliders:
+  - {fileID: 1363189181}
+  - {fileID: 1933210264}
   lightState: 1
   timerSwitch:
     minTime: 24
@@ -35902,7 +36215,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1129369583}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -39049,7 +39362,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1222468016}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -41039,7 +41352,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1289329680}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -41425,6 +41738,46 @@ Prefab:
   m_RootGameObject: {fileID: 997367270}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1298150608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1298150609}
+  - 65: {fileID: 1298150610}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1298150609
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1298150608}
+  m_LocalRotation: {x: -5.46907914e-15, y: .707106829, z: -.707106829, w: 5.46907914e-15}
+  m_LocalPosition: {x: -159.400116, y: -98.3199844, z: 224.000061}
+  m_LocalScale: {x: 3.54505086, y: 3.54504275, z: 3.54504275}
+  m_Children: []
+  m_Father: {fileID: 778929993}
+  m_RootOrder: 1
+--- !u!65 &1298150610
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1298150608}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .114727311, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: -.441986412, y: .82911694, z: -.383270711}
 --- !u!1 &1301484302
 GameObject:
   m_ObjectHideFlags: 0
@@ -42260,6 +42613,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 586429743}
   m_GameObject: {fileID: 1320890323}
   m_Mesh: {fileID: 4300000, guid: 134c4969deb1b3846ad75a0f0de3ec8a, type: 3}
+--- !u!1 &1324258287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1324258288}
+  - 65: {fileID: 1324258289}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1324258288
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1324258287}
+  m_LocalRotation: {x: -.500210345, y: .499789566, z: -.499789566, w: .500210345}
+  m_LocalPosition: {x: -133.700043, y: -110.499962, z: 224.000061}
+  m_LocalScale: {x: 3.54504991, y: 3.54504299, z: 3.54504442}
+  m_Children: []
+  m_Father: {fileID: 868491940}
+  m_RootOrder: 1
+--- !u!65 &1324258289
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1324258287}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .15593268, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: -.422443777, y: .829103887, z: -.384350687}
 --- !u!1001 &1325946579
 Prefab:
   m_ObjectHideFlags: 0
@@ -43229,6 +43622,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 251963781}
+  - {fileID: 1457655687}
   m_Father: {fileID: 515845564}
   m_RootOrder: 9
 --- !u!65 &1336480668
@@ -43257,7 +43651,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 251963782}
+  stopColliders:
+  - {fileID: 251963782}
+  - {fileID: 1457655688}
   lightState: 0
   timerSwitch:
     minTime: 23
@@ -43301,6 +43697,46 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1ac8733683a36ac4c80c6c06d5a53586, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1338421226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1338421227}
+  - 65: {fileID: 1338421228}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1338421227
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338421226}
+  m_LocalRotation: {x: -.500210345, y: .499789566, z: -.499789566, w: .500210345}
+  m_LocalPosition: {x: -133.700058, y: 76.0000916, z: 224.000061}
+  m_LocalScale: {x: 3.54504991, y: 3.54504299, z: 3.54504442}
+  m_Children: []
+  m_Father: {fileID: 902697541}
+  m_RootOrder: 0
+--- !u!65 &1338421228
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338421226}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .123046182, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: -.439426273, y: .82908237, z: -.384400964}
 --- !u!1001 &1339059399
 Prefab:
   m_ObjectHideFlags: 0
@@ -44065,6 +44501,7 @@ Transform:
   m_LocalScale: {x: .282083333, y: .282083958, z: .282084078}
   m_Children:
   - {fileID: 1289329682}
+  - {fileID: 640453504}
   m_Father: {fileID: 515845564}
   m_RootOrder: 6
 --- !u!65 &1355503920
@@ -44093,7 +44530,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1289329681}
+  stopColliders:
+  - {fileID: 1289329681}
+  - {fileID: 640453505}
   lightState: 0
   timerSwitch:
     minTime: 17
@@ -44288,7 +44727,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1363189179}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -45707,6 +46146,46 @@ Prefab:
   m_RootGameObject: {fileID: 731912158}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1407147144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1407147145}
+  - 65: {fileID: 1407147146}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1407147145
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407147144}
+  m_LocalRotation: {x: -5.46907914e-15, y: .707106829, z: -.707106829, w: 5.46907914e-15}
+  m_LocalPosition: {x: -121.600067, y: 93.7001038, z: 224.000107}
+  m_LocalScale: {x: 3.54505086, y: 3.54504275, z: 3.54504275}
+  m_Children: []
+  m_Father: {fileID: 922184798}
+  m_RootOrder: 1
+--- !u!65 &1407147146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407147144}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .0715891197, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: .233979136, y: .828032255, z: -.384628683}
 --- !u!1 &1408784194
 GameObject:
   m_ObjectHideFlags: 0
@@ -47640,6 +48119,46 @@ Prefab:
   m_RootGameObject: {fileID: 482406778}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1457655686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1457655687}
+  - 65: {fileID: 1457655688}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1457655687
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1457655686}
+  m_LocalRotation: {x: -2.95693103e-15, y: .707106829, z: -.707106829, w: 2.95693103e-15}
+  m_LocalPosition: {x: -121.600052, y: -92.7999496, z: 224.000061}
+  m_LocalScale: {x: 3.54505086, y: 3.54504275, z: 3.54504275}
+  m_Children: []
+  m_Father: {fileID: 1336480667}
+  m_RootOrder: 1
+--- !u!65 &1457655688
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1457655686}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .142949566, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: .19754149, y: .829125583, z: -.383576304}
 --- !u!1001 &1457777315
 Prefab:
   m_ObjectHideFlags: 0
@@ -48303,6 +48822,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 1222468017}
+  - {fileID: 1735585329}
   m_Father: {fileID: 515845564}
   m_RootOrder: 2
 --- !u!65 &1485350806
@@ -48331,7 +48851,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1222468018}
+  stopColliders:
+  - {fileID: 1222468018}
+  - {fileID: 1735585330}
   lightState: 0
   timerSwitch:
     minTime: 27
@@ -48375,6 +48897,46 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1ac8733683a36ac4c80c6c06d5a53586, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1489710164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1489710165}
+  - 65: {fileID: 1489710166}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1489710165
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1489710164}
+  m_LocalRotation: {x: -.500210345, y: .499789566, z: -.499789566, w: .500210345}
+  m_LocalPosition: {x: 144.800064, y: 76.0000916, z: 224.000061}
+  m_LocalScale: {x: 3.54504991, y: 3.54504299, z: 3.54504442}
+  m_Children: []
+  m_Father: {fileID: 492873844}
+  m_RootOrder: 1
+--- !u!65 &1489710166
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1489710164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .17648381, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: -.413040668, y: .828966141, z: -.381220788}
 --- !u!1 &1491403723
 GameObject:
   m_ObjectHideFlags: 0
@@ -48896,6 +49458,46 @@ Prefab:
   m_RootGameObject: {fileID: 2030776159}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1501846464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1501846465}
+  - 65: {fileID: 1501846466}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1501846465
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1501846464}
+  m_LocalRotation: {x: -2.95693103e-15, y: .707106829, z: -.707106829, w: 2.95693103e-15}
+  m_LocalPosition: {x: 119.400093, y: -98.0099792, z: 224.000061}
+  m_LocalScale: {x: 3.54505086, y: 3.54504275, z: 3.54504275}
+  m_Children: []
+  m_Father: {fileID: 1915150715}
+  m_RootOrder: 1
+--- !u!65 &1501846466
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1501846464}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .143072024, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: -.429200649, y: .82908684, z: -.383255631}
 --- !u!1 &1505662653
 GameObject:
   m_ObjectHideFlags: 0
@@ -51363,7 +51965,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1562790398}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -52258,6 +52860,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 729756816}
+  - {fileID: 1099087274}
   m_Father: {fileID: 515845564}
   m_RootOrder: 15
 --- !u!65 &1593436084
@@ -52286,7 +52889,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 729756817}
+  stopColliders:
+  - {fileID: 729756817}
+  - {fileID: 1099087273}
   lightState: 1
   timerSwitch:
     minTime: 22
@@ -52985,7 +53590,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1610202268}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -57624,6 +58229,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1012390231}
   m_RootOrder: 6
+--- !u!1 &1735585328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1735585329}
+  - 65: {fileID: 1735585330}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1735585329
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1735585328}
+  m_LocalRotation: {x: .502557039, y: .497429818, z: -.497429818, w: -.502557039}
+  m_LocalPosition: {x: 132.712433, y: 109.639977, z: 224.000778}
+  m_LocalScale: {x: 3.54505086, y: 3.54504299, z: 3.5450449}
+  m_Children: []
+  m_Father: {fileID: 1485350805}
+  m_RootOrder: 1
+--- !u!65 &1735585330
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1735585328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .119387537, y: 2.59522629, z: 4.72594547}
+  m_Center: {x: -.437978595, y: .795143187, z: -.385524422}
 --- !u!1 &1736588641
 GameObject:
   m_ObjectHideFlags: 0
@@ -62395,7 +63040,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1877533718}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
@@ -63191,6 +63836,7 @@ Transform:
   m_LocalScale: {x: .282083005, y: .282083988, z: .282083988}
   m_Children:
   - {fileID: 1562790399}
+  - {fileID: 1501846465}
   m_Father: {fileID: 515845564}
   m_RootOrder: 14
 --- !u!65 &1915150716
@@ -63219,7 +63865,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  stopCollider: {fileID: 1562790400}
+  stopColliders:
+  - {fileID: 1562790400}
+  - {fileID: 1501846466}
   lightState: 1
   timerSwitch:
     minTime: 14
@@ -63535,6 +64183,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 586429743}
   m_GameObject: {fileID: 1927178505}
   m_Mesh: {fileID: 4300000, guid: 134c4969deb1b3846ad75a0f0de3ec8a, type: 3}
+--- !u!1 &1933210262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1933210263}
+  - 65: {fileID: 1933210264}
+  m_Layer: 10
+  m_Name: CubeTrafficStop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1933210263
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1933210262}
+  m_LocalRotation: {x: .502557039, y: .497429818, z: -.497429818, w: -.502557039}
+  m_LocalPosition: {x: -146.500137, y: -75.8999481, z: 224.000061}
+  m_LocalScale: {x: 3.54505086, y: 3.54504299, z: 3.5450449}
+  m_Children: []
+  m_Father: {fileID: 1119240929}
+  m_RootOrder: 1
+--- !u!65 &1933210264
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1933210262}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .187822089, y: 2.65891266, z: 4.72594547}
+  m_Center: {x: -.405661702, y: .829164088, z: -.382265955}
 --- !u!1 &1934981627
 GameObject:
   m_ObjectHideFlags: 0
@@ -69477,7 +70165,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2106251602}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .768381715, y: 2.65891266, z: 4.72594547}
