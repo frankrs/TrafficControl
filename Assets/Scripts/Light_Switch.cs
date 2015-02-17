@@ -3,11 +3,15 @@ using System.Collections;
 
 public class Light_Switch : MonoBehaviour {
 	public Animator anim;
-	public BoxCollider stopCollider;
+	public BoxCollider[] stopColliders;
 	public LightState lightState;
 	public TimerSwitch timerSwitch;
 
 	void OnDrawGizmos(){
+		if(stopColliders.Length == 0){
+			return;
+		}
+
 	switch(lightState){
 		case LightState.Red:
 		Gizmos.color = new Color(1, 0, 0, 0.5F);
@@ -17,8 +21,8 @@ public class Light_Switch : MonoBehaviour {
 		Gizmos.color = new Color(0, 1, 0, 0.5F);
 		break;
 	}
-		Gizmos.DrawCube(stopCollider.transform.position + stopCollider.center, stopCollider.size);
-		Gizmos.DrawLine(transform.position,stopCollider.transform.position + stopCollider.center);
+		Gizmos.DrawCube(stopColliders[0].transform.position + stopColliders[0].center, stopColliders[0].size);
+		Gizmos.DrawLine(transform.position,stopColliders[0].transform.position + stopColliders[0].center);
 	}
 
 
@@ -65,12 +69,16 @@ public class Light_Switch : MonoBehaviour {
 
 
 	public void RedLight(){
-		stopCollider.enabled = true;
+		foreach(BoxCollider bc in stopColliders){
+			bc.enabled = true;
+		}
 		lightState = LightState.Red;
 	}
 
 	public void GreenLight (){
-		stopCollider.enabled = false;
+		foreach(BoxCollider bc in stopColliders){
+			bc.enabled = false;
+		}
 		lightState = LightState.Green;
 	}
 
