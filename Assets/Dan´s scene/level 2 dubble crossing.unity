@@ -35689,7 +35689,7 @@ MonoBehaviour:
             Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Mainmenu menu
+          m_StringArgument: mainMenuPatch
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -43695,7 +43695,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11439178, guid: 82c01f367c9edd348b8bf907a9446654, type: 2}
       propertyPath: hudItems.gameOver.errorLimit
-      value: 20
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439166, guid: 82c01f367c9edd348b8bf907a9446654, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: mainMenuPatch
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82c01f367c9edd348b8bf907a9446654, type: 2}
@@ -50080,7 +50084,7 @@ MonoBehaviour:
     stopSignMeter: {fileID: 1896196586}
     goalMeter: {fileID: 1669948230}
     gameOver:
-      errorLimit: 20
+      errorLimit: 40
       gameOverScreen: {fileID: 709193119}
       crashes: {fileID: 1458568523}
       time: {fileID: 679562061}
