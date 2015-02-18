@@ -82,11 +82,12 @@ public class Car : MonoBehaviour {
 
 
 	void OnCollisionEnter(Collision col){
-		if(crashed){
+		Debug.Log (col);
+		if(crashed){ 
 			return;
 		}
 		if(col.collider.tag == "Car"){
-			crashed = true;
+			crashed = 		true;
 			OnCrash();
 			audio.PlayOneShot(crashSounds[Random.Range(0,crashSounds.Length)],1f);
 			foreach(WheelCollider w in wheels){

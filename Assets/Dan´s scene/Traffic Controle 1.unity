@@ -5902,7 +5902,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11418318, guid: c0cbb614230a5bd488766eae9c7c5642, type: 2}
       propertyPath: hudItems.gameOver.errorLimit
-      value: 30
+      value: 3000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c0cbb614230a5bd488766eae9c7c5642, type: 2}
@@ -12480,7 +12480,7 @@ MonoBehaviour:
     stopSignMeter: {fileID: 1478382111}
     goalMeter: {fileID: 735745761}
     gameOver:
-      errorLimit: 30
+      errorLimit: 3000
       gameOverScreen: {fileID: 1766649992}
       crashes: {fileID: 433115640}
       time: {fileID: 435742479}
