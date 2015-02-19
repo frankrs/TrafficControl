@@ -63,6 +63,54 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &112282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 412282}
+  - 146: {fileID: 14612282}
+  m_Layer: 8
+  m_Name: wheel
+  m_TagString: Car
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &112284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 412284}
+  - 146: {fileID: 14612284}
+  m_Layer: 8
+  m_Name: wheel
+  m_TagString: Car
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &112286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 412286}
+  - 146: {fileID: 14612286}
+  m_Layer: 8
+  m_Name: wheel
+  m_TagString: Car
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &112288
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,55 +204,7 @@ GameObject:
   - 4: {fileID: 423796}
   - 146: {fileID: 14623796}
   m_Layer: 8
-  m_Name: FR
-  m_TagString: Car
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &123798
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 423798}
-  - 146: {fileID: 14623798}
-  m_Layer: 8
-  m_Name: FL
-  m_TagString: Car
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &123800
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 423800}
-  - 146: {fileID: 14623800}
-  m_Layer: 8
-  m_Name: RL
-  m_TagString: Car
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &123802
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 423802}
-  - 146: {fileID: 14623802}
-  m_Layer: 8
-  m_Name: RR
+  m_Name: wheel
   m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217,7 +217,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 103004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .790000021, z: 0}
+  m_LocalPosition: {x: 0, y: .790000021, z: .199000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 403972}
@@ -248,19 +248,55 @@ Transform:
   - {fileID: 403006}
   - {fileID: 403974}
   m_Father: {fileID: 412294}
-  m_RootOrder: 8
+  m_RootOrder: 5
 --- !u!4 &403974
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 103974}
-  m_LocalRotation: {x: -.06532377, y: 0, z: 0, w: .997864127}
-  m_LocalPosition: {x: 0, y: .790000021, z: -1.63}
+  m_LocalRotation: {x: .00234379037, y: .00332068861, z: -.00350416894, w: .999985635}
+  m_LocalPosition: {x: 0, y: .649999976, z: -1.65000153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 403972}
   m_RootOrder: 2
+--- !u!4 &412282
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.11099994, y: .199000001, z: 2.03299999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 412294}
+  m_RootOrder: 4
+--- !u!4 &412284
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.11000001, y: .200000003, z: -1.69000006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 412294}
+  m_RootOrder: 6
+--- !u!4 &412286
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112286}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.01600003, y: .200000003, z: -1.69000006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 412294}
+  m_RootOrder: 7
 --- !u!4 &412288
 Transform:
   m_ObjectHideFlags: 1
@@ -292,7 +328,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 112292}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.12, z: 1.88999999}
+  m_LocalPosition: {x: 0, y: 1.23000002, z: 2.00999999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 412294}
@@ -311,11 +347,11 @@ Transform:
   - {fileID: 412288}
   - {fileID: 412292}
   - {fileID: 412296}
-  - {fileID: 423796}
-  - {fileID: 423798}
-  - {fileID: 423800}
-  - {fileID: 423802}
+  - {fileID: 412282}
   - {fileID: 403972}
+  - {fileID: 412284}
+  - {fileID: 412286}
+  - {fileID: 423796}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &412296
@@ -325,7 +361,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 112296}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.20000005, z: -2.50099993}
+  m_LocalPosition: {x: 0, y: 1.20000005, z: -3.00500011}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 412294}
@@ -337,47 +373,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .79400003, y: .342999995, z: 1.62}
+  m_LocalPosition: {x: -1.01499999, y: .199000001, z: 2.03299999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 412294}
-  m_RootOrder: 4
---- !u!4 &423798
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 123798}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.805999994, y: .342999995, z: 1.62}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 412294}
-  m_RootOrder: 5
---- !u!4 &423800
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 123800}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.805999994, y: .342999995, z: -1.37699997}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 412294}
-  m_RootOrder: 6
---- !u!4 &423802
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 123802}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .800000012, y: .342999995, z: -1.37699997}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 412294}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!23 &2312288
 Renderer:
   m_ObjectHideFlags: 1
@@ -457,8 +457,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.80999994, y: .79228878, z: 1.68028474}
-  m_Center: {x: 0, y: -.103855669, z: 1.40753937}
+  m_Size: {x: 2.1400001, y: .79228878, z: 1.91924691}
+  m_Center: {x: 0, y: -.103855669, z: 1.52701318}
 --- !u!65 &6503006
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -469,8 +469,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.80999994, y: 1.25078106, z: 1.62950146}
-  m_Center: {x: 0, y: .12539047, z: .536170661}
+  m_Size: {x: 2.21000004, y: 1.46323013, z: 2.01993823}
+  m_Center: {x: 0, y: .231615007, z: .340957344}
 --- !u!65 &6503974
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -481,8 +481,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46000004, y: .7937603, z: .967285991}
-  m_Center: {x: 0, y: -.10311991, z: -.0565487146}
+  m_Size: {x: 1.46000004, y: .7937603, z: 1.67482734}
+  m_Center: {x: 0, y: -.103118934, z: -.410290033}
 --- !u!65 &6512292
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -608,6 +608,87 @@ MonoBehaviour:
       tangentMode: 1
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!146 &14612282
+WheelCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112282}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: .389999986
+  m_SuspensionDistance: .100000001
+  m_SuspensionSpring:
+    spring: 1
+    damper: 0
+    targetPosition: 0
+  m_Mass: 1
+  m_ForwardFriction:
+    extremumSlip: 1
+    extremumValue: 20000
+    asymptoteSlip: 2
+    asymptoteValue: 10000
+    stiffnessFactor: 1
+  m_SidewaysFriction:
+    extremumSlip: 1
+    extremumValue: 20000
+    asymptoteSlip: 2
+    asymptoteValue: 10000
+    stiffnessFactor: 1
+  m_Enabled: 1
+--- !u!146 &14612284
+WheelCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112284}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: .389999986
+  m_SuspensionDistance: .100000001
+  m_SuspensionSpring:
+    spring: 1
+    damper: 0
+    targetPosition: 0
+  m_Mass: 1
+  m_ForwardFriction:
+    extremumSlip: 1
+    extremumValue: 20000
+    asymptoteSlip: 2
+    asymptoteValue: 10000
+    stiffnessFactor: 1
+  m_SidewaysFriction:
+    extremumSlip: 1
+    extremumValue: 20000
+    asymptoteSlip: 2
+    asymptoteValue: 10000
+    stiffnessFactor: 1
+  m_Enabled: 1
+--- !u!146 &14612286
+WheelCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112286}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: .389999986
+  m_SuspensionDistance: .100000001
+  m_SuspensionSpring:
+    spring: 1
+    damper: 0
+    targetPosition: 0
+  m_Mass: 1
+  m_ForwardFriction:
+    extremumSlip: 1
+    extremumValue: 20000
+    asymptoteSlip: 2
+    asymptoteValue: 10000
+    stiffnessFactor: 1
+  m_SidewaysFriction:
+    extremumSlip: 1
+    extremumValue: 20000
+    asymptoteSlip: 2
+    asymptoteValue: 10000
+    stiffnessFactor: 1
+  m_Enabled: 1
 --- !u!146 &14623796
 WheelCollider:
   m_ObjectHideFlags: 1
@@ -615,88 +696,7 @@ WheelCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 123796}
   m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: .360000014
-  m_SuspensionDistance: .100000001
-  m_SuspensionSpring:
-    spring: 1
-    damper: 0
-    targetPosition: 0
-  m_Mass: 1
-  m_ForwardFriction:
-    extremumSlip: 1
-    extremumValue: 20000
-    asymptoteSlip: 2
-    asymptoteValue: 10000
-    stiffnessFactor: 1
-  m_SidewaysFriction:
-    extremumSlip: 1
-    extremumValue: 20000
-    asymptoteSlip: 2
-    asymptoteValue: 10000
-    stiffnessFactor: 1
-  m_Enabled: 1
---- !u!146 &14623798
-WheelCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 123798}
-  m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: .360000014
-  m_SuspensionDistance: .100000001
-  m_SuspensionSpring:
-    spring: 1
-    damper: 0
-    targetPosition: 0
-  m_Mass: 1
-  m_ForwardFriction:
-    extremumSlip: 1
-    extremumValue: 20000
-    asymptoteSlip: 2
-    asymptoteValue: 10000
-    stiffnessFactor: 1
-  m_SidewaysFriction:
-    extremumSlip: 1
-    extremumValue: 20000
-    asymptoteSlip: 2
-    asymptoteValue: 10000
-    stiffnessFactor: 1
-  m_Enabled: 1
---- !u!146 &14623800
-WheelCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 123800}
-  m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: .360000014
-  m_SuspensionDistance: .100000001
-  m_SuspensionSpring:
-    spring: 1
-    damper: 0
-    targetPosition: 0
-  m_Mass: 1
-  m_ForwardFriction:
-    extremumSlip: 1
-    extremumValue: 20000
-    asymptoteSlip: 2
-    asymptoteValue: 10000
-    stiffnessFactor: 1
-  m_SidewaysFriction:
-    extremumSlip: 1
-    extremumValue: 20000
-    asymptoteSlip: 2
-    asymptoteValue: 10000
-    stiffnessFactor: 1
-  m_Enabled: 1
---- !u!146 &14623802
-WheelCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 123802}
-  m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: .360000014
+  m_Radius: .389999986
   m_SuspensionDistance: .100000001
   m_SuspensionSpring:
     spring: 1
