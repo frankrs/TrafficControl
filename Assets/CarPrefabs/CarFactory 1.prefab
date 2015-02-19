@@ -44,6 +44,8 @@ MonoBehaviour:
   - {fileID: 112294, guid: 3c4e8ae6c3731f543941c3d5de4e90dd, type: 2}
   - {fileID: 116738, guid: 63915d92d8747a840a7c1208cbaa99be, type: 2}
   - {fileID: 162940, guid: fefad0b153bbda845ba64ad14eda95b4, type: 2}
+  - {fileID: 106680, guid: 9a4c68b94708c004c80306991ce17ae9, type: 2}
+  - {fileID: 193776, guid: 8ea5d6d1d0129e847b14d1c574594946, type: 2}
   minGenTime: 6
   maxGenTime: 9
   carLayer:
