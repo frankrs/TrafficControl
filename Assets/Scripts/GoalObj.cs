@@ -8,7 +8,7 @@ public class GoalObj : MonoBehaviour {
 
 	void OnTriggerEnter (Collider col) {
 		if(col.tag == "Car"){
-			col.SendMessage("OnGoal");
+			col.SendMessageUpwards("OnGoal");
 			OnGoal();
 		}
 	}
