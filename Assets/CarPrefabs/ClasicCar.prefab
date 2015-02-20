@@ -254,7 +254,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 116738}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 352.200012, y: -.00999999978, z: 80.5999985}
+  m_LocalPosition: {x: 352.200012, y: 0, z: 80.5999985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 416734}
@@ -581,7 +581,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
   rayShoot: {fileID: 416740}
-  reactionDist: 16
+  reactionDist: 8
   stopLayer:
     serializedVersion: 2
     m_Bits: 5120
