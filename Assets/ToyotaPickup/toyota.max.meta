@@ -1,26 +1,24 @@
 fileFormatVersion: 2
-guid: b60e63387bbe74a638a7b1e1c4e70b99
+guid: 11bc22fe4021ad5489aaff2b6f29d13b
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: utd_car1_glass
-    100002: utd_car1
-    100004: Particle_View_01
-    100006: //RootNode
-    400000: utd_car1_glass
-    400002: utd_car1
-    400004: Particle_View_01
-    400006: //RootNode
-    2300000: utd_car1_glass
-    2300002: utd_car1
-    3300000: utd_car1_glass
-    3300002: utd_car1
-    4300000: utd_car1
-    4300002: utd_car1_glass
-    11100000: //RootNode
+    100000: //RootNode
+    100002: toyota
+    100004: wheels
+    400000: //RootNode
+    400002: toyota
+    400004: wheels
+    2300000: toyota
+    2300002: wheels
+    3300000: toyota
+    3300002: wheels
+    4300000: wheels
+    4300002: toyota
+    9500000: //RootNode
   materials:
     importMaterials: 1
-    materialName: 3
+    materialName: 0
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
@@ -37,14 +35,14 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1.25
+    globalScale: .0350000001
     meshCompression: 0
     addColliders: 0
-    importBlendShapes: 1
+    importBlendShapes: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    optimizeMeshForGPU: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -53,8 +51,8 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
-    normalImportMode: 1
-    tangentImportMode: 1
+    normalImportMode: 0
+    tangentImportMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -69,6 +67,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
   additionalBone: 0
   userData: 

@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: f86cd8d40529e2e4dbb3e5ed64bb3845
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Box01
+    100002: Box02
+    100004: Box04
+    100006: Box05
+    100008: Camera01
+    100010: Camera01.Target
+    100012: camera_dummy
+    100014: camera_path
+    100016: DELOREAN
+    100018: //RootNode
+    100020: i_center
+    100022: i_chair1
+    100024: i_chair2
+    100026: i_gauges
+    100028: i_pole
+    100030: i_wheel
+    100032: i_wheel 1
+    100034: interior
+    100036: wheel1
+    100038: wheel2_
+    100040: wheel3_
+    100042: wheel4_
+    100044: window grid
+    400000: Box01
+    400002: Box02
+    400004: Box04
+    400006: Box05
+    400008: Camera01
+    400010: Camera01.Target
+    400012: camera_dummy
+    400014: camera_path
+    400016: DELOREAN
+    400018: //RootNode
+    400020: i_center
+    400022: i_chair1
+    400024: i_chair2
+    400026: i_gauges
+    400028: i_pole
+    400030: i_wheel
+    400032: i_wheel 1
+    400034: interior
+    400036: wheel1
+    400038: wheel2_
+    400040: wheel3_
+    400042: wheel4_
+    400044: window grid
+    2300000: Box01
+    2300002: Box02
+    2300004: Box04
+    2300006: Box05
+    2300008: DELOREAN
+    2300010: i_center
+    2300012: i_chair1
+    2300014: i_chair2
+    2300016: i_gauges
+    2300018: i_pole
+    2300020: i_wheel 1
+    2300022: interior
+    2300024: wheel1
+    2300026: wheel2_
+    2300028: wheel3_
+    2300030: wheel4_
+    2300032: window grid
+    3300000: Box01
+    3300002: Box02
+    3300004: Box04
+    3300006: Box05
+    3300008: DELOREAN
+    3300010: i_center
+    3300012: i_chair1
+    3300014: i_chair2
+    3300016: i_gauges
+    3300018: i_pole
+    3300020: i_wheel 1
+    3300022: interior
+    3300024: wheel1
+    3300026: wheel2_
+    3300028: wheel3_
+    3300030: wheel4_
+    3300032: window grid
+    4300000: wheel1
+    4300002: window grid
+    4300004: wheel3_
+    4300006: wheel2_
+    4300008: wheel4_
+    4300010: DELOREAN
+    4300012: interior
+    4300014: i_chair1
+    4300016: i_gauges
+    4300018: i_center
+    4300020: i_chair2
+    4300022: Box01
+    4300024: Box02
+    4300026: Box04
+    4300028: Box05
+    4300030: i_wheel
+    4300032: i_pole
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .135000005
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
