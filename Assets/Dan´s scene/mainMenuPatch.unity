@@ -983,7 +983,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: .519999981
-  m_Text: "welcome to traffic controle simulator>\n\nyour job is to sort out the mess
+  m_Text: "welcome to traffic control simulator>\n\nyour job is to sort out the mess
     with \nthe traffic lights after they have gone haywire>\n\nclick on a traffic
     light to\n make them change color<\nbut keep an eye out for they will change at
     random>\n\nto clear a crash simple click on the crashed cars> \n\ncars will hunk
@@ -1686,7 +1686,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1573264903}
   m_Direction: 3
   m_Value: 1
-  m_Size: .394787461
+  m_Size: .394787639
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2542,7 +2542,7 @@ RectTransform:
   m_Father: {fileID: 1401560464}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: .394787431}
   m_AnchoredPosition: {x: .000192165375, y: 0}
   m_SizeDelta: {x: 86, y: 0}
   m_Pivot: {x: .5, y: .5}
