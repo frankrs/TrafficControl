@@ -594,7 +594,6 @@ GameObject:
   - 4: {fileID: 18176482}
   - 33: {fileID: 18176485}
   - 23: {fileID: 18176484}
-  - 65: {fileID: 18176483}
   m_Layer: 0
   m_Name: Street1Lane90m
   m_TagString: Untagged
@@ -614,18 +613,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 43
---- !u!65 &18176483
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 18176481}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 20.699995, y: 90.0000153, z: .300000012}
-  m_Center: {x: 9.53674316e-07, y: 1.90734863e-06, z: .14999935}
 --- !u!23 &18176484
 Renderer:
   m_ObjectHideFlags: 0
@@ -11410,6 +11397,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 11439178, guid: 82c01f367c9edd348b8bf907a9446654, type: 2}
+      propertyPath: hudItems.gameOver.errorLimit
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82c01f367c9edd348b8bf907a9446654, type: 2}
   m_RootGameObject: {fileID: 1788436482}
@@ -13667,7 +13658,6 @@ GameObject:
   - 4: {fileID: 459515015}
   - 33: {fileID: 459515018}
   - 23: {fileID: 459515017}
-  - 65: {fileID: 459515016}
   m_Layer: 0
   m_Name: Street1Lane90m
   m_TagString: Untagged
@@ -13687,18 +13677,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 39
---- !u!65 &459515016
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 459515014}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 20.699995, y: 90.0000153, z: .300000012}
-  m_Center: {x: 9.53674316e-07, y: 1.90734863e-06, z: .14999935}
 --- !u!23 &459515017
 Renderer:
   m_ObjectHideFlags: 0
@@ -16810,7 +16788,6 @@ GameObject:
   - 4: {fileID: 584862637}
   - 33: {fileID: 584862640}
   - 23: {fileID: 584862639}
-  - 65: {fileID: 584862638}
   m_Layer: 0
   m_Name: Street1Lane90m
   m_TagString: Untagged
@@ -16830,18 +16807,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 40
---- !u!65 &584862638
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 584862636}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 20.699995, y: 90.0000153, z: .300000012}
-  m_Center: {x: 9.53674316e-07, y: 1.90734863e-06, z: .14999935}
 --- !u!23 &584862639
 Renderer:
   m_ObjectHideFlags: 0
@@ -21169,7 +21134,6 @@ GameObject:
   - 4: {fileID: 806500661}
   - 33: {fileID: 806500664}
   - 23: {fileID: 806500663}
-  - 65: {fileID: 806500662}
   m_Layer: 0
   m_Name: Street1Lane90m
   m_TagString: Untagged
@@ -21189,18 +21153,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 42
---- !u!65 &806500662
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 806500660}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 20.7000008, y: 90.0000381, z: .300000012}
-  m_Center: {x: -2.95639038e-05, y: -5.72204544e-06, z: .14999935}
 --- !u!23 &806500663
 Renderer:
   m_ObjectHideFlags: 0
@@ -26105,7 +26057,6 @@ GameObject:
   - 4: {fileID: 1016794969}
   - 33: {fileID: 1016794972}
   - 23: {fileID: 1016794971}
-  - 65: {fileID: 1016794970}
   m_Layer: 0
   m_Name: Street1Lane90m
   m_TagString: Untagged
@@ -26125,18 +26076,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 38
---- !u!65 &1016794970
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1016794968}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 20.699995, y: 90.0000153, z: .300000012}
-  m_Center: {x: 9.53674316e-07, y: 1.90734863e-06, z: .14999935}
 --- !u!23 &1016794971
 Renderer:
   m_ObjectHideFlags: 0
@@ -34832,7 +34771,6 @@ GameObject:
   - 4: {fileID: 1352191746}
   - 33: {fileID: 1352191749}
   - 23: {fileID: 1352191748}
-  - 65: {fileID: 1352191747}
   m_Layer: 0
   m_Name: Street1Lane90m
   m_TagString: Untagged
@@ -34852,18 +34790,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 41
---- !u!65 &1352191747
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1352191745}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 20.7000008, y: 90.0000381, z: .300000012}
-  m_Center: {x: -2.95639038e-05, y: 1.90734909e-06, z: .14999935}
 --- !u!23 &1352191748
 Renderer:
   m_ObjectHideFlags: 0
@@ -51825,6 +51751,7 @@ GameObject:
   - 33: {fileID: 2028841583}
   - 64: {fileID: 2028841582}
   - 23: {fileID: 2028841581}
+  - 65: {fileID: 2028841585}
   m_Layer: 0
   m_Name: terrain level 2
   m_TagString: Untagged
@@ -51884,6 +51811,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
+--- !u!65 &2028841585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2028841580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 17.2165928, y: 1.64182925, z: 13.4357939}
+  m_Center: {x: .956378579, y: -.820914626, z: -.352633059}
 --- !u!1001 &2030879729
 Prefab:
   m_ObjectHideFlags: 0
