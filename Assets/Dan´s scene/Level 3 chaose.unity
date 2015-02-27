@@ -5258,7 +5258,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: 3
     m_Strength: 1
     m_Bias: 0
@@ -30112,7 +30112,7 @@ Renderer:
   m_LightmapIndex: 0
   m_LightmapTilingOffset: {x: .598632812, y: .598632812, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 10ec000060d42a24d9b17acb52bfc165, type: 2}
+  - {fileID: 2100000, guid: 465da50bb53defb4991491d569cbf633, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -38613,7 +38613,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_BackGroundColor: {r: .474509805, g: .513725519, b: .196078435, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: -0
@@ -45035,7 +45035,7 @@ Transform:
   m_PrefabInternal: {fileID: 1848227787}
   m_GameObject: {fileID: 1713731421}
   m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106829}
-  m_LocalPosition: {x: 461.440002, y: -.0899999738, z: 187.299988}
+  m_LocalPosition: {x: 461.440002, y: -.0799999982, z: 187.369995}
   m_LocalScale: {x: 1.52823138, y: 1.52823102, z: 1.52823114}
   m_Children: []
   m_Father: {fileID: 0}
@@ -46796,6 +46796,7 @@ MonoBehaviour:
   carLayer:
     serializedVersion: 2
     m_Bits: 512
+  wreckerSound: {fileID: 8300000, guid: 16b7792b8e18a3a49a8eb061c39a6eef, type: 3}
 --- !u!92 &1786619605
 Behaviour:
   m_ObjectHideFlags: 0
@@ -48339,11 +48340,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a4307f559b4ce6b48997601476f11a8f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.0899999738
+      value: -.0799999982
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a4307f559b4ce6b48997601476f11a8f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 187.299988
+      value: 187.369995
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a4307f559b4ce6b48997601476f11a8f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -53320,6 +53321,10 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11439176, guid: 82c01f367c9edd348b8bf907a9446654, type: 2}
+      propertyPath: wreckerSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 16b7792b8e18a3a49a8eb061c39a6eef, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82c01f367c9edd348b8bf907a9446654, type: 2}
   m_RootGameObject: {fileID: 1786619599}

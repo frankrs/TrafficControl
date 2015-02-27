@@ -4,6 +4,7 @@ using System.Collections;
 public class Wrecker : MonoBehaviour {
 
 	public LayerMask carLayer;
+	public AudioClip wreckerSound;
 
 	//private 
 	
@@ -14,8 +15,9 @@ public class Wrecker : MonoBehaviour {
 //#else
 		if(Input.GetMouseButtonDown(0)){
 			RaycastHit hit;
-			if(Physics.Raycast(Camera.main.ScreenPointToRay(new Vector3(Input.mousePosition.x,Input.mousePosition.y,0f)),out hit,Mathf.Infinity,carLayer)){
+			if(Physics.SphereCast(Camera.main.ScreenPointToRay(new Vector3(Input.mousePosition.x,Input.mousePosition.y,0f)),1f,out hit,Mathf.Infinity,carLayer)){
 				hit.collider.SendMessageUpwards("OnWrecker");
+				audio.PlayOneShot(wreckerSound);
 			 }
 		}
 

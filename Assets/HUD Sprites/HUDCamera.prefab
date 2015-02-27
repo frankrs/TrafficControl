@@ -1288,6 +1288,7 @@ MonoBehaviour:
   carLayer:
     serializedVersion: 2
     m_Bits: 512
+  wreckerSound: {fileID: 8300000, guid: 16b7792b8e18a3a49a8eb061c39a6eef, type: 3}
 --- !u!114 &11462364
 MonoBehaviour:
   m_ObjectHideFlags: 1
