@@ -491,7 +491,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &198135275
 RectTransform:
   m_ObjectHideFlags: 0
@@ -986,12 +986,11 @@ MonoBehaviour:
   m_Text: "welcome to traffic control simulator>\n\nyour job is to sort out the mess
     with \nthe traffic lights after they have gone haywire>\n\nclick on a traffic
     light to\n make them change color<\nbut keep an eye out for they will change at
-    random>\n\nto clear a crash simple click on the crashed cars> \n\ncars will hunk
-    there horns if they are \nwhaiting to long>\n\na crash equals minus five points
+    random>\n\nto clear a crash simply click on the crashed cars> \n\ncars will honk
+    there horns if they are \nwaiting too long>\n\na crash equals minus five points
     per car>\n\na jam equals minus one point per horn sound>\n\nkeep up as long as
-    you can to set the highest score>\nyou can post your hi score\nto see who is the
-    best traffic controler>\n\nif you cause to many crashes\n or traffic jams it's
-    \ngame over>"
+    you can to set the highest score>\n\nif you cause to many crashes\n or traffic
+    jams it's \ngame over>"
 --- !u!222 &486418222
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1686,7 +1685,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1573264903}
   m_Direction: 3
   m_Value: 1
-  m_Size: .394787639
+  m_Size: .39478752
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
