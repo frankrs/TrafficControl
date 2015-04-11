@@ -11,7 +11,7 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: PixelXYZ
-  productName: TrafficControlSim
+  productName: Traffic Control Simulator
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -26,7 +26,7 @@ PlayerSettings:
   m_UseDX11: 0
   m_Stereoscopic3D: 0
   iosShowActivityIndicatorOnLoading: -1
-  androidShowActivityIndicatorOnLoading: 0
+  androidShowActivityIndicatorOnLoading: 2
   displayResolutionDialog: 1
   allowedAutorotateToPortrait: 1
   allowedAutorotateToPortraitUpsideDown: 1
@@ -67,7 +67,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  iPhoneBundleIdentifier: com.PixelXYZ.TrafficControlSim
+  iPhoneBundleIdentifier: com.PixelXYZ.TrafficControlSimulator
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: d18616eb235ffb3499857c2854b57458
@@ -80,7 +80,7 @@ PlayerSettings:
   iPhoneStrippingLevel: 3
   iPhoneScriptCallOptimization: 0
   ForceInternetPermission: 0
-  ForceSDCardPermission: 0
+  ForceSDCardPermission: 1
   CreateWallpaper: 0
   APKExpansionFiles: 0
   StripUnusedMeshComponents: 1
@@ -109,7 +109,7 @@ PlayerSettings:
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: 796c102feca58ab42bdec03798fea497, type: 3}
+    - m_Icon: {fileID: 2800000, guid: 619ba440228ccf04aab830631113b22c, type: 3}
       m_Size: 128
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone

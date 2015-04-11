@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour {
 	public GameSounds gameSounds;
 
 
+	public delegate void Mute();
+	public static event Mute OnMute;
+
+
 
 
 //	void Start (){
@@ -109,6 +113,12 @@ public class GameManager : MonoBehaviour {
 		PlayerPrefs.SetInt("HiScore",Stats.Goals);
 		hudItems.gameOver.HiScoreSign.SetActive(true);
 		hudItems.gameOver.HiScoreText.text = Stats.Goals.ToString();
+	}
+
+
+
+	public void MuteButton(){
+		OnMute();
 	}
 
 

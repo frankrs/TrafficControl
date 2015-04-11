@@ -11463,6 +11463,10 @@ Prefab:
       propertyPath: wreckerSound
       value: 
       objectReference: {fileID: 8300000, guid: 16b7792b8e18a3a49a8eb061c39a6eef, type: 3}
+    - target: {fileID: 139220, guid: 82c01f367c9edd348b8bf907a9446654, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82c01f367c9edd348b8bf907a9446654, type: 2}
   m_RootGameObject: {fileID: 1788436482}
@@ -28491,6 +28495,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1095846591}
   - 82: {fileID: 1095846592}
+  - 114: {fileID: 1095846593}
   m_Layer: 0
   m_Name: Music Player
   m_TagString: Untagged
@@ -28568,6 +28573,17 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &1095846593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1095846590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 928fc4ceb25ad4542a54ee9c801bbb3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1095928067
 GameObject:
   m_ObjectHideFlags: 0
