@@ -124,7 +124,7 @@ public class Car : MonoBehaviour {
 			Destroy(gameObject);
 		}
 		else{
-			AudioSource.PlayClipAtPoint(a[1],new Vector3(0,0,0));
+			audio.PlayOneShot(a[1]);
 		}
 	}
 
