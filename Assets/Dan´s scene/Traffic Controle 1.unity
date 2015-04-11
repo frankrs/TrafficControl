@@ -2195,6 +2195,12 @@ Prefab:
       propertyPath: m_FontData.m_BestFit
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11462394, guid: c0cbb614230a5bd488766eae9c7c5642, type: 2}
+      propertyPath: m_Text
+      value: '   MAIN MENUdr
+
+'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c0cbb614230a5bd488766eae9c7c5642, type: 2}
   m_RootGameObject: {fileID: 1632817022}
@@ -4427,7 +4433,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '   MAINMENUdr
+  m_Text: '   MAIN MENUdr
 
 '
 --- !u!222 &505755054
