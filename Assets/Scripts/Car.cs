@@ -118,9 +118,13 @@ public class Car : MonoBehaviour {
 	}
 
 
-	void OnWrecker (){
+	void OnWrecker (AudioClip[] a){
 		if(crashed){
-		Destroy(gameObject);
+			AudioSource.PlayClipAtPoint(a[0],new Vector3(0,0,0));
+			Destroy(gameObject);
+		}
+		else{
+			AudioSource.PlayClipAtPoint(a[1],new Vector3(0,0,0));
 		}
 	}
 

@@ -7,6 +7,8 @@ public class Light_Switch : MonoBehaviour {
 	public LightState lightState;
 	public TimerSwitch timerSwitch;
 
+	public AudioClip ding;
+
 	void OnDrawGizmos(){
 		if(stopColliders.Length == 0){
 			return;
@@ -47,6 +49,9 @@ public class Light_Switch : MonoBehaviour {
 
 
 	void OnMouseDown () {
+
+		AudioSource.PlayClipAtPoint(ding,new Vector3(0,0,0));
+
 		SwitchLights();
 		StopCoroutine("RandomSwitch");
 		StartCoroutine("RandomSwitch");

@@ -12,7 +12,7 @@ public class MusicBox : MonoBehaviour {
 	}
 
 
-	void OnAwake(){
+	void Awake(){
 		if(StaticClasses.mute){
 			audio.Stop();
 		}
@@ -25,7 +25,7 @@ public class MusicBox : MonoBehaviour {
 
 
 
-	void OnMute(){
+	public void OnMute(){
 		if(StaticClasses.mute){
 			StaticClasses.mute = false;
 			audio.Play();

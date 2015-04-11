@@ -42,10 +42,17 @@ public class GameManager : MonoBehaviour {
 	}
 
 
-	void OnLevelWasLoaded(){
-		Stats.ResetStats();
-		UnPause();
-	}
+//	void OnLevelWasLoaded(){
+//		Stats.ResetStats();
+//		UnPause();
+//	}
+
+
+		void Start(){
+			Stats.ResetStats();
+			UnPause();
+		}
+
 
 	// Called whenever car crashes
 	void Crash () {
