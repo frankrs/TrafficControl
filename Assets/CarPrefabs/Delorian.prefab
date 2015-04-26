@@ -45,6 +45,7 @@ GameObject:
   - 54: {fileID: 5406690}
   - 114: {fileID: 11406690}
   - 82: {fileID: 8206690}
+  - 114: {fileID: 11438972}
   m_Layer: 9
   m_Name: Delorian
   m_TagString: Car
@@ -738,6 +739,17 @@ MonoBehaviour:
       tangentMode: 1
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &11438972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1768ea7bd44ca8b4c93eb1125a016bf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!146 &14662904
 WheelCollider:
   m_ObjectHideFlags: 1

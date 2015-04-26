@@ -32,7 +32,6 @@ public class Car : MonoBehaviour {
 
 	public bool crashed = false;
 
-
 	public AnimationCurve brakePerDistance;
 
 	private Quaternion startRot;
