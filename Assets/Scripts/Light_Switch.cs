@@ -9,6 +9,16 @@ public class Light_Switch : MonoBehaviour {
 
 	public AudioClip ding;
 
+
+
+	public delegate void LightChange();
+	public static event LightChange OnLightChange;
+
+
+
+
+
+
 	void OnDrawGizmos(){
 		if(stopColliders.Length == 0){
 			return;
@@ -78,6 +88,7 @@ public class Light_Switch : MonoBehaviour {
 			bc.enabled = true;
 		}
 		lightState = LightState.Red;
+		OnLightChange();
 	}
 
 	public void GreenLight (){
@@ -85,6 +96,7 @@ public class Light_Switch : MonoBehaviour {
 			bc.enabled = false;
 		}
 		lightState = LightState.Green;
+		OnLightChange();
 	}
 
 }

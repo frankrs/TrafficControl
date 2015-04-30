@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using ChartboostSDK;
 
 public class GameManager : MonoBehaviour {
 
@@ -129,6 +130,23 @@ public class GameManager : MonoBehaviour {
 	}
 
 
+	public void Achievment (string ach){
+		Pause();
+		audio.PlayOneShot(gameSounds.achievment);
+		hudItems.achievmentLabel.text = ach;
+		hudItems.achievmentPannel.SetActive(true);
+
+	}
+
+
+	public void AchievmentResume () {
+		//hudItems.achievmentPannel.SetActive(false);
+		if(Chartboost.hasInterstitial(CBLocation.Default)){
+			Chartboost.showInterstitial(CBLocation.Default);
+		}
+		UnPause();
+	}
+
 }
 
 
@@ -136,6 +154,8 @@ public class GameManager : MonoBehaviour {
 public class HudItems{
 	public Text stopSignMeter;
 	public Text goalMeter;
+	public GameObject achievmentPannel;
+	public Text achievmentLabel;
 	public GameOver gameOver;
 }
 
@@ -160,6 +180,7 @@ public static class Stats{
 [System.Serializable]
 public class GameSounds{
 	public AudioClip honk;
+	public AudioClip achievment;
 }
 
 [System.Serializable]
@@ -173,4 +194,7 @@ public class GameOver{
 	public GameObject HiScoreSign;
 	public Text HiScoreText;
 }
+
+//[System.Serializable]
+//public class 
 
