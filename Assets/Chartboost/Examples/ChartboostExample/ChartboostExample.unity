@@ -24,7 +24,7 @@ RenderSettings:
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
-  m_SpotCookie: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_ObjectHideFlags: 0
 --- !u!127 &3
 LevelGameManager:
@@ -38,7 +38,7 @@ LightmapSettings:
   m_BakedColorSpace: 0
   m_UseDualLightmapsInForward: 0
   m_LightmapEditorSettings:
-    m_Resolution: 50
+    m_Resolution: 1
     m_LastUsedResolution: 0
     m_TextureWidth: 1024
     m_TextureHeight: 1024
@@ -53,10 +53,10 @@ LightmapSettings:
     m_FinalGatherGradientThreshold: 0
     m_FinalGatherInterpolationPoints: 15
     m_AOAmount: 0
-    m_AOMaxDistance: .100000001
+    m_AOMaxDistance: 1
     m_AOContrast: 1
     m_LODSurfaceMappingDistance: 1
-    m_Padding: 0
+    m_Padding: 2
     m_TextureCompression: 0
     m_LockAtlas: 0
 --- !u!1 &7
@@ -252,6 +252,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 11}
   m_RootOrder: 1
+--- !u!1 &919646984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+  m_PrefabInternal: {fileID: 2133996080}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 919646986}
+  - 114: {fileID: 919646985}
+  m_Layer: 0
+  m_Name: Chartboost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &919646985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a,
+    type: 2}
+  m_PrefabInternal: {fileID: 2133996080}
+  m_GameObject: {fileID: 919646984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3383cb82fbc2e49aab8618d3465e9246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &919646986
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
+  m_PrefabInternal: {fileID: 2133996080}
+  m_GameObject: {fileID: 919646984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!1 &1050576370
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,46 +339,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 11}
   m_RootOrder: 0
---- !u!1 &1554884677
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
-  m_PrefabInternal: {fileID: 2133996080}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1554884678}
-  - 114: {fileID: 1554884679}
-  m_Layer: 0
-  m_Name: Chartboost
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1554884678
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
-  m_PrefabInternal: {fileID: 2133996080}
-  m_GameObject: {fileID: 1554884677}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!114 &1554884679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 4ffb533105d914fb7a9ab5cda3d6796a,
-    type: 2}
-  m_PrefabInternal: {fileID: 2133996080}
-  m_GameObject: {fileID: 1554884677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3383cb82fbc2e49aab8618d3465e9246, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2133996080
 Prefab:
   m_ObjectHideFlags: 0
@@ -376,6 +376,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4ffb533105d914fb7a9ab5cda3d6796a, type: 2}
-  m_RootGameObject: {fileID: 1554884677}
+  m_RootGameObject: {fileID: 919646984}
   m_IsPrefabParent: 0
   m_IsExploded: 1

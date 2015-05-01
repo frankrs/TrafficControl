@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-using ChartboostSDK;
+//using ChartboostSDK;
 
 public class GameManager : MonoBehaviour {
 
@@ -51,6 +51,7 @@ public class GameManager : MonoBehaviour {
 
 		void Start(){
 			Stats.ResetStats();
+			PlayIntAd();
 			UnPause();
 		}
 
@@ -141,13 +142,24 @@ public class GameManager : MonoBehaviour {
 
 	public void AchievmentResume () {
 		//hudItems.achievmentPannel.SetActive(false);
-		if(Chartboost.hasInterstitial(CBLocation.Default)){
-			Chartboost.showInterstitial(CBLocation.Default);
-		}
+//		if(Chartboost.hasInterstitial(CBLocation.Default)){
+//			Chartboost.showInterstitial(CBLocation.Default);
+//		}
+		PlayIntAd();
 		UnPause();
 	}
 
+
+
+	public void PlayIntAd(){
+		HZInterstitialAd.show();
+	}
+
+
 }
+
+
+
 
 
 [System.Serializable]

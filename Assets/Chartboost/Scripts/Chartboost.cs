@@ -2,7 +2,9 @@ using UnityEngine;
 using System;
 using System.Collections;
 using System.Runtime.InteropServices;
+#if UNITY_4_6 || UNITY_5
 using UnityEngine.EventSystems;
+#endif
 
 namespace ChartboostSDK {
 
@@ -58,6 +60,20 @@ namespace ChartboostSDK {
 		ErrorCreatingView = 17,
 		// Erro when trying to display view (Android only)
 		ErrorDisplayingView = 18
+	};
+
+	/// Enum values for PIA Level tracking
+	public enum CBLevelType : int {
+		// Highest Level reached 
+		HIGHEST_LEVEL_REACHED = 1,
+		// Current area level reached 
+		CURRENT_AREA = 2,
+		// Current character level reached 
+		CHARACTER_LEVEL = 3,
+		// Other sequential level reached
+		OTHER_SEQUENTIAL = 4,
+		// Current non sequential level reached 
+		OTHER_NONSEQUENTIAL = 5
 	};
 
 	/// <summary>
@@ -639,6 +655,28 @@ namespace ChartboostSDK {
 			CBExternal.setShouldPrefetchVideoContent(shouldPrefetch);
 		}
 
+		/// <summary>
+		/// Send in-game level information to track user current game level activity.
+		/// </summary>
+		/// <param name="eventLabel">Event label information.</param>
+		/// <param name="eventField">Event level type information.</param>
+		/// <param name="mainLevel">Current levele mainLevel information.</param>
+        /// <param name="subLevel">Current levele subLevel information.</param>
+		/// <param name="description">Description about the level.</param>
+		public static void trackLevelInfo(String eventLabel, CBLevelType type, int mainLevel, int subLevel, String description) {
+			CBExternal.trackLevelInfo(eventLabel, type, mainLevel, subLevel, description);
+		}
+        
+        /// <summary>
+        /// Send in-game level information to track user current game level activity.
+        /// </summary>
+        /// <param name="eventLabel">Event label information.</param>
+        /// <param name="eventField">Event level type information.</param>
+        /// <param name="mainLevel">Current levele mainLevel information.</param>
+        /// <param name="description">Description about the level.</param>
+        public static void trackLevelInfo(String eventLabel, CBLevelType type, int mainLevel, String description) {
+            CBExternal.trackLevelInfo(eventLabel, type, mainLevel, description);
+        }
 		//////////////////////////////////////////////////////
 		/// Post Install Tracking Functions
 		//////////////////////////////////////////////////////
@@ -725,7 +763,8 @@ namespace ChartboostSDK {
 			#if UNITY_ANDROID
     		if( isAnyViewVisible() )
     		{
-    			// Android needs a blocker
+    			// Android needs a blocker to prevent click throughs for old GUI.
+				// see disableUI for blocking the new GUI via the EventSystem.
 	     		Rect windowRect = new Rect (0, 0, Screen.width, Screen.height);
     	        windowRect = GUI.ModalWindow (0, windowRect, BlockerWindow, "");
     	    }
@@ -982,33 +1021,44 @@ namespace ChartboostSDK {
 		/// var used internally for managing game pause state
 		private static bool isPaused = false;
 		private static float lastTimeScale = 0;
+#if UNITY_4_6 || UNITY_5
+		// Disabling the EventSystem.current makes the object go away
+		// So keeping a reference
 		private static EventSystem kEventSystem = null;
-		
+#endif
+
 		/// Manages pausing
 		private static void doUnityPause(bool pause) {
 			if (pause && !isPaused) {
 				lastTimeScale = Time.timeScale;
 				Time.timeScale = 0;
 				isPaused = true;
-				if( EventSystem.current )
-				{
-					// Disabling the EventSystem.current makes the object go away
-					// So keeping a reference
-					kEventSystem = EventSystem.current;
-					kEventSystem.enabled = false;
-					EventSystem.current = null;
-				}
+				disableUI(true);
 			} 
 			else if (!pause && isPaused){
 				Time.timeScale = lastTimeScale;
 				isPaused = false;
-				if( kEventSystem )
-				{
-					kEventSystem.enabled = true;
-					EventSystem.current = kEventSystem;
-				}
+				disableUI(false);
 			}
 
+		}
+
+		private static void disableUI(bool pause) {
+#if UNITY_4_6 || UNITY_5
+			// EventSystem is Unity4.6 and later
+
+
+			if( pause && EventSystem.current )
+			{
+				kEventSystem = EventSystem.current;
+				kEventSystem.enabled = false;
+			}
+			else if( !pause && kEventSystem ) {
+				Debug.LogWarning("kevent system current = " + EventSystem.current);
+				kEventSystem.enabled = true;
+				EventSystem.current = kEventSystem;
+			}
+#endif
 		}
 
 		/// Returns true if an impression (interstitial or more apps page) is currently visible
