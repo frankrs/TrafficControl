@@ -53,14 +53,18 @@ public class Light_Switch : MonoBehaviour {
 	
 		// monkey with the switch
 		// start switching at random
+		if(StaticClasses.gameMode == GameMode.random){
 		StartCoroutine("RandomSwitch");
+		}
 	}
 
 
 
 	void OnMouseDown () {
 
+		if(StaticClasses.muteFX == false){
 		AudioSource.PlayClipAtPoint(ding,new Vector3(0,0,0));
+		}
 
 		SwitchLights();
 		StopCoroutine("RandomSwitch");

@@ -111,19 +111,40 @@ public class GameManager : MonoBehaviour {
 		hudItems.gameOver.time.text = "TIME TAKEN " + Mathf.RoundToInt(Stats.gameTime).ToString();
 		hudItems.gameOver.crashes.text = "CRASHES " + Stats.Crashes.ToString();
 		hudItems.gameOver.jams.text = "JAMS " + Stats.Jams.ToString();
-		if(PlayerPrefs.HasKey("HiScore")){
-			if(PlayerPrefs.GetInt("HiScore") < Stats.Goals){
+
+
+		///
+		switch(Application.loadedLevel){
+
+			case 2 :
+				if(PlayerPrefs.GetInt("L1") < Stats.Goals){
+				PlayerPrefs.SetInt("L1", Stats.Goals);
 				NewHi();
 			}
+			break;
+
+		case 3 :
+			if(PlayerPrefs.GetInt("L2") < Stats.Goals){
+				PlayerPrefs.SetInt("L2", Stats.Goals);
+				NewHi();
+			}
+			break;
+
+
+		case 4 :
+			if(PlayerPrefs.GetInt("L3") < Stats.Goals){
+				PlayerPrefs.SetInt("L3", Stats.Goals);
+				NewHi();
+			}
+			break;
+	
 		}
-		else {
-			NewHi ();
-		}
+
 	}
 
 
 	void NewHi(){
-		PlayerPrefs.SetInt("HiScore",Stats.Goals);
+		//PlayerPrefs.SetInt("HiScore",Stats.Goals);
 		hudItems.gameOver.HiScoreSign.SetActive(true);
 		hudItems.gameOver.HiScoreText.text = Stats.Goals.ToString();
 	}
@@ -137,7 +158,9 @@ public class GameManager : MonoBehaviour {
 
 	public void Achievment (string ach){
 		Pause();
+		if(StaticClasses.muteFX == false){
 		audio.PlayOneShot(gameSounds.achievment);
+		}
 		hudItems.achievmentLabel.text = ach;
 		hudItems.achievmentPannel.SetActive(true);
 

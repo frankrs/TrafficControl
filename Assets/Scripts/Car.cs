@@ -88,7 +88,9 @@ public class Car : MonoBehaviour {
 		if(col.gameObject.tag == "Car"){
 			crashed = 		true;
 			OnCrash();
+			if(StaticClasses.muteFX == false){
 			audio.PlayOneShot(crashSounds[Random.Range(0,crashSounds.Length)],1f);
+			}
 			foreach(WheelCollider w in wheels){
 				w.motorTorque = 0f;
 				w.brakeTorque = 50f;
@@ -119,11 +121,15 @@ public class Car : MonoBehaviour {
 
 	void OnWrecker (AudioClip[] a){
 		if(crashed){
+			if(StaticClasses.muteFX == false){
 			AudioSource.PlayClipAtPoint(a[0],new Vector3(0,0,0));
+			}
 			Destroy(gameObject);
 		}
 		else{
+			if(StaticClasses.muteFX == false){
 			audio.PlayOneShot(a[1]);
+			}
 		}
 	}
 
