@@ -8,6 +8,8 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Franks scenes/HZ_MedTest.unity
   - enabled: 1
+    path: "Assets/Dan\xB4s scene/StartScreen.unity"
+  - enabled: 1
     path: "Assets/Dan\xB4s scene/mainMenuPatch.unity"
   - enabled: 1
     path: "Assets/Dan\xB4s scene/Traffic Controle 1.unity"

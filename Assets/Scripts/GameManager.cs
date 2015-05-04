@@ -13,11 +13,12 @@ public class GameManager : MonoBehaviour {
 	public static event Mute OnMute;
 
 
-
-
-//	void Start (){
-//		//StartCoroutine("KeepTime");
-//	}
+	static public GameManager crt; //the instance of our class that will do the work
+	
+	void Awake(){ //called when an instance awakes in the game
+		crt = this; //set our static reference to our newly initialized instance
+	}
+	
 
 	IEnumerator KeepTime (){
 		while(this){
@@ -43,17 +44,14 @@ public class GameManager : MonoBehaviour {
 	}
 
 
-//	void OnLevelWasLoaded(){
-//		Stats.ResetStats();
-//		UnPause();
-//	}
 
 
-		void Start(){
-			Stats.ResetStats();
-			PlayIntAd();
-			UnPause();
-		}
+	void Start(){
+		HZInterstitialAd.setDisplayListener(listener);
+		Stats.ResetStats();
+		PlayIntAd();
+		//UnPause();
+	}
 
 
 	// Called whenever car crashes
@@ -79,17 +77,23 @@ public class GameManager : MonoBehaviour {
 	}
 
 
-	public void Pause(){
+	static public void Pause(){
 		Time.timeScale = 0f;
-		StopCoroutine("KeepTime");
+		crt.StopCoroutine("KeepTime");
 	}
 
-	public void UnPause(){
+	static public void UnPause(){
 		Time.timeScale = 1f;
-		StartCoroutine("KeepTime");
+		crt.StartCoroutine("KeepTime");
 	}
 
+	public void PauseB (){
+		Pause();
+	}
 
+	public void UnPauseB (){
+		UnPause();
+	}
 
 	public void CheckForGameOver(){
 		if(Stats.errors > hudItems.gameOver.errorLimit){
@@ -146,14 +150,57 @@ public class GameManager : MonoBehaviour {
 //			Chartboost.showInterstitial(CBLocation.Default);
 //		}
 		PlayIntAd();
-		UnPause();
+		//UnPause();
 	}
 
 
 
 	public void PlayIntAd(){
+		if(HZInterstitialAd.isAvailable()){
 		HZInterstitialAd.show();
+		}
+		else{
+			UnPause();
+		}
 	}
+
+
+
+
+	HZInterstitialAd.AdDisplayListener listener = delegate(string adState, string adTag){
+		if ( adState.Equals("show") ) {
+			Pause ();
+			// Do something when the ad shows, like pause your game
+		}
+		if ( adState.Equals("hide") ) {
+			UnPause();
+			// Do something after the ad hides itself
+		}
+		if ( adState.Equals("click") ) {
+			// Do something when an ad is clicked on
+		}
+		if ( adState.Equals("failed") ) {
+			UnPause ();
+			// Do something when an ad fails to show
+		}
+		if ( adState.Equals("available") ) {
+			// Do something when an ad has successfully been fetched
+		}
+		if ( adState.Equals("fetch_failed") ) {
+			// Do something when an ad did not fetch
+		}
+		if ( adState.Equals("audio_starting") ) {
+			// The ad being shown will use audio. Mute any background music
+		}
+		if ( adState.Equals("audio_finished") ) {
+			// The ad being shown has finished using audio.
+			// You can resume any background music.
+		}
+	};
+
+
+
+
 
 
 }
@@ -186,6 +233,7 @@ public static class Stats{
 		errors = 0;
 		gameTime = 0f;
 	}
+	
 }
 
 

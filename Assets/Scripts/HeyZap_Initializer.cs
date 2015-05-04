@@ -7,6 +7,7 @@ public class HeyZap_Initializer : MonoBehaviour {
 
 	void Start () {
 		HeyzapAds.start(heyZapPubID, HeyzapAds.FLAG_NO_OPTIONS);
+		Application.LoadLevel(1);
 	}
 
 }

@@ -20,17 +20,17 @@ public class GoGreenRef : MonoBehaviour {
 		lights = GameObject.FindGameObjectsWithTag("clickme");
 		level = Application.loadedLevel;
 		switch (level){
-		case 1 :
+		case 2 :
 			if(PlayerPrefs.GetInt("GREEN1") == 1){
 				isLevelComplete = true;
 			}
 			break;
-		case 2 :
+		case 3 :
 			if(PlayerPrefs.GetInt("GREEN2") == 1){
 				isLevelComplete = true;
 			}
 			break;
-		case 3 : 
+		case 4 : 
 			if(PlayerPrefs.GetInt("GREEN3") == 1){
 				isLevelComplete = true;
 			}
@@ -53,13 +53,13 @@ public class GoGreenRef : MonoBehaviour {
 			isLevelComplete = true;
 			
 			switch (level){
-			case 1 :
+			case 2 :
 				PlayerPrefs.SetInt("GREEN1",1);
 				break;
-			case 2 :
+			case 3 :
 				PlayerPrefs.SetInt("GREEN2",1);
 				break;
-			case 3 : 
+			case 4 : 
 				PlayerPrefs.SetInt("GREEN3",1);
 				break;
 			}

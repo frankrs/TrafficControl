@@ -20,17 +20,17 @@ public class RedAlertRef : MonoBehaviour {
 		lights = GameObject.FindGameObjectsWithTag("clickme");
 		level = Application.loadedLevel;
 		switch (level){
-		case 1 :
+		case 2 :
 			if(PlayerPrefs.GetInt("RED1") == 1){
 				isLevelComplete = true;
 			}
 			break;
-		case 2 :
+		case 3 :
 			if(PlayerPrefs.GetInt("RED2") == 1){
 				isLevelComplete = true;
 			}
 			break;
-		case 3 : 
+		case 4 : 
 			if(PlayerPrefs.GetInt("RED3") == 1){
 				isLevelComplete = true;
 			}
@@ -53,13 +53,13 @@ public class RedAlertRef : MonoBehaviour {
 			isLevelComplete = true;
 		
 			switch (level){
-			case 1 :
+			case 2 :
 				PlayerPrefs.SetInt("RED1",1);
 				break;
-			case 2 :
+			case 3 :
 				PlayerPrefs.SetInt("RED2",1);
 				break;
-			case 3 : 
+			case 4 : 
 				PlayerPrefs.SetInt("RED3",1);
 				break;
 			}

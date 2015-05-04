@@ -1623,6 +1623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40e72dd2dd4c16e46bbdd3098f680d6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lev: 0
+  isComp: 0
 --- !u!114 &11426662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1827,7 +1829,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 11418318}
-        m_MethodName: UnPause
+        m_MethodName: UnPauseB
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2167,7 +2169,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 11418318}
-        m_MethodName: Pause
+        m_MethodName: PauseB
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
