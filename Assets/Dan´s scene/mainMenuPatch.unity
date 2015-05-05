@@ -149,7 +149,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LIKE
+  m_Text: SHARE ON FB
 --- !u!222 &2214592
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -370,7 +370,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 0
 --- !u!222 &34181370
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2760,8 +2760,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1740368266}
-        m_MethodName: VisitSite
-        m_Mode: 5
+        m_MethodName: FBPost
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
@@ -3209,7 +3209,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 0
 --- !u!222 &707120826
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8801,6 +8801,8 @@ MonoBehaviour:
   l1: {fileID: 34181369}
   l2: {fileID: 1906632989}
   l3: {fileID: 707120825}
+  gameUrl: https://play.google.com/store/apps/details?id=com.PixelXYZ.TrafficControlSimulator&hl=en
+  gameIconUrl: https://s3-us-west-2.amazonaws.com/pixelxyz.com/FBIcons/CityStoplight128Icon.png
 --- !u!4 &1740368267
 Transform:
   m_ObjectHideFlags: 0
@@ -9375,7 +9377,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 0
 --- !u!222 &1906632990
 CanvasRenderer:
   m_ObjectHideFlags: 0

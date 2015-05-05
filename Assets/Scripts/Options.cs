@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using Facebook;
 
 public class Options : MonoBehaviour {
 
@@ -17,7 +18,19 @@ public class Options : MonoBehaviour {
 	public Text l2;
 	public Text l3;
 
+	public string gameUrl;
+	public string gameIconUrl;
+
+	//public bool isInited = false;
+
 	void Start(){
+
+
+
+		FB.Init( onInitComplete,null,null);
+
+
+
 
 		if(StaticClasses.gameMode == GameMode.normal){
 			gameNormal.text = "NORMAL";
@@ -50,22 +63,22 @@ public class Options : MonoBehaviour {
 
 
 
-		if(PlayerPrefs.HasKey("L1") == false){
-			PlayerPrefs.SetInt("L1",0);
+		if(PlayerPrefs.HasKey("L1")){
+			l1.text = PlayerPrefs.GetInt("L1").ToString();
 		}
 
-		if(PlayerPrefs.HasKey("L2") == false){
-			PlayerPrefs.SetInt("L1",0);
+		if(PlayerPrefs.HasKey("L2")){
+			l2.text = PlayerPrefs.GetInt("L2").ToString();
 		}
 
-		if(PlayerPrefs.HasKey("L3") == false){
-			PlayerPrefs.SetInt("L1",0);
+		if(PlayerPrefs.HasKey("L3")){
+			l3.text = PlayerPrefs.GetInt("L3").ToString();
 		}
 
 
-		l1.text = PlayerPrefs.GetInt("L1").ToString();
-		l2.text = PlayerPrefs.GetInt("L2").ToString();
-		l3.text = PlayerPrefs.GetInt("L3").ToString();
+
+
+
 	}
 
 
@@ -109,5 +122,34 @@ public class Options : MonoBehaviour {
 	public void VisitSite(string url){
 		Application.OpenURL(url);
 	}
+
+
+	public void onInitComplete(){
+		//Debug.Log("inited");
+		StaticClasses.fBInited = true;
+	}
+
+
+
+
+	public void FBPost (){
+		if(FB.IsInitialized && !FB.IsLoggedIn){
+			FB.Login("public_profile,user_friends",OnFBLoggedIn);
+		}
+		else{
+			FaceBookFeed();
+		}
+	}
+
+
+	public void OnFBLoggedIn(FBResult result){
+		FaceBookFeed();
+	}
+
+	public void FaceBookFeed (){
+		FB.Feed(link: gameUrl,picture: gameIconUrl, linkName: "City Stoplight Simulator");
+	}
+
+
 
 }

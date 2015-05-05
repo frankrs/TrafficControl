@@ -116,26 +116,25 @@ public class GameManager : MonoBehaviour {
 		///
 		switch(Application.loadedLevel){
 
-			case 2 :
-				if(PlayerPrefs.GetInt("L1") < Stats.Goals){
+		case 2 :
+			if(PlayerPrefs.GetInt("L1") < Stats.Goals){
 				PlayerPrefs.SetInt("L1", Stats.Goals);
-				NewHi();
-			}
+				NewHi(PlayerPrefs.GetInt("L1"));
+				}
 			break;
 
 		case 3 :
 			if(PlayerPrefs.GetInt("L2") < Stats.Goals){
 				PlayerPrefs.SetInt("L2", Stats.Goals);
-				NewHi();
-			}
+				NewHi(PlayerPrefs.GetInt("L2"));
+				}
 			break;
-
 
 		case 4 :
 			if(PlayerPrefs.GetInt("L3") < Stats.Goals){
 				PlayerPrefs.SetInt("L3", Stats.Goals);
-				NewHi();
-			}
+				NewHi(PlayerPrefs.GetInt("L3"));
+				}
 			break;
 	
 		}
@@ -143,10 +142,10 @@ public class GameManager : MonoBehaviour {
 	}
 
 
-	void NewHi(){
+	void NewHi(int score){
 		//PlayerPrefs.SetInt("HiScore",Stats.Goals);
 		hudItems.gameOver.HiScoreSign.SetActive(true);
-		hudItems.gameOver.HiScoreText.text = Stats.Goals.ToString();
+		hudItems.gameOver.HiScoreText.text = score.ToString();
 	}
 
 
