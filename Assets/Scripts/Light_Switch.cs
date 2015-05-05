@@ -54,7 +54,8 @@ public class Light_Switch : MonoBehaviour {
 		// monkey with the switch
 		// start switching at random
 		if(StaticClasses.gameMode == GameMode.random){
-		StartCoroutine("RandomSwitch");
+			Debug.Log("light");
+			StartCoroutine("RandomSwitch");
 		}
 	}
 
@@ -67,8 +68,11 @@ public class Light_Switch : MonoBehaviour {
 		}
 
 		SwitchLights();
-		StopCoroutine("RandomSwitch");
-		StartCoroutine("RandomSwitch");
+
+		if(StaticClasses.gameMode == GameMode.random){
+			StopCoroutine("RandomSwitch");
+			StartCoroutine("RandomSwitch");
+			}
 	}
 
 	void SwitchLights() {

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+//using ChartboostSDK;
 
 public class HZ_Test : MonoBehaviour {
 

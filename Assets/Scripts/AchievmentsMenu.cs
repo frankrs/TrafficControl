@@ -19,7 +19,7 @@ public class AchievmentsMenu : MonoBehaviour {
 
 	void Awake () {
 		// if level is main menu save player prefs get or create pref keys and then store the static variablies
-		if(Application.loadedLevel == 0){
+		if(Application.loadedLevel == 1){
 			PlayerPrefs.Save();
 			SetOrGetKeys();
 		}
