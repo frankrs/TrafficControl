@@ -44,8 +44,8 @@ public class AchievmentsMenu : MonoBehaviour {
 		if(PlayerPrefs.HasKey("GreatScott")){
 			//Debug.Log("has key");
 			if(PlayerPrefs.GetInt("GreatScott") >= 88){
-				greatScott.trophy.gameObject.SetActive(true);
-				greatScott.stats.gameObject.SetActive(false);
+				greatScott.trophy.enabled = true;
+				greatScott.stats.enabled = false;
 			}
 			else{
 				greatScott.stats.text = PlayerPrefs.GetInt("GreatScott").ToString()+"/88";
@@ -62,7 +62,7 @@ public class AchievmentsMenu : MonoBehaviour {
 		if(PlayerPrefs.HasKey("CrossingGuard")){
 			//Debug.Log("has key");
 			if(PlayerPrefs.GetInt("CrossingGuard") == 1){
-				crossingGuard.trophy.gameObject.SetActive(true);
+				crossingGuard.trophy.enabled = true;
 				//crossingGuard.stats.gameObject.SetActive(false);
 			}
 		}
@@ -79,8 +79,8 @@ public class AchievmentsMenu : MonoBehaviour {
 			//Debug.Log("has key");
 			int levelsum = (PlayerPrefs.GetInt("RED1") + PlayerPrefs.GetInt("RED2") + PlayerPrefs.GetInt("RED3"));
 			if( levelsum == 3){
-				redAlert.trophy.gameObject.SetActive(true);
-				redAlert.stats.gameObject.SetActive(false);
+				redAlert.trophy.enabled = true;
+				redAlert.stats.enabled = false;
 			}
 			else{
 				redAlert.stats.text = levelsum.ToString()+"/3";
@@ -101,8 +101,8 @@ public class AchievmentsMenu : MonoBehaviour {
 			//Debug.Log("has key");
 			int levelsum = (PlayerPrefs.GetInt("GREEN1") + PlayerPrefs.GetInt("GREEN2") + PlayerPrefs.GetInt("GREEN3"));
 			if( levelsum == 3){
-				goGreen.trophy.gameObject.SetActive(true);
-				goGreen.stats.gameObject.SetActive(false);
+				goGreen.trophy.enabled = true;
+				goGreen.stats.enabled = false;
 			}
 			else{
 				goGreen.stats.text = levelsum.ToString()+"/3";
@@ -123,16 +123,16 @@ public class AchievmentsMenu : MonoBehaviour {
 			//Debug.Log("has key");
 
 			if(PlayerPrefs.GetInt("Accidents") >= 50){
-				accidentProne.trophy.gameObject.SetActive(true);
-				accidentProne.stats.gameObject.SetActive(false);
+				accidentProne.trophy.enabled = true;
+				accidentProne.stats.enabled = false;
 			}
 			else{
 				accidentProne.stats.text = PlayerPrefs.GetInt("Accidents").ToString()+"/50";
 			}
 
 			if(PlayerPrefs.GetInt("Accidents") >= 100){
-				demolition.trophy.gameObject.SetActive(true);
-				demolition.stats.gameObject.SetActive(false);
+				demolition.trophy.enabled = true;
+				demolition.stats.enabled = false;
 			}
 			else{
 				demolition.stats.text = PlayerPrefs.GetInt("Accidents").ToString()+"/100";
@@ -151,15 +151,15 @@ public class AchievmentsMenu : MonoBehaviour {
 		if(PlayerPrefs.HasKey("RushHour1")){
 			//Debug.Log("has key");
 			if(PlayerPrefs.GetInt("RushHour1") == 1){
-				morningRushHour.trophy.gameObject.SetActive(true);
+				morningRushHour.trophy.enabled = true;
 				//crossingGuard.stats.gameObject.SetActive(false);
 			}
 			if(PlayerPrefs.GetInt("RushHour2") == 1){
-				noonRushHour.trophy.gameObject.SetActive(true);
+				noonRushHour.trophy.enabled = true;
 				//crossingGuard.stats.gameObject.SetActive(false);
 			}
 			if(PlayerPrefs.GetInt("RushHour3") == 1){
-				fiveRushHour.trophy.gameObject.SetActive(true);
+				fiveRushHour.trophy.enabled = true;
 				//crossingGuard.stats.gameObject.SetActive(false);
 			}
 		}
@@ -175,8 +175,8 @@ public class AchievmentsMenu : MonoBehaviour {
 		if(PlayerPrefs.HasKey("Safari")){
 			//Debug.Log("has key");
 			if(PlayerPrefs.GetInt("Safari") >= 50){
-				safari.trophy.gameObject.SetActive(true);
-				safari.stats.gameObject.SetActive(false);
+				safari.trophy.enabled = true;
+				safari.stats.enabled = false;
 			}
 			else{
 				safari.stats.text = PlayerPrefs.GetInt("Safari").ToString()+"/50";
